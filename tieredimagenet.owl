@@ -1,0 +1,5727 @@
+Prefix(:=<http://www.semanticweb.org/mirantha/ontologies/2021/2/untitled-ontology-88#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/mirantha/ontologies/2021/2/untitled-ontology-88>
+
+Declaration(Class(:abacus.n.02))
+Declaration(Class(:abaya.n.01))
+Declaration(Class(:accessory.n.01))
+Declaration(Class(:accordion.n.01))
+Declaration(Class(:acorn_squash.n.02))
+Declaration(Class(:acoustic_guitar.n.01))
+Declaration(Class(:admiral.n.02))
+Declaration(Class(:affenpinscher.n.01))
+Declaration(Class(:afghan_hound.n.01))
+Declaration(Class(:african_chameleon.n.01))
+Declaration(Class(:agama.n.01))
+Declaration(Class(:agamid.n.01))
+Declaration(Class(:aircraft.n.01))
+Declaration(Class(:aircraft_carrier.n.01))
+Declaration(Class(:airedale.n.01))
+Declaration(Class(:airliner.n.01))
+Declaration(Class(:airplane.n.01))
+Declaration(Class(:airship.n.01))
+Declaration(Class(:albatross.n.02))
+Declaration(Class(:alcohol.n.01))
+Declaration(Class(:alligator_lizard.n.01))
+Declaration(Class(:alp.n.01))
+Declaration(Class(:ambulance.n.01))
+Declaration(Class(:american_chameleon.n.01))
+Declaration(Class(:american_coot.n.01))
+Declaration(Class(:american_egret.n.01))
+Declaration(Class(:american_staffordshire_terrier.n.01))
+Declaration(Class(:amphibian.n.01))
+Declaration(Class(:analog_clock.n.01))
+Declaration(Class(:analog_computer.n.01))
+Declaration(Class(:anemone_fish.n.01))
+Declaration(Class(:anguid_lizard.n.01))
+Declaration(Class(:animal.n.01))
+Declaration(Class(:anseriform_bird.n.01))
+Declaration(Class(:ant.n.01))
+Declaration(Class(:antelope.n.01))
+Declaration(Class(:anthropoid_ape.n.01))
+Declaration(Class(:ape.n.01))
+Declaration(Class(:apiary.n.01))
+Declaration(Class(:appenzeller.n.01))
+Declaration(Class(:apple.n.01))
+Declaration(Class(:appliance.n.02))
+Declaration(Class(:aquatic_bird.n.01))
+Declaration(Class(:aquatic_vertebrate.n.01))
+Declaration(Class(:arabian_camel.n.01))
+Declaration(Class(:armor.n.01))
+Declaration(Class(:armor_plate.n.01))
+Declaration(Class(:arthropod.n.01))
+Declaration(Class(:artichoke.n.02))
+Declaration(Class(:artifact.n.01))
+Declaration(Class(:assault_rifle.n.01))
+Declaration(Class(:astronomical_telescope.n.01))
+Declaration(Class(:audio_system.n.01))
+Declaration(Class(:australian_terrier.n.01))
+Declaration(Class(:autoloader.n.01))
+Declaration(Class(:automatic_firearm.n.01))
+Declaration(Class(:automatic_rifle.n.01))
+Declaration(Class(:ax.n.01))
+Declaration(Class(:baboon.n.01))
+Declaration(Class(:baby_bed.n.01))
+Declaration(Class(:bakery.n.01))
+Declaration(Class(:ball.n.01))
+Declaration(Class(:balloon.n.01))
+Declaration(Class(:banana.n.02))
+Declaration(Class(:banded_gecko.n.01))
+Declaration(Class(:banjo.n.01))
+Declaration(Class(:bannister.n.02))
+Declaration(Class(:bar.n.08))
+Declaration(Class(:barber_chair.n.01))
+Declaration(Class(:barbershop.n.01))
+Declaration(Class(:barn.n.01))
+Declaration(Class(:barometer.n.01))
+Declaration(Class(:barracouta.n.01))
+Declaration(Class(:barrel.n.02))
+Declaration(Class(:barrier.n.01))
+Declaration(Class(:barrier.n.03))
+Declaration(Class(:baseball.n.02))
+Declaration(Class(:basin.n.01))
+Declaration(Class(:basketball.n.02))
+Declaration(Class(:basset.n.01))
+Declaration(Class(:bassinet.n.01))
+Declaration(Class(:bassoon.n.01))
+Declaration(Class(:bathtub.n.01))
+Declaration(Class(:beach_wagon.n.01))
+Declaration(Class(:beagle.n.01))
+Declaration(Class(:beaker.n.01))
+Declaration(Class(:beating-reed_instrument.n.01))
+Declaration(Class(:bed.n.01))
+Declaration(Class(:bedlington_terrier.n.01))
+Declaration(Class(:bedroom_furniture.n.01))
+Declaration(Class(:bee.n.01))
+Declaration(Class(:beer_bottle.n.01))
+Declaration(Class(:beetle.n.01))
+Declaration(Class(:belgian_sheepdog.n.01))
+Declaration(Class(:bell_cote.n.01))
+Declaration(Class(:bell_pepper.n.02))
+Declaration(Class(:belt.n.02))
+Declaration(Class(:bench.n.01))
+Declaration(Class(:bernese_mountain_dog.n.01))
+Declaration(Class(:berry.n.01))
+Declaration(Class(:beverage.n.01))
+Declaration(Class(:big_cat.n.01))
+Declaration(Class(:bighorn.n.02))
+Declaration(Class(:bikini.n.02))
+Declaration(Class(:binder.n.03))
+Declaration(Class(:binoculars.n.01))
+Declaration(Class(:bird.n.01))
+Declaration(Class(:birdhouse.n.01))
+Declaration(Class(:bison.n.01))
+Declaration(Class(:bittern.n.01))
+Declaration(Class(:black-and-tan_coonhound.n.01))
+Declaration(Class(:black_mamba.n.01))
+Declaration(Class(:black_stork.n.01))
+Declaration(Class(:black_swan.n.01))
+Declaration(Class(:blind.n.03))
+Declaration(Class(:bloodhound.n.01))
+Declaration(Class(:blower.n.01))
+Declaration(Class(:bluetick.n.01))
+Declaration(Class(:boa.n.02))
+Declaration(Class(:boa_constrictor.n.01))
+Declaration(Class(:boat.n.01))
+Declaration(Class(:boathouse.n.01))
+Declaration(Class(:body_armor.n.01))
+Declaration(Class(:bolo_tie.n.01))
+Declaration(Class(:bony_fish.n.01))
+Declaration(Class(:bookcase.n.01))
+Declaration(Class(:bookshop.n.01))
+Declaration(Class(:border_collie.n.01))
+Declaration(Class(:border_terrier.n.01))
+Declaration(Class(:borzoi.n.01))
+Declaration(Class(:boston_bull.n.01))
+Declaration(Class(:bottle.n.01))
+Declaration(Class(:bottle_opener.n.01))
+Declaration(Class(:bouvier_des_flandres.n.01))
+Declaration(Class(:bovid.n.01))
+Declaration(Class(:bovine.n.01))
+Declaration(Class(:bow.n.04))
+Declaration(Class(:bow_tie.n.01))
+Declaration(Class(:bowed_stringed_instrument.n.01))
+Declaration(Class(:boxer.n.04))
+Declaration(Class(:brake.n.01))
+Declaration(Class(:brake_system.n.01))
+Declaration(Class(:brambling.n.01))
+Declaration(Class(:brass.n.02))
+Declaration(Class(:brassiere.n.01))
+Declaration(Class(:breakwater.n.01))
+Declaration(Class(:breastplate.n.01))
+Declaration(Class(:briard.n.01))
+Declaration(Class(:brittany_spaniel.n.01))
+Declaration(Class(:broccoli.n.02))
+Declaration(Class(:bucket.n.01))
+Declaration(Class(:buckle.n.01))
+Declaration(Class(:building.n.01))
+Declaration(Class(:bulbul.n.01))
+Declaration(Class(:bull_mastiff.n.01))
+Declaration(Class(:bulldog.n.01))
+Declaration(Class(:bullterrier.n.01))
+Declaration(Class(:bunting.n.02))
+Declaration(Class(:burrito.n.01))
+Declaration(Class(:bustard.n.01))
+Declaration(Class(:butcher_shop.n.01))
+Declaration(Class(:butterfly.n.01))
+Declaration(Class(:butterfly_fish.n.01))
+Declaration(Class(:butternut_squash.n.02))
+Declaration(Class(:cab.n.03))
+Declaration(Class(:cabbage.n.01))
+Declaration(Class(:cabbage_butterfly.n.01))
+Declaration(Class(:cabinet.n.01))
+Declaration(Class(:cairn.n.02))
+Declaration(Class(:calculator.n.02))
+Declaration(Class(:caldron.n.01))
+Declaration(Class(:camel.n.01))
+Declaration(Class(:can_opener.n.01))
+Declaration(Class(:canine.n.02))
+Declaration(Class(:cannon.n.02))
+Declaration(Class(:canoe.n.01))
+Declaration(Class(:canopy.n.03))
+Declaration(Class(:cap.n.04))
+Declaration(Class(:capuchin.n.02))
+Declaration(Class(:car.n.01))
+Declaration(Class(:car_wheel.n.01))
+Declaration(Class(:carbonara.n.01))
+Declaration(Class(:cardigan.n.01))
+Declaration(Class(:cardoon.n.02))
+Declaration(Class(:cargo_ship.n.01))
+Declaration(Class(:carnivore.n.01))
+Declaration(Class(:carousel.n.02))
+Declaration(Class(:cartilaginous_fish.n.01))
+Declaration(Class(:cash_machine.n.01))
+Declaration(Class(:cassette_player.n.01))
+Declaration(Class(:cat.n.01))
+Declaration(Class(:catamaran.n.01))
+Declaration(Class(:cattle.n.01))
+Declaration(Class(:cauliflower.n.02))
+Declaration(Class(:cd_player.n.01))
+Declaration(Class(:cello.n.01))
+Declaration(Class(:cellular_telephone.n.01))
+Declaration(Class(:chain_mail.n.01))
+Declaration(Class(:chainlink_fence.n.01))
+Declaration(Class(:chair.n.01))
+Declaration(Class(:chair_of_state.n.01))
+Declaration(Class(:chameleon.n.03))
+Declaration(Class(:cheeseburger.n.01))
+Declaration(Class(:cheetah.n.01))
+Declaration(Class(:chesapeake_bay_retriever.n.01))
+Declaration(Class(:chest_of_drawers.n.01))
+Declaration(Class(:chickadee.n.01))
+Declaration(Class(:chiffonier.n.01))
+Declaration(Class(:chime.n.01))
+Declaration(Class(:chimpanzee.n.01))
+Declaration(Class(:china_cabinet.n.01))
+Declaration(Class(:chocolate_sauce.n.01))
+Declaration(Class(:chordate.n.01))
+Declaration(Class(:chordophone.n.01))
+Declaration(Class(:church.n.02))
+Declaration(Class(:cicada.n.01))
+Declaration(Class(:cinema.n.02))
+Declaration(Class(:circle.n.08))
+Declaration(Class(:cistern.n.03))
+Declaration(Class(:citrus.n.01))
+Declaration(Class(:cleaver.n.01))
+Declaration(Class(:cliff.n.01))
+Declaration(Class(:clip.n.03))
+Declaration(Class(:cloak.n.02))
+Declaration(Class(:clock.n.01))
+Declaration(Class(:clothing.n.01))
+Declaration(Class(:clumber.n.01))
+Declaration(Class(:coat.n.01))
+Declaration(Class(:cobra.n.01))
+Declaration(Class(:cocker_spaniel.n.01))
+Declaration(Class(:cockroach.n.01))
+Declaration(Class(:coffee.n.01))
+Declaration(Class(:coffee_maker.n.01))
+Declaration(Class(:coffee_mug.n.01))
+Declaration(Class(:coffeepot.n.01))
+Declaration(Class(:coho.n.02))
+Declaration(Class(:collie.n.01))
+Declaration(Class(:colobus.n.01))
+Declaration(Class(:colubrid_snake.n.01))
+Declaration(Class(:combination_lock.n.01))
+Declaration(Class(:commodity.n.01))
+Declaration(Class(:common_iguana.n.01))
+Declaration(Class(:compass.n.01))
+Declaration(Class(:computer.n.01))
+Declaration(Class(:computer_keyboard.n.01))
+Declaration(Class(:concoction.n.01))
+Declaration(Class(:condiment.n.01))
+Declaration(Class(:confectionery.n.02))
+Declaration(Class(:consomme.n.01))
+Declaration(Class(:constrictor.n.01))
+Declaration(Class(:consumer_goods.n.01))
+Declaration(Class(:container.n.01))
+Declaration(Class(:container_ship.n.01))
+Declaration(Class(:control.n.09))
+Declaration(Class(:convertible.n.01))
+Declaration(Class(:convertible.n.03))
+Declaration(Class(:conveyance.n.03))
+Declaration(Class(:cooking_utensil.n.01))
+Declaration(Class(:coonhound.n.01))
+Declaration(Class(:coot.n.01))
+Declaration(Class(:coral_reef.n.01))
+Declaration(Class(:corkscrew.n.01))
+Declaration(Class(:cornet.n.01))
+Declaration(Class(:correctional_institution.n.01))
+Declaration(Class(:corvine_bird.n.01))
+Declaration(Class(:cosmetic.n.01))
+Declaration(Class(:cougar.n.01))
+Declaration(Class(:course.n.07))
+Declaration(Class(:covering.n.02))
+Declaration(Class(:cradle.n.01))
+Declaration(Class(:craft.n.02))
+Declaration(Class(:crane.n.05))
+Declaration(Class(:crib.n.01))
+Declaration(Class(:cricket.n.01))
+Declaration(Class(:croquet_ball.n.01))
+Declaration(Class(:crossword_puzzle.n.01))
+Declaration(Class(:cruciferous_vegetable.n.01))
+Declaration(Class(:cucumber.n.02))
+Declaration(Class(:cuirass.n.01))
+Declaration(Class(:cup.n.06))
+Declaration(Class(:curly-coated_retriever.n.01))
+Declaration(Class(:custard_apple.n.02))
+Declaration(Class(:cutter.n.06))
+Declaration(Class(:cutting_implement.n.01))
+Declaration(Class(:cyprinid.n.01))
+Declaration(Class(:cypriniform_fish.n.01))
+Declaration(Class(:dam.n.01))
+Declaration(Class(:damselfish.n.01))
+Declaration(Class(:damselfly.n.01))
+Declaration(Class(:danaid.n.01))
+Declaration(Class(:dandie_dinmont.n.01))
+Declaration(Class(:data_input_device.n.01))
+Declaration(Class(:desk.n.01))
+Declaration(Class(:desktop_computer.n.01))
+Declaration(Class(:dessert.n.01))
+Declaration(Class(:device.n.01))
+Declaration(Class(:dial_telephone.n.01))
+Declaration(Class(:diamondback.n.01))
+Declaration(Class(:diaper.n.01))
+Declaration(Class(:diapsid.n.01))
+Declaration(Class(:dictyopterous_insect.n.01))
+Declaration(Class(:digital_clock.n.01))
+Declaration(Class(:digital_computer.n.01))
+Declaration(Class(:digital_watch.n.01))
+Declaration(Class(:dining_table.n.01))
+Declaration(Class(:dip.n.04))
+Declaration(Class(:dipterous_insect.n.01))
+Declaration(Class(:dish.n.02))
+Declaration(Class(:dishwasher.n.01))
+Declaration(Class(:disk.n.02))
+Declaration(Class(:disk_brake.n.01))
+Declaration(Class(:doberman.n.01))
+Declaration(Class(:dog.n.01))
+Declaration(Class(:dome.n.04))
+Declaration(Class(:domestic_cat.n.01))
+Declaration(Class(:door.n.01))
+Declaration(Class(:double-reed_instrument.n.01))
+Declaration(Class(:dough.n.01))
+Declaration(Class(:dowitcher.n.01))
+Declaration(Class(:dragonfly.n.01))
+Declaration(Class(:drake.n.02))
+Declaration(Class(:drinking_vessel.n.01))
+Declaration(Class(:drum.n.01))
+Declaration(Class(:duck.n.01))
+Declaration(Class(:dung_beetle.n.01))
+Declaration(Class(:durables.n.01))
+Declaration(Class(:dutch_oven.n.01))
+Declaration(Class(:eating_apple.n.01))
+Declaration(Class(:edge_tool.n.01))
+Declaration(Class(:edible_fruit.n.01))
+Declaration(Class(:eel.n.02))
+Declaration(Class(:eggnog.n.01))
+Declaration(Class(:egret.n.01))
+Declaration(Class(:egyptian_cat.n.01))
+Declaration(Class(:elapid.n.01))
+Declaration(Class(:elasmobranch.n.01))
+Declaration(Class(:electric_guitar.n.01))
+Declaration(Class(:electric_ray.n.01))
+Declaration(Class(:electronic_equipment.n.01))
+Declaration(Class(:english_foxhound.n.01))
+Declaration(Class(:english_setter.n.01))
+Declaration(Class(:english_springer.n.01))
+Declaration(Class(:entertainment_center.n.01))
+Declaration(Class(:entity.n.01))
+Declaration(Class(:entlebucher.n.01))
+Declaration(Class(:entree.n.01))
+Declaration(Class(:equine.n.01))
+Declaration(Class(:equipment.n.01))
+Declaration(Class(:eskimo_dog.n.01))
+Declaration(Class(:espresso.n.01))
+Declaration(Class(:espresso_maker.n.01))
+Declaration(Class(:establishment.n.04))
+Declaration(Class(:european_gallinule.n.01))
+Declaration(Class(:even-toed_ungulate.n.01))
+Declaration(Class(:excavation.n.03))
+Declaration(Class(:face_mask.n.01))
+Declaration(Class(:face_powder.n.01))
+Declaration(Class(:fare.n.04))
+Declaration(Class(:farm_building.n.01))
+Declaration(Class(:farm_machine.n.01))
+Declaration(Class(:fastener.n.02))
+Declaration(Class(:feather_boa.n.01))
+Declaration(Class(:feed.n.01))
+Declaration(Class(:feline.n.01))
+Declaration(Class(:fence.n.01))
+Declaration(Class(:fig.n.04))
+Declaration(Class(:file.n.03))
+Declaration(Class(:finch.n.01))
+Declaration(Class(:fire_engine.n.01))
+Declaration(Class(:fire_screen.n.01))
+Declaration(Class(:firearm.n.01))
+Declaration(Class(:fireboat.n.01))
+Declaration(Class(:fish.n.01))
+Declaration(Class(:flamingo.n.01))
+Declaration(Class(:flat-coated_retriever.n.01))
+Declaration(Class(:flavorer.n.01))
+Declaration(Class(:floor_cover.n.01))
+Declaration(Class(:flute.n.01))
+Declaration(Class(:fly.n.01))
+Declaration(Class(:fodder.n.02))
+Declaration(Class(:folding_chair.n.01))
+Declaration(Class(:food.n.01))
+Declaration(Class(:food.n.02))
+Declaration(Class(:food_fish.n.01))
+Declaration(Class(:foodstuff.n.02))
+Declaration(Class(:four-poster.n.01))
+Declaration(Class(:fox_terrier.n.01))
+Declaration(Class(:foxhound.n.01))
+Declaration(Class(:free-reed_instrument.n.01))
+Declaration(Class(:french_bulldog.n.01))
+Declaration(Class(:french_horn.n.01))
+Declaration(Class(:frilled_lizard.n.01))
+Declaration(Class(:frozen_dessert.n.01))
+Declaration(Class(:fruit.n.01))
+Declaration(Class(:fur_coat.n.01))
+Declaration(Class(:furnishing.n.02))
+Declaration(Class(:furniture.n.01))
+Declaration(Class(:gallinule.n.01))
+Declaration(Class(:game.n.09))
+Declaration(Class(:game_equipment.n.01))
+Declaration(Class(:ganoid.n.01))
+Declaration(Class(:gar.n.01))
+Declaration(Class(:garbage_truck.n.01))
+Declaration(Class(:garden_tool.n.01))
+Declaration(Class(:garment.n.01))
+Declaration(Class(:garter_snake.n.01))
+Declaration(Class(:gas_pump.n.01))
+Declaration(Class(:gasmask.n.01))
+Declaration(Class(:gate.n.01))
+Declaration(Class(:gazelle.n.01))
+Declaration(Class(:gecko.n.01))
+Declaration(Class(:geological_formation.n.01))
+Declaration(Class(:german_shepherd.n.01))
+Declaration(Class(:german_short-haired_pointer.n.01))
+Declaration(Class(:geyser.n.01))
+Declaration(Class(:giant_schnauzer.n.01))
+Declaration(Class(:gibbon.n.02))
+Declaration(Class(:gila_monster.n.01))
+Declaration(Class(:go-kart.n.01))
+Declaration(Class(:goat.n.01))
+Declaration(Class(:golden_retriever.n.01))
+Declaration(Class(:goldfinch.n.02))
+Declaration(Class(:goldfish.n.01))
+Declaration(Class(:golf_ball.n.01))
+Declaration(Class(:golf_equipment.n.01))
+Declaration(Class(:golfcart.n.01))
+Declaration(Class(:gondola.n.02))
+Declaration(Class(:gong.n.01))
+Declaration(Class(:goose.n.01))
+Declaration(Class(:gordon_setter.n.01))
+Declaration(Class(:gorilla.n.01))
+Declaration(Class(:grand_piano.n.01))
+Declaration(Class(:granny_smith.n.01))
+Declaration(Class(:grasshopper.n.01))
+Declaration(Class(:grate.n.03))
+Declaration(Class(:great_ape.n.01))
+Declaration(Class(:great_dane.n.01))
+Declaration(Class(:great_white_shark.n.01))
+Declaration(Class(:greater_swiss_mountain_dog.n.01))
+Declaration(Class(:green_lizard.n.01))
+Declaration(Class(:green_mamba.n.01))
+Declaration(Class(:green_snake.n.02))
+Declaration(Class(:greenhouse.n.01))
+Declaration(Class(:greyhound.n.01))
+Declaration(Class(:grille.n.02))
+Declaration(Class(:grocery_store.n.01))
+Declaration(Class(:groenendael.n.01))
+Declaration(Class(:ground_beetle.n.01))
+Declaration(Class(:guacamole.n.01))
+Declaration(Class(:guenon.n.01))
+Declaration(Class(:guillotine.n.02))
+Declaration(Class(:guitar.n.01))
+Declaration(Class(:gun.n.01))
+Declaration(Class(:hair_slide.n.01))
+Declaration(Class(:hamburger.n.01))
+Declaration(Class(:hammer.n.02))
+Declaration(Class(:hammerhead.n.03))
+Declaration(Class(:hand-held_computer.n.01))
+Declaration(Class(:hand_blower.n.01))
+Declaration(Class(:hand_glass.n.02))
+Declaration(Class(:hand_tool.n.01))
+Declaration(Class(:harmonica.n.01))
+Declaration(Class(:harp.n.01))
+Declaration(Class(:hartebeest.n.01))
+Declaration(Class(:harvester.n.02))
+Declaration(Class(:hatchet.n.02))
+Declaration(Class(:hay.n.01))
+Declaration(Class(:head_cabbage.n.02))
+Declaration(Class(:heavier-than-air_craft.n.01))
+Declaration(Class(:helmet.n.01))
+Declaration(Class(:heron.n.02))
+Declaration(Class(:hippopotamus.n.01))
+Declaration(Class(:hog.n.03))
+Declaration(Class(:hognose_snake.n.01))
+Declaration(Class(:holster.n.01))
+Declaration(Class(:home_appliance.n.01))
+Declaration(Class(:home_theater.n.01))
+Declaration(Class(:homopterous_insect.n.01))
+Declaration(Class(:hook.n.04))
+Declaration(Class(:hoopskirt.n.01))
+Declaration(Class(:horned_viper.n.01))
+Declaration(Class(:horse.n.01))
+Declaration(Class(:hot_pot.n.01))
+Declaration(Class(:hotdog.n.02))
+Declaration(Class(:hound.n.01))
+Declaration(Class(:hourglass.n.01))
+Declaration(Class(:house.n.01))
+Declaration(Class(:house_finch.n.01))
+Declaration(Class(:howler_monkey.n.01))
+Declaration(Class(:hunting_dog.n.01))
+Declaration(Class(:hydraulic_brake.n.01))
+Declaration(Class(:hymenopterous_insect.n.01))
+Declaration(Class(:ibex.n.01))
+Declaration(Class(:ibizan_hound.n.01))
+Declaration(Class(:ice_cream.n.01))
+Declaration(Class(:ice_lolly.n.01))
+Declaration(Class(:iguanid.n.01))
+Declaration(Class(:impala.n.01))
+Declaration(Class(:implement.n.01))
+Declaration(Class(:indian_cobra.n.01))
+Declaration(Class(:indigo_bunting.n.01))
+Declaration(Class(:indri.n.01))
+Declaration(Class(:ingredient.n.03))
+Declaration(Class(:insect.n.01))
+Declaration(Class(:institution.n.02))
+Declaration(Class(:instrument.n.01))
+Declaration(Class(:instrument_of_execution.n.01))
+Declaration(Class(:instrumentality.n.03))
+Declaration(Class(:invertebrate.n.01))
+Declaration(Class(:ipod.n.01))
+Declaration(Class(:irish_setter.n.01))
+Declaration(Class(:irish_terrier.n.01))
+Declaration(Class(:irish_water_spaniel.n.01))
+Declaration(Class(:irish_wolfhound.n.01))
+Declaration(Class(:iron.n.04))
+Declaration(Class(:italian_greyhound.n.01))
+Declaration(Class(:jackfruit.n.02))
+Declaration(Class(:jaguar.n.01))
+Declaration(Class(:jar.n.01))
+Declaration(Class(:jay.n.02))
+Declaration(Class(:jean.n.01))
+Declaration(Class(:jeep.n.01))
+Declaration(Class(:jersey.n.03))
+Declaration(Class(:jigsaw_puzzle.n.01))
+Declaration(Class(:jug.n.01))
+Declaration(Class(:junco.n.01))
+Declaration(Class(:kelpie.n.02))
+Declaration(Class(:kerry_blue_terrier.n.01))
+Declaration(Class(:keyboard_instrument.n.01))
+Declaration(Class(:kimono.n.01))
+Declaration(Class(:king_penguin.n.01))
+Declaration(Class(:king_snake.n.01))
+Declaration(Class(:kitchen_appliance.n.01))
+Declaration(Class(:kitchen_utensil.n.01))
+Declaration(Class(:knife.n.01))
+Declaration(Class(:knot.n.02))
+Declaration(Class(:komodo_dragon.n.01))
+Declaration(Class(:komondor.n.01))
+Declaration(Class(:kuvasz.n.01))
+Declaration(Class(:lab_coat.n.01))
+Declaration(Class(:labrador_retriever.n.01))
+Declaration(Class(:lacertid_lizard.n.01))
+Declaration(Class(:lacewing.n.01))
+Declaration(Class(:ladle.n.01))
+Declaration(Class(:ladybug.n.01))
+Declaration(Class(:lakeland_terrier.n.01))
+Declaration(Class(:lakeside.n.01))
+Declaration(Class(:lamellicorn_beetle.n.01))
+Declaration(Class(:lamp.n.02))
+Declaration(Class(:lampshade.n.01))
+Declaration(Class(:langur.n.01))
+Declaration(Class(:laptop.n.01))
+Declaration(Class(:lawn_mower.n.01))
+Declaration(Class(:leaf_beetle.n.01))
+Declaration(Class(:leafhopper.n.01))
+Declaration(Class(:lemon.n.01))
+Declaration(Class(:lemur.n.01))
+Declaration(Class(:lens_cap.n.01))
+Declaration(Class(:leopard.n.02))
+Declaration(Class(:lepidopterous_insect.n.01))
+Declaration(Class(:lesser_ape.n.01))
+Declaration(Class(:letter_opener.n.01))
+Declaration(Class(:lhasa.n.02))
+Declaration(Class(:library.n.05))
+Declaration(Class(:lifeboat.n.01))
+Declaration(Class(:light_microscope.n.01))
+Declaration(Class(:lighter-than-air_craft.n.01))
+Declaration(Class(:limousine.n.01))
+Declaration(Class(:limpkin.n.01))
+Declaration(Class(:liner.n.04))
+Declaration(Class(:lion.n.01))
+Declaration(Class(:lionfish.n.01))
+Declaration(Class(:little_blue_heron.n.01))
+Declaration(Class(:living_thing.n.01))
+Declaration(Class(:lizard.n.01))
+Declaration(Class(:llama.n.01))
+Declaration(Class(:lock.n.01))
+Declaration(Class(:long-horned_beetle.n.01))
+Declaration(Class(:loupe.n.01))
+Declaration(Class(:lycaenid.n.01))
+Declaration(Class(:lynx.n.02))
+Declaration(Class(:macaque.n.01))
+Declaration(Class(:machine.n.01))
+Declaration(Class(:machine.n.04))
+Declaration(Class(:mackerel_shark.n.01))
+Declaration(Class(:madagascar_cat.n.01))
+Declaration(Class(:magnetic_compass.n.01))
+Declaration(Class(:magnifier.n.01))
+Declaration(Class(:magpie.n.01))
+Declaration(Class(:maillot.n.01))
+Declaration(Class(:makeup.n.01))
+Declaration(Class(:malamute.n.01))
+Declaration(Class(:malinois.n.01))
+Declaration(Class(:mamba.n.01))
+Declaration(Class(:mammal.n.01))
+Declaration(Class(:mantis.n.01))
+Declaration(Class(:maraca.n.01))
+Declaration(Class(:marimba.n.01))
+Declaration(Class(:marketplace.n.02))
+Declaration(Class(:marmoset.n.01))
+Declaration(Class(:mask.n.04))
+Declaration(Class(:mastiff.n.01))
+Declaration(Class(:matter.n.03))
+Declaration(Class(:measuring_instrument.n.01))
+Declaration(Class(:measuring_stick.n.01))
+Declaration(Class(:mechanical_device.n.01))
+Declaration(Class(:mechanism.n.03))
+Declaration(Class(:mechanism.n.05))
+Declaration(Class(:medical_instrument.n.01))
+Declaration(Class(:medicine_chest.n.01))
+Declaration(Class(:menu.n.02))
+Declaration(Class(:mercantile_establishment.n.01))
+Declaration(Class(:merganser.n.01))
+Declaration(Class(:meter.n.02))
+Declaration(Class(:microscope.n.01))
+Declaration(Class(:microwave.n.02))
+Declaration(Class(:military_vehicle.n.01))
+Declaration(Class(:miniature_pinscher.n.01))
+Declaration(Class(:miniature_schnauzer.n.01))
+Declaration(Class(:minibike.n.01))
+Declaration(Class(:miniskirt.n.01))
+Declaration(Class(:minivan.n.01))
+Declaration(Class(:missile.n.01))
+Declaration(Class(:mixed_drink.n.01))
+Declaration(Class(:model_t.n.01))
+Declaration(Class(:modem.n.01))
+Declaration(Class(:monarch.n.02))
+Declaration(Class(:monastery.n.01))
+Declaration(Class(:monitor.n.05))
+Declaration(Class(:monitor.n.07))
+Declaration(Class(:monkey.n.01))
+Declaration(Class(:moped.n.01))
+Declaration(Class(:mortar.n.03))
+Declaration(Class(:mosque.n.01))
+Declaration(Class(:mosquito_net.n.01))
+Declaration(Class(:motor_vehicle.n.01))
+Declaration(Class(:motorboat.n.01))
+Declaration(Class(:motorcycle.n.01))
+Declaration(Class(:mountain.n.01))
+Declaration(Class(:mountain_sheep.n.01))
+Declaration(Class(:movable_barrier.n.01))
+Declaration(Class(:moving_van.n.01))
+Declaration(Class(:mug.n.04))
+Declaration(Class(:mushroom.n.05))
+Declaration(Class(:musical_instrument.n.01))
+Declaration(Class(:muzzle.n.03))
+Declaration(Class(:nail.n.02))
+Declaration(Class(:natural_depression.n.01))
+Declaration(Class(:natural_elevation.n.01))
+Declaration(Class(:natural_object.n.01))
+Declaration(Class(:navigational_instrument.n.01))
+Declaration(Class(:necktie.n.01))
+Declaration(Class(:neckwear.n.01))
+Declaration(Class(:neuropteron.n.01))
+Declaration(Class(:new_world_monkey.n.01))
+Declaration(Class(:night_snake.n.01))
+Declaration(Class(:nightingale.n.01))
+Declaration(Class(:norfolk_terrier.n.01))
+Declaration(Class(:norwegian_elkhound.n.01))
+Declaration(Class(:norwich_terrier.n.01))
+Declaration(Class(:notebook.n.02))
+Declaration(Class(:nutriment.n.01))
+Declaration(Class(:nymphalid.n.01))
+Declaration(Class(:object.n.01))
+Declaration(Class(:oboe.n.01))
+Declaration(Class(:obstruction.n.01))
+Declaration(Class(:ocarina.n.01))
+Declaration(Class(:odd-toed_ungulate.n.01))
+Declaration(Class(:odometer.n.01))
+Declaration(Class(:odonate.n.01))
+Declaration(Class(:office_furniture.n.01))
+Declaration(Class(:old_english_sheepdog.n.01))
+Declaration(Class(:old_world_buffalo.n.01))
+Declaration(Class(:old_world_monkey.n.01))
+Declaration(Class(:opener.n.03))
+Declaration(Class(:optical_instrument.n.01))
+Declaration(Class(:orange.n.01))
+Declaration(Class(:orangutan.n.01))
+Declaration(Class(:organ.n.05))
+Declaration(Class(:organism.n.01))
+Declaration(Class(:orthopterous_insect.n.01))
+Declaration(Class(:oscilloscope.n.01))
+Declaration(Class(:oscine.n.01))
+Declaration(Class(:otterhound.n.01))
+Declaration(Class(:outbuilding.n.01))
+Declaration(Class(:oven.n.01))
+Declaration(Class(:overgarment.n.01))
+Declaration(Class(:overskirt.n.01))
+Declaration(Class(:ox.n.01))
+Declaration(Class(:oystercatcher.n.01))
+Declaration(Class(:paddlewheel.n.01))
+Declaration(Class(:padlock.n.01))
+Declaration(Class(:palace.n.04))
+Declaration(Class(:panpipe.n.01))
+Declaration(Class(:park_bench.n.01))
+Declaration(Class(:parking_meter.n.01))
+Declaration(Class(:passenger_ship.n.01))
+Declaration(Class(:passerine.n.01))
+Declaration(Class(:patas.n.01))
+Declaration(Class(:pay-phone.n.01))
+Declaration(Class(:pelagic_bird.n.01))
+Declaration(Class(:pelecaniform_seabird.n.01))
+Declaration(Class(:pelican.n.01))
+Declaration(Class(:penal_institution.n.01))
+Declaration(Class(:penguin.n.01))
+Declaration(Class(:pepper.n.04))
+Declaration(Class(:percoid_fish.n.01))
+Declaration(Class(:percussion_instrument.n.01))
+Declaration(Class(:peripheral.n.01))
+Declaration(Class(:persian_cat.n.01))
+Declaration(Class(:personal_computer.n.01))
+Declaration(Class(:phasmid.n.01))
+Declaration(Class(:physical_entity.n.01))
+Declaration(Class(:piano.n.01))
+Declaration(Class(:pickelhaube.n.01))
+Declaration(Class(:picket_fence.n.01))
+Declaration(Class(:pickup.n.01))
+Declaration(Class(:pierid.n.01))
+Declaration(Class(:pill_bottle.n.01))
+Declaration(Class(:pin.n.09))
+Declaration(Class(:pineapple.n.02))
+Declaration(Class(:ping-pong_ball.n.01))
+Declaration(Class(:pinscher.n.01))
+Declaration(Class(:pinwheel.n.02))
+Declaration(Class(:pipe.n.04))
+Declaration(Class(:pirate.n.03))
+Declaration(Class(:pistol.n.01))
+Declaration(Class(:pit_viper.n.01))
+Declaration(Class(:pitcher.n.02))
+Declaration(Class(:pizza.n.01))
+Declaration(Class(:place_of_business.n.01))
+Declaration(Class(:place_of_worship.n.01))
+Declaration(Class(:placental.n.01))
+Declaration(Class(:plane.n.05))
+Declaration(Class(:planetarium.n.01))
+Declaration(Class(:plant_organ.n.01))
+Declaration(Class(:plant_part.n.01))
+Declaration(Class(:plate.n.08))
+Declaration(Class(:plate.n.14))
+Declaration(Class(:plectognath.n.01))
+Declaration(Class(:plover.n.01))
+Declaration(Class(:plow.n.01))
+Declaration(Class(:plunger.n.03))
+Declaration(Class(:pointer.n.04))
+Declaration(Class(:police_van.n.01))
+Declaration(Class(:pomegranate.n.02))
+Declaration(Class(:poncho.n.01))
+Declaration(Class(:pool.n.01))
+Declaration(Class(:pop_bottle.n.01))
+Declaration(Class(:portable_computer.n.01))
+Declaration(Class(:pot.n.01))
+Declaration(Class(:potpie.n.01))
+Declaration(Class(:potter))
+Declaration(Class(:prayer_rug.n.01))
+Declaration(Class(:primate.n.02))
+Declaration(Class(:prison.n.01))
+Declaration(Class(:proboscis_monkey.n.01))
+Declaration(Class(:produce.n.01))
+Declaration(Class(:projectile.n.01))
+Declaration(Class(:projector.n.02))
+Declaration(Class(:promontory.n.01))
+Declaration(Class(:protective_covering.n.01))
+Declaration(Class(:puck.n.02))
+Declaration(Class(:pudding.n.02))
+Declaration(Class(:puffer.n.02))
+Declaration(Class(:pullover.n.01))
+Declaration(Class(:pump.n.01))
+Declaration(Class(:punch.n.02))
+Declaration(Class(:punching_bag.n.02))
+Declaration(Class(:purple_gallinule.n.01))
+Declaration(Class(:puzzle.n.02))
+Declaration(Class(:python.n.01))
+Declaration(Class(:racer.n.02))
+Declaration(Class(:radiator.n.03))
+Declaration(Class(:radio_telescope.n.01))
+Declaration(Class(:radiotelephone.n.02))
+Declaration(Class(:rail.n.05))
+Declaration(Class(:rail_fence.n.01))
+Declaration(Class(:rain_barrel.n.01))
+Declaration(Class(:raincoat.n.01))
+Declaration(Class(:ram.n.05))
+Declaration(Class(:rattlesnake.n.01))
+Declaration(Class(:ray.n.07))
+Declaration(Class(:red-backed_sandpiper.n.01))
+Declaration(Class(:red-breasted_merganser.n.01))
+Declaration(Class(:red_wine.n.01))
+Declaration(Class(:redbone.n.01))
+Declaration(Class(:redshank.n.01))
+Declaration(Class(:reef.n.01))
+Declaration(Class(:reel.n.03))
+Declaration(Class(:refrigerator.n.01))
+Declaration(Class(:religious_residence.n.01))
+Declaration(Class(:reproducer.n.01))
+Declaration(Class(:reproductive_structure.n.01))
+Declaration(Class(:reptile.n.01))
+Declaration(Class(:requiem_shark.n.01))
+Declaration(Class(:reservoir.n.03))
+Declaration(Class(:residence.n.02))
+Declaration(Class(:restaurant.n.01))
+Declaration(Class(:restraint.n.06))
+Declaration(Class(:retriever.n.01))
+Declaration(Class(:revolver.n.01))
+Declaration(Class(:rhinoceros_beetle.n.01))
+Declaration(Class(:ride.n.02))
+Declaration(Class(:ridge.n.01))
+Declaration(Class(:rifle.n.01))
+Declaration(Class(:ringlet.n.04))
+Declaration(Class(:ringneck_snake.n.01))
+Declaration(Class(:robe.n.01))
+Declaration(Class(:robin.n.02))
+Declaration(Class(:rock_beauty.n.01))
+Declaration(Class(:rock_python.n.01))
+Declaration(Class(:rocket.n.01))
+Declaration(Class(:rocking_chair.n.01))
+Declaration(Class(:roof.n.01))
+Declaration(Class(:rotating_mechanism.n.01))
+Declaration(Class(:rotisserie.n.01))
+Declaration(Class(:rottweiler.n.01))
+Declaration(Class(:ruddy_turnstone.n.01))
+Declaration(Class(:rug.n.01))
+Declaration(Class(:rugby_ball.n.01))
+Declaration(Class(:rule.n.12))
+Declaration(Class(:ruminant.n.01))
+Declaration(Class(:safety_belt.n.01))
+Declaration(Class(:safety_pin.n.01))
+Declaration(Class(:sailboat.n.01))
+Declaration(Class(:sailing_vessel.n.01))
+Declaration(Class(:saint_bernard.n.01))
+Declaration(Class(:salmon.n.01))
+Declaration(Class(:saluki.n.01))
+Declaration(Class(:sandbar.n.01))
+Declaration(Class(:sandglass.n.01))
+Declaration(Class(:sandpiper.n.01))
+Declaration(Class(:sandwich.n.01))
+Declaration(Class(:sarong.n.01))
+Declaration(Class(:sauce.n.01))
+Declaration(Class(:saurian.n.01))
+Declaration(Class(:sax.n.02))
+Declaration(Class(:scabbard.n.01))
+Declaration(Class(:scale.n.07))
+Declaration(Class(:scarabaeid_beetle.n.01))
+Declaration(Class(:scarf.n.01))
+Declaration(Class(:schipperke.n.01))
+Declaration(Class(:schnauzer.n.01))
+Declaration(Class(:schooner.n.02))
+Declaration(Class(:scientific_instrument.n.01))
+Declaration(Class(:scorpaenid.n.01))
+Declaration(Class(:scorpaenoid.n.01))
+Declaration(Class(:scotch_terrier.n.01))
+Declaration(Class(:scottish_deerhound.n.01))
+Declaration(Class(:screen.n.05))
+Declaration(Class(:screw.n.04))
+Declaration(Class(:screwdriver.n.01))
+Declaration(Class(:sea_boat.n.01))
+Declaration(Class(:sea_duck.n.01))
+Declaration(Class(:sea_snake.n.01))
+Declaration(Class(:seabird.n.01))
+Declaration(Class(:sealyham_terrier.n.01))
+Declaration(Class(:seashore.n.01))
+Declaration(Class(:seat.n.03))
+Declaration(Class(:seat_belt.n.01))
+Declaration(Class(:self-propelled_vehicle.n.01))
+Declaration(Class(:sennenhunde.n.01))
+Declaration(Class(:setter.n.02))
+Declaration(Class(:shade.n.03))
+Declaration(Class(:shark.n.01))
+Declaration(Class(:sheath.n.01))
+Declaration(Class(:shed.n.01))
+Declaration(Class(:sheep.n.01))
+Declaration(Class(:shelter.n.02))
+Declaration(Class(:shepherd_dog.n.01))
+Declaration(Class(:shetland_sheepdog.n.01))
+Declaration(Class(:shield.n.01))
+Declaration(Class(:shield.n.02))
+Declaration(Class(:ship.n.01))
+Declaration(Class(:shirt.n.01))
+Declaration(Class(:shoe_shop.n.01))
+Declaration(Class(:shop.n.01))
+Declaration(Class(:shore.n.01))
+Declaration(Class(:shorebird.n.01))
+Declaration(Class(:shovel.n.01))
+Declaration(Class(:shrine.n.01))
+Declaration(Class(:siamang.n.01))
+Declaration(Class(:siamese_cat.n.01))
+Declaration(Class(:siberian_husky.n.01))
+Declaration(Class(:sidewinder.n.01))
+Declaration(Class(:silky_terrier.n.01))
+Declaration(Class(:single-reed_instrument.n.01))
+Declaration(Class(:ski_mask.n.01))
+Declaration(Class(:skirt.n.02))
+Declaration(Class(:sled_dog.n.01))
+Declaration(Class(:slide_rule.n.01))
+Declaration(Class(:sliding_door.n.01))
+Declaration(Class(:slot.n.07))
+Declaration(Class(:slot_machine.n.01))
+Declaration(Class(:small_boat.n.01))
+Declaration(Class(:snack_food.n.01))
+Declaration(Class(:snake.n.01))
+Declaration(Class(:snipe.n.01))
+Declaration(Class(:snow_leopard.n.01))
+Declaration(Class(:snowplow.n.01))
+Declaration(Class(:soccer_ball.n.01))
+Declaration(Class(:sofa.n.01))
+Declaration(Class(:soft-coated_wheaten_terrier.n.01))
+Declaration(Class(:soft-finned_fish.n.01))
+Declaration(Class(:solanaceous_vegetable.n.01))
+Declaration(Class(:solid.n.01))
+Declaration(Class(:sorrel.n.05))
+Declaration(Class(:soup.n.01))
+Declaration(Class(:space_shuttle.n.01))
+Declaration(Class(:spacecraft.n.01))
+Declaration(Class(:spaghetti_sauce.n.01))
+Declaration(Class(:spaghetti_squash.n.02))
+Declaration(Class(:spaniel.n.01))
+Declaration(Class(:spectacles.n.01))
+Declaration(Class(:speedboat.n.01))
+Declaration(Class(:sphenisciform_seabird.n.01))
+Declaration(Class(:spider_monkey.n.01))
+Declaration(Class(:spiny-finned_fish.n.01))
+Declaration(Class(:spoonbill.n.01))
+Declaration(Class(:sporting_dog.n.01))
+Declaration(Class(:sports_car.n.01))
+Declaration(Class(:sports_equipment.n.01))
+Declaration(Class(:spring.n.03))
+Declaration(Class(:springer_spaniel.n.01))
+Declaration(Class(:squash.n.02))
+Declaration(Class(:squirrel_monkey.n.01))
+Declaration(Class(:staffordshire_bullterrier.n.01))
+Declaration(Class(:standard_schnauzer.n.01))
+Declaration(Class(:steel_drum.n.01))
+Declaration(Class(:stereo.n.01))
+Declaration(Class(:stethoscope.n.01))
+Declaration(Class(:stew.n.02))
+Declaration(Class(:stingray.n.01))
+Declaration(Class(:stole.n.01))
+Declaration(Class(:stone_wall.n.01))
+Declaration(Class(:stopwatch.n.01))
+Declaration(Class(:stork.n.01))
+Declaration(Class(:strawberry.n.01))
+Declaration(Class(:stringed_instrument.n.01))
+Declaration(Class(:structure.n.01))
+Declaration(Class(:studio_couch.n.01))
+Declaration(Class(:stupa.n.01))
+Declaration(Class(:sturgeon.n.01))
+Declaration(Class(:submarine.n.01))
+Declaration(Class(:submersible.n.02))
+Declaration(Class(:substance.n.07))
+Declaration(Class(:suit.n.01))
+Declaration(Class(:sulphur_butterfly.n.01))
+Declaration(Class(:summer_squash.n.02))
+Declaration(Class(:sundial.n.01))
+Declaration(Class(:sunglasses.n.01))
+Declaration(Class(:sussex_spaniel.n.01))
+Declaration(Class(:swan.n.01))
+Declaration(Class(:sweater.n.01))
+Declaration(Class(:sweatshirt.n.01))
+Declaration(Class(:sweet_pepper.n.02))
+Declaration(Class(:swimming_trunks.n.01))
+Declaration(Class(:swimsuit.n.01))
+Declaration(Class(:swine.n.01))
+Declaration(Class(:swing.n.02))
+Declaration(Class(:switch.n.01))
+Declaration(Class(:syringe.n.01))
+Declaration(Class(:tabby.n.01))
+Declaration(Class(:table.n.02))
+Declaration(Class(:table.n.03))
+Declaration(Class(:table_lamp.n.01))
+Declaration(Class(:tank.n.02))
+Declaration(Class(:tape_player.n.01))
+Declaration(Class(:teapot.n.01))
+Declaration(Class(:teiid_lizard.n.01))
+Declaration(Class(:teleost_fish.n.01))
+Declaration(Class(:telephone.n.01))
+Declaration(Class(:telescope.n.01))
+Declaration(Class(:tench.n.01))
+Declaration(Class(:tennis_ball.n.01))
+Declaration(Class(:terrier.n.01))
+Declaration(Class(:thatch.n.04))
+Declaration(Class(:theater.n.01))
+Declaration(Class(:thimble.n.02))
+Declaration(Class(:thresher.n.01))
+Declaration(Class(:throne.n.01))
+Declaration(Class(:thrush.n.03))
+Declaration(Class(:thunder_snake.n.01))
+Declaration(Class(:tibetan_mastiff.n.01))
+Declaration(Class(:tibetan_terrier.n.01))
+Declaration(Class(:tiger.n.02))
+Declaration(Class(:tiger_beetle.n.01))
+Declaration(Class(:tiger_cat.n.02))
+Declaration(Class(:tiger_shark.n.01))
+Declaration(Class(:tile_roof.n.01))
+Declaration(Class(:timepiece.n.01))
+Declaration(Class(:timer.n.01))
+Declaration(Class(:titi.n.03))
+Declaration(Class(:titmouse.n.01))
+Declaration(Class(:toaster.n.02))
+Declaration(Class(:tobacco_shop.n.01))
+Declaration(Class(:toilet_seat.n.01))
+Declaration(Class(:toiletry.n.01))
+Declaration(Class(:tool.n.01))
+Declaration(Class(:tow_truck.n.01))
+Declaration(Class(:toyshop.n.01))
+Declaration(Class(:trailer_truck.n.01))
+Declaration(Class(:trench_coat.n.01))
+Declaration(Class(:trifle.n.01))
+Declaration(Class(:trimaran.n.01))
+Declaration(Class(:trombone.n.01))
+Declaration(Class(:trouser.n.01))
+Declaration(Class(:truck.n.01))
+Declaration(Class(:tub.n.02))
+Declaration(Class(:turnstile.n.01))
+Declaration(Class(:turnstone.n.01))
+Declaration(Class(:umbrella.n.01))
+Declaration(Class(:undergarment.n.01))
+Declaration(Class(:ungulate.n.01))
+Declaration(Class(:upright.n.02))
+Declaration(Class(:utensil.n.01))
+Declaration(Class(:vacuum.n.04))
+Declaration(Class(:valley.n.01))
+Declaration(Class(:van.n.05))
+Declaration(Class(:vase.n.01))
+Declaration(Class(:vault.n.03))
+Declaration(Class(:vegetable.n.01))
+Declaration(Class(:vehicle.n.01))
+Declaration(Class(:vending_machine.n.01))
+Declaration(Class(:venomous_lizard.n.01))
+Declaration(Class(:vertebrate.n.01))
+Declaration(Class(:vessel.n.02))
+Declaration(Class(:vessel.n.03))
+Declaration(Class(:vine_snake.n.01))
+Declaration(Class(:violin.n.01))
+Declaration(Class(:viper.n.01))
+Declaration(Class(:vizsla.n.01))
+Declaration(Class(:volcano.n.02))
+Declaration(Class(:volleyball.n.02))
+Declaration(Class(:wading_bird.n.01))
+Declaration(Class(:waffle_iron.n.01))
+Declaration(Class(:walker_hound.n.01))
+Declaration(Class(:walking_stick.n.02))
+Declaration(Class(:wall_clock.n.01))
+Declaration(Class(:wall_unit.n.01))
+Declaration(Class(:wardrobe.n.01))
+Declaration(Class(:warplane.n.01))
+Declaration(Class(:warship.n.01))
+Declaration(Class(:warthog.n.01))
+Declaration(Class(:washbasin.n.02))
+Declaration(Class(:washer.n.03))
+Declaration(Class(:watch.n.01))
+Declaration(Class(:watchdog.n.02))
+Declaration(Class(:water_bottle.n.01))
+Declaration(Class(:water_buffalo.n.01))
+Declaration(Class(:water_jug.n.01))
+Declaration(Class(:water_ouzel.n.01))
+Declaration(Class(:water_snake.n.01))
+Declaration(Class(:water_spaniel.n.01))
+Declaration(Class(:water_tower.n.01))
+Declaration(Class(:waterfowl.n.01))
+Declaration(Class(:weapon.n.01))
+Declaration(Class(:web_site.n.01))
+Declaration(Class(:weevil.n.01))
+Declaration(Class(:weimaraner.n.01))
+Declaration(Class(:welsh_springer_spaniel.n.01))
+Declaration(Class(:welsh_terrier.n.01))
+Declaration(Class(:west_highland_white_terrier.n.01))
+Declaration(Class(:wheel.n.01))
+Declaration(Class(:wheeled_vehicle.n.01))
+Declaration(Class(:whippet.n.01))
+Declaration(Class(:whiptail.n.01))
+Declaration(Class(:whiskey_jug.n.01))
+Declaration(Class(:white_goods.n.01))
+Declaration(Class(:white_stork.n.01))
+Declaration(Class(:whole.n.02))
+Declaration(Class(:wild_boar.n.01))
+Declaration(Class(:wild_goat.n.01))
+Declaration(Class(:wild_sheep.n.01))
+Declaration(Class(:wildcat.n.03))
+Declaration(Class(:wind_instrument.n.01))
+Declaration(Class(:winder.n.03))
+Declaration(Class(:window_blind.n.01))
+Declaration(Class(:window_screen.n.01))
+Declaration(Class(:window_shade.n.01))
+Declaration(Class(:windsor_tie.n.01))
+Declaration(Class(:wine.n.01))
+Declaration(Class(:wine_bottle.n.01))
+Declaration(Class(:winter_squash.n.02))
+Declaration(Class(:wire-haired_fox_terrier.n.01))
+Declaration(Class(:wirehair.n.01))
+Declaration(Class(:wolfhound.n.01))
+Declaration(Class(:woodwind.n.01))
+Declaration(Class(:working_dog.n.01))
+Declaration(Class(:worm_fence.n.01))
+Declaration(Class(:wreck.n.04))
+Declaration(Class(:yawl.n.01))
+Declaration(Class(:yorkshire_terrier.n.01))
+Declaration(Class(:zebra.n.01))
+Declaration(Class(:zucchini.n.02))
+############################
+#   Classes
+############################
+
+# Class: :abacus.n.02 (:abacus.n.02)
+
+SubClassOf(:abacus.n.02 :calculator.n.02)
+
+# Class: :abaya.n.01 (:abaya.n.01)
+
+SubClassOf(:abaya.n.01 :robe.n.01)
+DisjointClasses(:abaya.n.01 :kimono.n.01)
+
+# Class: :accessory.n.01 (:accessory.n.01)
+
+SubClassOf(:accessory.n.01 :clothing.n.01)
+DisjointClasses(:accessory.n.01 :garment.n.01)
+
+# Class: :accordion.n.01 (:accordion.n.01)
+
+SubClassOf(:accordion.n.01 :free-reed_instrument.n.01)
+DisjointClasses(:accordion.n.01 :harmonica.n.01)
+
+# Class: :acorn_squash.n.02 (:acorn_squash.n.02)
+
+SubClassOf(:acorn_squash.n.02 :winter_squash.n.02)
+DisjointClasses(:acorn_squash.n.02 :butternut_squash.n.02)
+
+# Class: :acoustic_guitar.n.01 (:acoustic_guitar.n.01)
+
+SubClassOf(:acoustic_guitar.n.01 :guitar.n.01)
+DisjointClasses(:acoustic_guitar.n.01 :electric_guitar.n.01)
+
+# Class: :admiral.n.02 (:admiral.n.02)
+
+SubClassOf(:admiral.n.02 :nymphalid.n.01)
+
+# Class: :affenpinscher.n.01 (:affenpinscher.n.01)
+
+SubClassOf(:affenpinscher.n.01 :pinscher.n.01)
+
+# Class: :afghan_hound.n.01 (:afghan_hound.n.01)
+
+SubClassOf(:afghan_hound.n.01 :hound.n.01)
+
+# Class: :african_chameleon.n.01 (:african_chameleon.n.01)
+
+SubClassOf(:african_chameleon.n.01 :chameleon.n.03)
+
+# Class: :agama.n.01 (:agama.n.01)
+
+SubClassOf(:agama.n.01 :agamid.n.01)
+DisjointClasses(:agama.n.01 :frilled_lizard.n.01)
+
+# Class: :agamid.n.01 (:agamid.n.01)
+
+SubClassOf(:agamid.n.01 :lizard.n.01)
+
+# Class: :aircraft.n.01 (:aircraft.n.01)
+
+SubClassOf(:aircraft.n.01 :craft.n.02)
+
+# Class: :aircraft_carrier.n.01 (:aircraft_carrier.n.01)
+
+SubClassOf(:aircraft_carrier.n.01 :warship.n.01)
+DisjointClasses(:aircraft_carrier.n.01 :submersible.n.02)
+
+# Class: :airedale.n.01 (:airedale.n.01)
+
+SubClassOf(:airedale.n.01 :terrier.n.01)
+
+# Class: :airliner.n.01 (:airliner.n.01)
+
+SubClassOf(:airliner.n.01 :airplane.n.01)
+
+# Class: :airplane.n.01 (:airplane.n.01)
+
+SubClassOf(:airplane.n.01 :heavier-than-air_craft.n.01)
+DisjointClasses(:airplane.n.01 :warplane.n.01)
+
+# Class: :airship.n.01 (:airship.n.01)
+
+SubClassOf(:airship.n.01 :lighter-than-air_craft.n.01)
+DisjointClasses(:airship.n.01 :balloon.n.01)
+
+# Class: :albatross.n.02 (:albatross.n.02)
+
+SubClassOf(:albatross.n.02 :pelagic_bird.n.01)
+
+# Class: :alcohol.n.01 (:alcohol.n.01)
+
+SubClassOf(:alcohol.n.01 :beverage.n.01)
+DisjointClasses(:alcohol.n.01 :coffee.n.01)
+
+# Class: :alligator_lizard.n.01 (:alligator_lizard.n.01)
+
+SubClassOf(:alligator_lizard.n.01 :anguid_lizard.n.01)
+
+# Class: :alp.n.01 (:alp.n.01)
+
+SubClassOf(:alp.n.01 :mountain.n.01)
+DisjointClasses(:alp.n.01 :volcano.n.02)
+
+# Class: :ambulance.n.01 (:ambulance.n.01)
+
+SubClassOf(:ambulance.n.01 :car.n.01)
+
+# Class: :american_chameleon.n.01 (:american_chameleon.n.01)
+
+SubClassOf(:american_chameleon.n.01 :iguanid.n.01)
+DisjointClasses(:american_chameleon.n.01 :common_iguana.n.01)
+
+# Class: :american_coot.n.01 (:american_coot.n.01)
+
+SubClassOf(:american_coot.n.01 :coot.n.01)
+
+# Class: :american_egret.n.01 (:american_egret.n.01)
+
+SubClassOf(:american_egret.n.01 :egret.n.01)
+
+# Class: :american_staffordshire_terrier.n.01 (:american_staffordshire_terrier.n.01)
+
+SubClassOf(:american_staffordshire_terrier.n.01 :bullterrier.n.01)
+DisjointClasses(:american_staffordshire_terrier.n.01 :staffordshire_bullterrier.n.01)
+
+# Class: :amphibian.n.01 (:amphibian.n.01)
+
+SubClassOf(:amphibian.n.01 :motor_vehicle.n.01)
+
+# Class: :analog_clock.n.01 (:analog_clock.n.01)
+
+SubClassOf(:analog_clock.n.01 :clock.n.01)
+
+# Class: :analog_computer.n.01 (:analog_computer.n.01)
+
+SubClassOf(:analog_computer.n.01 :computer.n.01)
+
+# Class: :anemone_fish.n.01 (:anemone_fish.n.01)
+
+SubClassOf(:anemone_fish.n.01 :damselfish.n.01)
+
+# Class: :anguid_lizard.n.01 (:anguid_lizard.n.01)
+
+SubClassOf(:anguid_lizard.n.01 :lizard.n.01)
+
+# Class: :animal.n.01 (:animal.n.01)
+
+SubClassOf(:animal.n.01 :organism.n.01)
+
+# Class: :anseriform_bird.n.01 (:anseriform_bird.n.01)
+
+SubClassOf(:anseriform_bird.n.01 :waterfowl.n.01)
+
+# Class: :ant.n.01 (:ant.n.01)
+
+SubClassOf(:ant.n.01 :hymenopterous_insect.n.01)
+DisjointClasses(:ant.n.01 :bee.n.01)
+
+# Class: :antelope.n.01 (:antelope.n.01)
+
+SubClassOf(:antelope.n.01 :bovid.n.01)
+
+# Class: :anthropoid_ape.n.01 (:anthropoid_ape.n.01)
+
+SubClassOf(:anthropoid_ape.n.01 :ape.n.01)
+
+# Class: :ape.n.01 (:ape.n.01)
+
+SubClassOf(:ape.n.01 :primate.n.02)
+
+# Class: :apiary.n.01 (:apiary.n.01)
+
+SubClassOf(:apiary.n.01 :shed.n.01)
+DisjointClasses(:apiary.n.01 :boathouse.n.01)
+
+# Class: :appenzeller.n.01 (:appenzeller.n.01)
+
+SubClassOf(:appenzeller.n.01 :sennenhunde.n.01)
+
+# Class: :apple.n.01 (:apple.n.01)
+
+SubClassOf(:apple.n.01 :edible_fruit.n.01)
+
+# Class: :appliance.n.02 (:appliance.n.02)
+
+SubClassOf(:appliance.n.02 :durables.n.01)
+
+# Class: :aquatic_bird.n.01 (:aquatic_bird.n.01)
+
+SubClassOf(:aquatic_bird.n.01 :bird.n.01)
+DisjointClasses(:aquatic_bird.n.01 :passerine.n.01)
+
+# Class: :aquatic_vertebrate.n.01 (:aquatic_vertebrate.n.01)
+
+SubClassOf(:aquatic_vertebrate.n.01 :vertebrate.n.01)
+
+# Class: :arabian_camel.n.01 (:arabian_camel.n.01)
+
+SubClassOf(:arabian_camel.n.01 :camel.n.01)
+
+# Class: :armor.n.01 (:armor.n.01)
+
+SubClassOf(:armor.n.01 :protective_covering.n.01)
+
+# Class: :armor_plate.n.01 (:armor_plate.n.01)
+
+SubClassOf(:armor_plate.n.01 :plate.n.14)
+
+# Class: :arthropod.n.01 (:arthropod.n.01)
+
+SubClassOf(:arthropod.n.01 :invertebrate.n.01)
+
+# Class: :artichoke.n.02 (:artichoke.n.02)
+
+SubClassOf(:artichoke.n.02 :vegetable.n.01)
+
+# Class: :artifact.n.01 (:artifact.n.01)
+
+SubClassOf(:artifact.n.01 :whole.n.02)
+
+# Class: :assault_rifle.n.01 (:assault_rifle.n.01)
+
+SubClassOf(:assault_rifle.n.01 :automatic_rifle.n.01)
+
+# Class: :astronomical_telescope.n.01 (:astronomical_telescope.n.01)
+
+SubClassOf(:astronomical_telescope.n.01 :telescope.n.01)
+
+# Class: :audio_system.n.01 (:audio_system.n.01)
+
+SubClassOf(:audio_system.n.01 :electronic_equipment.n.01)
+
+# Class: :australian_terrier.n.01 (:australian_terrier.n.01)
+
+SubClassOf(:australian_terrier.n.01 :terrier.n.01)
+
+# Class: :autoloader.n.01 (:autoloader.n.01)
+
+SubClassOf(:autoloader.n.01 :firearm.n.01)
+
+# Class: :automatic_firearm.n.01 (:automatic_firearm.n.01)
+
+SubClassOf(:automatic_firearm.n.01 :autoloader.n.01)
+
+# Class: :automatic_rifle.n.01 (:automatic_rifle.n.01)
+
+SubClassOf(:automatic_rifle.n.01 :automatic_firearm.n.01)
+
+# Class: :ax.n.01 (:ax.n.01)
+
+SubClassOf(:ax.n.01 :edge_tool.n.01)
+
+# Class: :baboon.n.01 (:baboon.n.01)
+
+SubClassOf(:baboon.n.01 :old_world_monkey.n.01)
+
+# Class: :baby_bed.n.01 (:baby_bed.n.01)
+
+SubClassOf(:baby_bed.n.01 :furniture.n.01)
+
+# Class: :bakery.n.01 (:bakery.n.01)
+
+SubClassOf(:bakery.n.01 :shop.n.01)
+
+# Class: :ball.n.01 (:ball.n.01)
+
+SubClassOf(:ball.n.01 :game_equipment.n.01)
+DisjointClasses(:ball.n.01 :game.n.09)
+
+# Class: :balloon.n.01 (:balloon.n.01)
+
+SubClassOf(:balloon.n.01 :lighter-than-air_craft.n.01)
+
+# Class: :banana.n.02 (:banana.n.02)
+
+SubClassOf(:banana.n.02 :edible_fruit.n.01)
+
+# Class: :banded_gecko.n.01 (:banded_gecko.n.01)
+
+SubClassOf(:banded_gecko.n.01 :gecko.n.01)
+
+# Class: :banjo.n.01 (:banjo.n.01)
+
+SubClassOf(:banjo.n.01 :stringed_instrument.n.01)
+
+# Class: :bannister.n.02 (:bannister.n.02)
+
+SubClassOf(:bannister.n.02 :barrier.n.01)
+
+# Class: :bar.n.08 (:bar.n.08)
+
+SubClassOf(:bar.n.08 :barrier.n.03)
+
+# Class: :barber_chair.n.01 (:barber_chair.n.01)
+
+SubClassOf(:barber_chair.n.01 :chair.n.01)
+
+# Class: :barbershop.n.01 (:barbershop.n.01)
+
+SubClassOf(:barbershop.n.01 :shop.n.01)
+
+# Class: :barn.n.01 (:barn.n.01)
+
+SubClassOf(:barn.n.01 :farm_building.n.01)
+
+# Class: :barometer.n.01 (:barometer.n.01)
+
+SubClassOf(:barometer.n.01 :measuring_instrument.n.01)
+
+# Class: :barracouta.n.01 (:barracouta.n.01)
+
+SubClassOf(:barracouta.n.01 :food_fish.n.01)
+DisjointClasses(:barracouta.n.01 :salmon.n.01)
+
+# Class: :barrel.n.02 (:barrel.n.02)
+
+SubClassOf(:barrel.n.02 :vessel.n.03)
+
+# Class: :barrier.n.01 (:barrier.n.01)
+
+SubClassOf(:barrier.n.01 :obstruction.n.01)
+
+# Class: :barrier.n.03 (:barrier.n.03)
+
+SubClassOf(:barrier.n.03 :mechanism.n.03)
+
+# Class: :baseball.n.02 (:baseball.n.02)
+
+SubClassOf(:baseball.n.02 :ball.n.01)
+
+# Class: :basin.n.01 (:basin.n.01)
+
+SubClassOf(:basin.n.01 :vessel.n.03)
+
+# Class: :basketball.n.02 (:basketball.n.02)
+
+SubClassOf(:basketball.n.02 :ball.n.01)
+
+# Class: :basset.n.01 (:basset.n.01)
+
+SubClassOf(:basset.n.01 :hound.n.01)
+
+# Class: :bassinet.n.01 (:bassinet.n.01)
+
+SubClassOf(:bassinet.n.01 :baby_bed.n.01)
+
+# Class: :bassoon.n.01 (:bassoon.n.01)
+
+SubClassOf(:bassoon.n.01 :double-reed_instrument.n.01)
+DisjointClasses(:bassoon.n.01 :oboe.n.01)
+
+# Class: :bathtub.n.01 (:bathtub.n.01)
+
+SubClassOf(:bathtub.n.01 :vessel.n.03)
+
+# Class: :beach_wagon.n.01 (:beach_wagon.n.01)
+
+SubClassOf(:beach_wagon.n.01 :car.n.01)
+
+# Class: :beagle.n.01 (:beagle.n.01)
+
+SubClassOf(:beagle.n.01 :hound.n.01)
+
+# Class: :beaker.n.01 (:beaker.n.01)
+
+SubClassOf(:beaker.n.01 :jar.n.01)
+DisjointClasses(:beaker.n.01 :vase.n.01)
+
+# Class: :beating-reed_instrument.n.01 (:beating-reed_instrument.n.01)
+
+SubClassOf(:beating-reed_instrument.n.01 :woodwind.n.01)
+DisjointClasses(:beating-reed_instrument.n.01 :flute.n.01)
+
+# Class: :bed.n.01 (:bed.n.01)
+
+SubClassOf(:bed.n.01 :bedroom_furniture.n.01)
+
+# Class: :bedlington_terrier.n.01 (:bedlington_terrier.n.01)
+
+SubClassOf(:bedlington_terrier.n.01 :terrier.n.01)
+
+# Class: :bedroom_furniture.n.01 (:bedroom_furniture.n.01)
+
+SubClassOf(:bedroom_furniture.n.01 :furniture.n.01)
+
+# Class: :bee.n.01 (:bee.n.01)
+
+SubClassOf(:bee.n.01 :hymenopterous_insect.n.01)
+
+# Class: :beer_bottle.n.01 (:beer_bottle.n.01)
+
+SubClassOf(:beer_bottle.n.01 :bottle.n.01)
+
+# Class: :beetle.n.01 (:beetle.n.01)
+
+SubClassOf(:beetle.n.01 :insect.n.01)
+
+# Class: :belgian_sheepdog.n.01 (:belgian_sheepdog.n.01)
+
+SubClassOf(:belgian_sheepdog.n.01 :shepherd_dog.n.01)
+
+# Class: :bell_cote.n.01 (:bell_cote.n.01)
+
+SubClassOf(:bell_cote.n.01 :shelter.n.02)
+
+# Class: :bell_pepper.n.02 (:bell_pepper.n.02)
+
+SubClassOf(:bell_pepper.n.02 :sweet_pepper.n.02)
+
+# Class: :belt.n.02 (:belt.n.02)
+
+SubClassOf(:belt.n.02 :accessory.n.01)
+
+# Class: :bench.n.01 (:bench.n.01)
+
+SubClassOf(:bench.n.01 :seat.n.03)
+
+# Class: :bernese_mountain_dog.n.01 (:bernese_mountain_dog.n.01)
+
+SubClassOf(:bernese_mountain_dog.n.01 :sennenhunde.n.01)
+
+# Class: :berry.n.01 (:berry.n.01)
+
+SubClassOf(:berry.n.01 :edible_fruit.n.01)
+
+# Class: :beverage.n.01 (:beverage.n.01)
+
+SubClassOf(:beverage.n.01 :food.n.01)
+
+# Class: :big_cat.n.01 (:big_cat.n.01)
+
+SubClassOf(:big_cat.n.01 :feline.n.01)
+DisjointClasses(:big_cat.n.01 :cat.n.01)
+
+# Class: :bighorn.n.02 (:bighorn.n.02)
+
+SubClassOf(:bighorn.n.02 :mountain_sheep.n.01)
+
+# Class: :bikini.n.02 (:bikini.n.02)
+
+SubClassOf(:bikini.n.02 :swimsuit.n.01)
+
+# Class: :binder.n.03 (:binder.n.03)
+
+SubClassOf(:binder.n.03 :protective_covering.n.01)
+
+# Class: :binoculars.n.01 (:binoculars.n.01)
+
+SubClassOf(:binoculars.n.01 :optical_instrument.n.01)
+
+# Class: :bird.n.01 (:bird.n.01)
+
+SubClassOf(:bird.n.01 :vertebrate.n.01)
+
+# Class: :birdhouse.n.01 (:birdhouse.n.01)
+
+SubClassOf(:birdhouse.n.01 :shelter.n.02)
+
+# Class: :bison.n.01 (:bison.n.01)
+
+SubClassOf(:bison.n.01 :bovid.n.01)
+
+# Class: :bittern.n.01 (:bittern.n.01)
+
+SubClassOf(:bittern.n.01 :heron.n.02)
+
+# Class: :black-and-tan_coonhound.n.01 (:black-and-tan_coonhound.n.01)
+
+SubClassOf(:black-and-tan_coonhound.n.01 :coonhound.n.01)
+
+# Class: :black_mamba.n.01 (:black_mamba.n.01)
+
+SubClassOf(:black_mamba.n.01 :mamba.n.01)
+
+# Class: :black_stork.n.01 (:black_stork.n.01)
+
+SubClassOf(:black_stork.n.01 :stork.n.01)
+DisjointClasses(:black_stork.n.01 :white_stork.n.01)
+
+# Class: :black_swan.n.01 (:black_swan.n.01)
+
+SubClassOf(:black_swan.n.01 :swan.n.01)
+
+# Class: :blind.n.03 (:blind.n.03)
+
+SubClassOf(:blind.n.03 :protective_covering.n.01)
+
+# Class: :bloodhound.n.01 (:bloodhound.n.01)
+
+SubClassOf(:bloodhound.n.01 :hound.n.01)
+
+# Class: :blower.n.01 (:blower.n.01)
+
+SubClassOf(:blower.n.01 :device.n.01)
+
+# Class: :bluetick.n.01 (:bluetick.n.01)
+
+SubClassOf(:bluetick.n.01 :hound.n.01)
+
+# Class: :boa.n.02 (:boa.n.02)
+
+SubClassOf(:boa.n.02 :constrictor.n.01)
+
+# Class: :boa_constrictor.n.01 (:boa_constrictor.n.01)
+
+SubClassOf(:boa_constrictor.n.01 :boa.n.02)
+DisjointClasses(:boa_constrictor.n.01 :python.n.01)
+
+# Class: :boat.n.01 (:boat.n.01)
+
+SubClassOf(:boat.n.01 :vessel.n.02)
+
+# Class: :boathouse.n.01 (:boathouse.n.01)
+
+SubClassOf(:boathouse.n.01 :shed.n.01)
+
+# Class: :body_armor.n.01 (:body_armor.n.01)
+
+SubClassOf(:body_armor.n.01 :armor.n.01)
+DisjointClasses(:body_armor.n.01 :shield.n.02)
+
+# Class: :bolo_tie.n.01 (:bolo_tie.n.01)
+
+SubClassOf(:bolo_tie.n.01 :necktie.n.01)
+
+# Class: :bony_fish.n.01 (:bony_fish.n.01)
+
+SubClassOf(:bony_fish.n.01 :fish.n.01)
+
+# Class: :bookcase.n.01 (:bookcase.n.01)
+
+SubClassOf(:bookcase.n.01 :furniture.n.01)
+
+# Class: :bookshop.n.01 (:bookshop.n.01)
+
+SubClassOf(:bookshop.n.01 :shop.n.01)
+
+# Class: :border_collie.n.01 (:border_collie.n.01)
+
+SubClassOf(:border_collie.n.01 :shepherd_dog.n.01)
+
+# Class: :border_terrier.n.01 (:border_terrier.n.01)
+
+SubClassOf(:border_terrier.n.01 :terrier.n.01)
+
+# Class: :borzoi.n.01 (:borzoi.n.01)
+
+SubClassOf(:borzoi.n.01 :wolfhound.n.01)
+DisjointClasses(:borzoi.n.01 :irish_wolfhound.n.01)
+
+# Class: :boston_bull.n.01 (:boston_bull.n.01)
+
+SubClassOf(:boston_bull.n.01 :terrier.n.01)
+
+# Class: :bottle.n.01 (:bottle.n.01)
+
+SubClassOf(:bottle.n.01 :vessel.n.03)
+
+# Class: :bottle_opener.n.01 (:bottle_opener.n.01)
+
+SubClassOf(:bottle_opener.n.01 :opener.n.03)
+DisjointClasses(:bottle_opener.n.01 :can_opener.n.01)
+
+# Class: :bouvier_des_flandres.n.01 (:bouvier_des_flandres.n.01)
+
+SubClassOf(:bouvier_des_flandres.n.01 :shepherd_dog.n.01)
+
+# Class: :bovid.n.01 (:bovid.n.01)
+
+SubClassOf(:bovid.n.01 :ruminant.n.01)
+
+# Class: :bovine.n.01 (:bovine.n.01)
+
+SubClassOf(:bovine.n.01 :bovid.n.01)
+
+# Class: :bow.n.04 (:bow.n.04)
+
+SubClassOf(:bow.n.04 :weapon.n.01)
+
+# Class: :bow_tie.n.01 (:bow_tie.n.01)
+
+SubClassOf(:bow_tie.n.01 :necktie.n.01)
+
+# Class: :bowed_stringed_instrument.n.01 (:bowed_stringed_instrument.n.01)
+
+SubClassOf(:bowed_stringed_instrument.n.01 :stringed_instrument.n.01)
+
+# Class: :boxer.n.04 (:boxer.n.04)
+
+SubClassOf(:boxer.n.04 :working_dog.n.01)
+
+# Class: :brake.n.01 (:brake.n.01)
+
+SubClassOf(:brake.n.01 :restraint.n.06)
+
+# Class: :brake_system.n.01 (:brake_system.n.01)
+
+SubClassOf(:brake_system.n.01 :brake.n.01)
+
+# Class: :brambling.n.01 (:brambling.n.01)
+
+SubClassOf(:brambling.n.01 :finch.n.01)
+
+# Class: :brass.n.02 (:brass.n.02)
+
+SubClassOf(:brass.n.02 :wind_instrument.n.01)
+
+# Class: :brassiere.n.01 (:brassiere.n.01)
+
+SubClassOf(:brassiere.n.01 :undergarment.n.01)
+
+# Class: :breakwater.n.01 (:breakwater.n.01)
+
+SubClassOf(:breakwater.n.01 :barrier.n.01)
+
+# Class: :breastplate.n.01 (:breastplate.n.01)
+
+SubClassOf(:breastplate.n.01 :armor_plate.n.01)
+DisjointClasses(:breastplate.n.01 :helmet.n.01)
+
+# Class: :briard.n.01 (:briard.n.01)
+
+SubClassOf(:briard.n.01 :shepherd_dog.n.01)
+
+# Class: :brittany_spaniel.n.01 (:brittany_spaniel.n.01)
+
+SubClassOf(:brittany_spaniel.n.01 :spaniel.n.01)
+
+# Class: :broccoli.n.02 (:broccoli.n.02)
+
+SubClassOf(:broccoli.n.02 :cruciferous_vegetable.n.01)
+
+# Class: :bucket.n.01 (:bucket.n.01)
+
+SubClassOf(:bucket.n.01 :vessel.n.03)
+
+# Class: :buckle.n.01 (:buckle.n.01)
+
+SubClassOf(:buckle.n.01 :fastener.n.02)
+
+# Class: :building.n.01 (:building.n.01)
+
+SubClassOf(:building.n.01 :structure.n.01)
+
+# Class: :bulbul.n.01 (:bulbul.n.01)
+
+SubClassOf(:bulbul.n.01 :nightingale.n.01)
+
+# Class: :bull_mastiff.n.01 (:bull_mastiff.n.01)
+
+SubClassOf(:bull_mastiff.n.01 :working_dog.n.01)
+
+# Class: :bulldog.n.01 (:bulldog.n.01)
+
+SubClassOf(:bulldog.n.01 :working_dog.n.01)
+
+# Class: :bullterrier.n.01 (:bullterrier.n.01)
+
+SubClassOf(:bullterrier.n.01 :terrier.n.01)
+
+# Class: :bunting.n.02 (:bunting.n.02)
+
+SubClassOf(:bunting.n.02 :finch.n.01)
+
+# Class: :burrito.n.01 (:burrito.n.01)
+
+SubClassOf(:burrito.n.01 :dish.n.02)
+
+# Class: :bustard.n.01 (:bustard.n.01)
+
+SubClassOf(:bustard.n.01 :wading_bird.n.01)
+
+# Class: :butcher_shop.n.01 (:butcher_shop.n.01)
+
+SubClassOf(:butcher_shop.n.01 :shop.n.01)
+
+# Class: :butterfly.n.01 (:butterfly.n.01)
+
+SubClassOf(:butterfly.n.01 :lepidopterous_insect.n.01)
+
+# Class: :butterfly_fish.n.01 (:butterfly_fish.n.01)
+
+SubClassOf(:butterfly_fish.n.01 :percoid_fish.n.01)
+DisjointClasses(:butterfly_fish.n.01 :damselfish.n.01)
+
+# Class: :butternut_squash.n.02 (:butternut_squash.n.02)
+
+SubClassOf(:butternut_squash.n.02 :winter_squash.n.02)
+
+# Class: :cab.n.03 (:cab.n.03)
+
+SubClassOf(:cab.n.03 :car.n.01)
+
+# Class: :cabbage.n.01 (:cabbage.n.01)
+
+SubClassOf(:cabbage.n.01 :cruciferous_vegetable.n.01)
+
+# Class: :cabbage_butterfly.n.01 (:cabbage_butterfly.n.01)
+
+SubClassOf(:cabbage_butterfly.n.01 :pierid.n.01)
+
+# Class: :cabinet.n.01 (:cabinet.n.01)
+
+SubClassOf(:cabinet.n.01 :furniture.n.01)
+
+# Class: :cairn.n.02 (:cairn.n.02)
+
+SubClassOf(:cairn.n.02 :terrier.n.01)
+
+# Class: :calculator.n.02 (:calculator.n.02)
+
+SubClassOf(:calculator.n.02 :machine.n.01)
+
+# Class: :caldron.n.01 (:caldron.n.01)
+
+SubClassOf(:caldron.n.01 :pot.n.01)
+
+# Class: :camel.n.01 (:camel.n.01)
+
+SubClassOf(:camel.n.01 :even-toed_ungulate.n.01)
+
+# Class: :can_opener.n.01 (:can_opener.n.01)
+
+SubClassOf(:can_opener.n.01 :opener.n.03)
+
+# Class: :canine.n.02 (:canine.n.02)
+
+SubClassOf(:canine.n.02 :carnivore.n.01)
+DisjointClasses(:canine.n.02 :feline.n.01)
+
+# Class: :cannon.n.02 (:cannon.n.02)
+
+SubClassOf(:cannon.n.02 :gun.n.01)
+DisjointClasses(:cannon.n.02 :firearm.n.01)
+
+# Class: :canoe.n.01 (:canoe.n.01)
+
+SubClassOf(:canoe.n.01 :small_boat.n.01)
+DisjointClasses(:canoe.n.01 :yawl.n.01)
+
+# Class: :canopy.n.03 (:canopy.n.03)
+
+SubClassOf(:canopy.n.03 :shelter.n.02)
+
+# Class: :cap.n.04 (:cap.n.04)
+
+SubClassOf(:cap.n.04 :protective_covering.n.01)
+
+# Class: :capuchin.n.02 (:capuchin.n.02)
+
+SubClassOf(:capuchin.n.02 :new_world_monkey.n.01)
+
+# Class: :car.n.01 (:car.n.01)
+
+SubClassOf(:car.n.01 :motor_vehicle.n.01)
+
+# Class: :car_wheel.n.01 (:car_wheel.n.01)
+
+SubClassOf(:car_wheel.n.01 :wheel.n.01)
+
+# Class: :carbonara.n.01 (:carbonara.n.01)
+
+SubClassOf(:carbonara.n.01 :spaghetti_sauce.n.01)
+
+# Class: :cardigan.n.01 (:cardigan.n.01)
+
+SubClassOf(:cardigan.n.01 :sweater.n.01)
+DisjointClasses(:cardigan.n.01 :pullover.n.01)
+
+# Class: :cardoon.n.02 (:cardoon.n.02)
+
+SubClassOf(:cardoon.n.02 :vegetable.n.01)
+
+# Class: :cargo_ship.n.01 (:cargo_ship.n.01)
+
+SubClassOf(:cargo_ship.n.01 :ship.n.01)
+
+# Class: :carnivore.n.01 (:carnivore.n.01)
+
+SubClassOf(:carnivore.n.01 :placental.n.01)
+
+# Class: :carousel.n.02 (:carousel.n.02)
+
+SubClassOf(:carousel.n.02 :ride.n.02)
+
+# Class: :cartilaginous_fish.n.01 (:cartilaginous_fish.n.01)
+
+SubClassOf(:cartilaginous_fish.n.01 :fish.n.01)
+
+# Class: :cash_machine.n.01 (:cash_machine.n.01)
+
+SubClassOf(:cash_machine.n.01 :machine.n.01)
+
+# Class: :cassette_player.n.01 (:cassette_player.n.01)
+
+SubClassOf(:cassette_player.n.01 :electronic_equipment.n.01)
+
+# Class: :cat.n.01 (:cat.n.01)
+
+SubClassOf(:cat.n.01 :feline.n.01)
+
+# Class: :catamaran.n.01 (:catamaran.n.01)
+
+SubClassOf(:catamaran.n.01 :sailboat.n.01)
+DisjointClasses(:catamaran.n.01 :trimaran.n.01)
+
+# Class: :cattle.n.01 (:cattle.n.01)
+
+SubClassOf(:cattle.n.01 :bovine.n.01)
+
+# Class: :cauliflower.n.02 (:cauliflower.n.02)
+
+SubClassOf(:cauliflower.n.02 :cruciferous_vegetable.n.01)
+
+# Class: :cd_player.n.01 (:cd_player.n.01)
+
+SubClassOf(:cd_player.n.01 :electronic_equipment.n.01)
+
+# Class: :cello.n.01 (:cello.n.01)
+
+SubClassOf(:cello.n.01 :bowed_stringed_instrument.n.01)
+DisjointClasses(:cello.n.01 :violin.n.01)
+
+# Class: :cellular_telephone.n.01 (:cellular_telephone.n.01)
+
+SubClassOf(:cellular_telephone.n.01 :radiotelephone.n.02)
+
+# Class: :chain_mail.n.01 (:chain_mail.n.01)
+
+SubClassOf(:chain_mail.n.01 :body_armor.n.01)
+DisjointClasses(:chain_mail.n.01 :cuirass.n.01)
+
+# Class: :chainlink_fence.n.01 (:chainlink_fence.n.01)
+
+SubClassOf(:chainlink_fence.n.01 :fence.n.01)
+
+# Class: :chair.n.01 (:chair.n.01)
+
+SubClassOf(:chair.n.01 :seat.n.03)
+
+# Class: :chair_of_state.n.01 (:chair_of_state.n.01)
+
+SubClassOf(:chair_of_state.n.01 :chair.n.01)
+
+# Class: :chameleon.n.03 (:chameleon.n.03)
+
+SubClassOf(:chameleon.n.03 :lizard.n.01)
+
+# Class: :cheeseburger.n.01 (:cheeseburger.n.01)
+
+SubClassOf(:cheeseburger.n.01 :hamburger.n.01)
+
+# Class: :cheetah.n.01 (:cheetah.n.01)
+
+SubClassOf(:cheetah.n.01 :big_cat.n.01)
+
+# Class: :chesapeake_bay_retriever.n.01 (:chesapeake_bay_retriever.n.01)
+
+SubClassOf(:chesapeake_bay_retriever.n.01 :retriever.n.01)
+
+# Class: :chest_of_drawers.n.01 (:chest_of_drawers.n.01)
+
+SubClassOf(:chest_of_drawers.n.01 :furniture.n.01)
+
+# Class: :chickadee.n.01 (:chickadee.n.01)
+
+SubClassOf(:chickadee.n.01 :titmouse.n.01)
+
+# Class: :chiffonier.n.01 (:chiffonier.n.01)
+
+SubClassOf(:chiffonier.n.01 :chest_of_drawers.n.01)
+
+# Class: :chime.n.01 (:chime.n.01)
+
+SubClassOf(:chime.n.01 :percussion_instrument.n.01)
+
+# Class: :chimpanzee.n.01 (:chimpanzee.n.01)
+
+SubClassOf(:chimpanzee.n.01 :great_ape.n.01)
+
+# Class: :china_cabinet.n.01 (:china_cabinet.n.01)
+
+SubClassOf(:china_cabinet.n.01 :cabinet.n.01)
+DisjointClasses(:china_cabinet.n.01 :medicine_chest.n.01)
+
+# Class: :chocolate_sauce.n.01 (:chocolate_sauce.n.01)
+
+SubClassOf(:chocolate_sauce.n.01 :sauce.n.01)
+DisjointClasses(:chocolate_sauce.n.01 :spaghetti_sauce.n.01)
+
+# Class: :chordate.n.01 (:chordate.n.01)
+
+SubClassOf(:chordate.n.01 :animal.n.01)
+DisjointClasses(:chordate.n.01 :invertebrate.n.01)
+
+# Class: :chordophone.n.01 (:chordophone.n.01)
+
+SubClassOf(:chordophone.n.01 :stringed_instrument.n.01)
+
+# Class: :church.n.02 (:church.n.02)
+
+SubClassOf(:church.n.02 :place_of_worship.n.01)
+
+# Class: :cicada.n.01 (:cicada.n.01)
+
+SubClassOf(:cicada.n.01 :homopterous_insect.n.01)
+DisjointClasses(:cicada.n.01 :leafhopper.n.01)
+
+# Class: :cinema.n.02 (:cinema.n.02)
+
+SubClassOf(:cinema.n.02 :theater.n.01)
+DisjointClasses(:cinema.n.02 :home_theater.n.01)
+
+# Class: :circle.n.08 (:circle.n.08)
+
+SubClassOf(:circle.n.08 :rotating_mechanism.n.01)
+
+# Class: :cistern.n.03 (:cistern.n.03)
+
+SubClassOf(:cistern.n.03 :pool.n.01)
+
+# Class: :citrus.n.01 (:citrus.n.01)
+
+SubClassOf(:citrus.n.01 :edible_fruit.n.01)
+
+# Class: :cleaver.n.01 (:cleaver.n.01)
+
+SubClassOf(:cleaver.n.01 :knife.n.01)
+DisjointClasses(:cleaver.n.01 :letter_opener.n.01)
+
+# Class: :cliff.n.01 (:cliff.n.01)
+
+SubClassOf(:cliff.n.01 :geological_formation.n.01)
+
+# Class: :clip.n.03 (:clip.n.03)
+
+SubClassOf(:clip.n.03 :fastener.n.02)
+
+# Class: :cloak.n.02 (:cloak.n.02)
+
+SubClassOf(:cloak.n.02 :overgarment.n.01)
+DisjointClasses(:cloak.n.02 :coat.n.01)
+
+# Class: :clock.n.01 (:clock.n.01)
+
+SubClassOf(:clock.n.01 :timepiece.n.01)
+
+# Class: :clothing.n.01 (:clothing.n.01)
+
+SubClassOf(:clothing.n.01 :consumer_goods.n.01)
+DisjointClasses(:clothing.n.01 :durables.n.01)
+
+# Class: :clumber.n.01 (:clumber.n.01)
+
+SubClassOf(:clumber.n.01 :spaniel.n.01)
+
+# Class: :coat.n.01 (:coat.n.01)
+
+SubClassOf(:coat.n.01 :overgarment.n.01)
+
+# Class: :cobra.n.01 (:cobra.n.01)
+
+SubClassOf(:cobra.n.01 :elapid.n.01)
+DisjointClasses(:cobra.n.01 :mamba.n.01)
+
+# Class: :cocker_spaniel.n.01 (:cocker_spaniel.n.01)
+
+SubClassOf(:cocker_spaniel.n.01 :spaniel.n.01)
+
+# Class: :cockroach.n.01 (:cockroach.n.01)
+
+SubClassOf(:cockroach.n.01 :dictyopterous_insect.n.01)
+DisjointClasses(:cockroach.n.01 :mantis.n.01)
+
+# Class: :coffee.n.01 (:coffee.n.01)
+
+SubClassOf(:coffee.n.01 :beverage.n.01)
+
+# Class: :coffee_maker.n.01 (:coffee_maker.n.01)
+
+SubClassOf(:coffee_maker.n.01 :kitchen_appliance.n.01)
+
+# Class: :coffee_mug.n.01 (:coffee_mug.n.01)
+
+SubClassOf(:coffee_mug.n.01 :mug.n.04)
+
+# Class: :coffeepot.n.01 (:coffeepot.n.01)
+
+SubClassOf(:coffeepot.n.01 :pot.n.01)
+
+# Class: :coho.n.02 (:coho.n.02)
+
+SubClassOf(:coho.n.02 :salmon.n.01)
+
+# Class: :collie.n.01 (:collie.n.01)
+
+SubClassOf(:collie.n.01 :shepherd_dog.n.01)
+
+# Class: :colobus.n.01 (:colobus.n.01)
+
+SubClassOf(:colobus.n.01 :old_world_monkey.n.01)
+
+# Class: :colubrid_snake.n.01 (:colubrid_snake.n.01)
+
+SubClassOf(:colubrid_snake.n.01 :snake.n.01)
+
+# Class: :combination_lock.n.01 (:combination_lock.n.01)
+
+SubClassOf(:combination_lock.n.01 :lock.n.01)
+DisjointClasses(:combination_lock.n.01 :padlock.n.01)
+
+# Class: :commodity.n.01 (:commodity.n.01)
+
+SubClassOf(:commodity.n.01 :artifact.n.01)
+
+# Class: :common_iguana.n.01 (:common_iguana.n.01)
+
+SubClassOf(:common_iguana.n.01 :iguanid.n.01)
+
+# Class: :compass.n.01 (:compass.n.01)
+
+SubClassOf(:compass.n.01 :navigational_instrument.n.01)
+
+# Class: :computer.n.01 (:computer.n.01)
+
+SubClassOf(:computer.n.01 :machine.n.01)
+
+# Class: :computer_keyboard.n.01 (:computer_keyboard.n.01)
+
+SubClassOf(:computer_keyboard.n.01 :data_input_device.n.01)
+
+# Class: :concoction.n.01 (:concoction.n.01)
+
+SubClassOf(:concoction.n.01 :foodstuff.n.02)
+DisjointClasses(:concoction.n.01 :ingredient.n.03)
+
+# Class: :condiment.n.01 (:condiment.n.01)
+
+SubClassOf(:condiment.n.01 :flavorer.n.01)
+
+# Class: :confectionery.n.02 (:confectionery.n.02)
+
+SubClassOf(:confectionery.n.02 :shop.n.01)
+
+# Class: :consomme.n.01 (:consomme.n.01)
+
+SubClassOf(:consomme.n.01 :soup.n.01)
+
+# Class: :constrictor.n.01 (:constrictor.n.01)
+
+SubClassOf(:constrictor.n.01 :snake.n.01)
+
+# Class: :consumer_goods.n.01 (:consumer_goods.n.01)
+
+SubClassOf(:consumer_goods.n.01 :commodity.n.01)
+
+# Class: :container.n.01 (:container.n.01)
+
+SubClassOf(:container.n.01 :instrumentality.n.03)
+
+# Class: :container_ship.n.01 (:container_ship.n.01)
+
+SubClassOf(:container_ship.n.01 :cargo_ship.n.01)
+
+# Class: :control.n.09 (:control.n.09)
+
+SubClassOf(:control.n.09 :mechanism.n.05)
+
+# Class: :convertible.n.01 (:convertible.n.01)
+
+SubClassOf(:convertible.n.01 :car.n.01)
+
+# Class: :convertible.n.03 (:convertible.n.03)
+
+SubClassOf(:convertible.n.03 :sofa.n.01)
+
+# Class: :conveyance.n.03 (:conveyance.n.03)
+
+SubClassOf(:conveyance.n.03 :instrumentality.n.03)
+
+# Class: :cooking_utensil.n.01 (:cooking_utensil.n.01)
+
+SubClassOf(:cooking_utensil.n.01 :kitchen_utensil.n.01)
+
+# Class: :coonhound.n.01 (:coonhound.n.01)
+
+SubClassOf(:coonhound.n.01 :hound.n.01)
+
+# Class: :coot.n.01 (:coot.n.01)
+
+SubClassOf(:coot.n.01 :rail.n.05)
+
+# Class: :coral_reef.n.01 (:coral_reef.n.01)
+
+SubClassOf(:coral_reef.n.01 :reef.n.01)
+
+# Class: :corkscrew.n.01 (:corkscrew.n.01)
+
+SubClassOf(:corkscrew.n.01 :bottle_opener.n.01)
+
+# Class: :cornet.n.01 (:cornet.n.01)
+
+SubClassOf(:cornet.n.01 :brass.n.02)
+
+# Class: :correctional_institution.n.01 (:correctional_institution.n.01)
+
+SubClassOf(:correctional_institution.n.01 :penal_institution.n.01)
+
+# Class: :corvine_bird.n.01 (:corvine_bird.n.01)
+
+SubClassOf(:corvine_bird.n.01 :oscine.n.01)
+
+# Class: :cosmetic.n.01 (:cosmetic.n.01)
+
+SubClassOf(:cosmetic.n.01 :toiletry.n.01)
+
+# Class: :cougar.n.01 (:cougar.n.01)
+
+SubClassOf(:cougar.n.01 :wildcat.n.03)
+DisjointClasses(:cougar.n.01 :lynx.n.02)
+
+# Class: :course.n.07 (:course.n.07)
+
+SubClassOf(:course.n.07 :nutriment.n.01)
+DisjointClasses(:course.n.07 :dish.n.02)
+
+# Class: :covering.n.02 (:covering.n.02)
+
+SubClassOf(:covering.n.02 :artifact.n.01)
+
+# Class: :cradle.n.01 (:cradle.n.01)
+
+SubClassOf(:cradle.n.01 :baby_bed.n.01)
+
+# Class: :craft.n.02 (:craft.n.02)
+
+SubClassOf(:craft.n.02 :vehicle.n.01)
+
+# Class: :crane.n.05 (:crane.n.05)
+
+SubClassOf(:crane.n.05 :wading_bird.n.01)
+
+# Class: :crib.n.01 (:crib.n.01)
+
+SubClassOf(:crib.n.01 :baby_bed.n.01)
+
+# Class: :cricket.n.01 (:cricket.n.01)
+
+SubClassOf(:cricket.n.01 :orthopterous_insect.n.01)
+DisjointClasses(:cricket.n.01 :grasshopper.n.01)
+
+# Class: :croquet_ball.n.01 (:croquet_ball.n.01)
+
+SubClassOf(:croquet_ball.n.01 :ball.n.01)
+
+# Class: :crossword_puzzle.n.01 (:crossword_puzzle.n.01)
+
+SubClassOf(:crossword_puzzle.n.01 :puzzle.n.02)
+DisjointClasses(:crossword_puzzle.n.01 :jigsaw_puzzle.n.01)
+
+# Class: :cruciferous_vegetable.n.01 (:cruciferous_vegetable.n.01)
+
+SubClassOf(:cruciferous_vegetable.n.01 :vegetable.n.01)
+
+# Class: :cucumber.n.02 (:cucumber.n.02)
+
+SubClassOf(:cucumber.n.02 :vegetable.n.01)
+
+# Class: :cuirass.n.01 (:cuirass.n.01)
+
+SubClassOf(:cuirass.n.01 :body_armor.n.01)
+
+# Class: :cup.n.06 (:cup.n.06)
+
+SubClassOf(:cup.n.06 :punch.n.02)
+DisjointClasses(:cup.n.06 :eggnog.n.01)
+
+# Class: :curly-coated_retriever.n.01 (:curly-coated_retriever.n.01)
+
+SubClassOf(:curly-coated_retriever.n.01 :retriever.n.01)
+
+# Class: :custard_apple.n.02 (:custard_apple.n.02)
+
+SubClassOf(:custard_apple.n.02 :edible_fruit.n.01)
+
+# Class: :cutter.n.06 (:cutter.n.06)
+
+SubClassOf(:cutter.n.06 :cutting_implement.n.01)
+
+# Class: :cutting_implement.n.01 (:cutting_implement.n.01)
+
+SubClassOf(:cutting_implement.n.01 :tool.n.01)
+
+# Class: :cyprinid.n.01 (:cyprinid.n.01)
+
+SubClassOf(:cyprinid.n.01 :cypriniform_fish.n.01)
+
+# Class: :cypriniform_fish.n.01 (:cypriniform_fish.n.01)
+
+SubClassOf(:cypriniform_fish.n.01 :soft-finned_fish.n.01)
+DisjointClasses(:cypriniform_fish.n.01 :eel.n.02)
+
+# Class: :dam.n.01 (:dam.n.01)
+
+SubClassOf(:dam.n.01 :barrier.n.01)
+
+# Class: :damselfish.n.01 (:damselfish.n.01)
+
+SubClassOf(:damselfish.n.01 :percoid_fish.n.01)
+
+# Class: :damselfly.n.01 (:damselfly.n.01)
+
+SubClassOf(:damselfly.n.01 :odonate.n.01)
+DisjointClasses(:damselfly.n.01 :dragonfly.n.01)
+
+# Class: :danaid.n.01 (:danaid.n.01)
+
+SubClassOf(:danaid.n.01 :butterfly.n.01)
+
+# Class: :dandie_dinmont.n.01 (:dandie_dinmont.n.01)
+
+SubClassOf(:dandie_dinmont.n.01 :terrier.n.01)
+
+# Class: :data_input_device.n.01 (:data_input_device.n.01)
+
+SubClassOf(:data_input_device.n.01 :peripheral.n.01)
+
+# Class: :desk.n.01 (:desk.n.01)
+
+SubClassOf(:desk.n.01 :table.n.02)
+
+# Class: :desktop_computer.n.01 (:desktop_computer.n.01)
+
+SubClassOf(:desktop_computer.n.01 :personal_computer.n.01)
+DisjointClasses(:desktop_computer.n.01 :portable_computer.n.01)
+
+# Class: :dessert.n.01 (:dessert.n.01)
+
+SubClassOf(:dessert.n.01 :course.n.07)
+DisjointClasses(:dessert.n.01 :entree.n.01)
+
+# Class: :device.n.01 (:device.n.01)
+
+SubClassOf(:device.n.01 :instrumentality.n.03)
+
+# Class: :dial_telephone.n.01 (:dial_telephone.n.01)
+
+SubClassOf(:dial_telephone.n.01 :telephone.n.01)
+
+# Class: :diamondback.n.01 (:diamondback.n.01)
+
+SubClassOf(:diamondback.n.01 :rattlesnake.n.01)
+DisjointClasses(:diamondback.n.01 :sidewinder.n.01)
+
+# Class: :diaper.n.01 (:diaper.n.01)
+
+SubClassOf(:diaper.n.01 :garment.n.01)
+
+# Class: :diapsid.n.01 (:diapsid.n.01)
+
+SubClassOf(:diapsid.n.01 :reptile.n.01)
+
+# Class: :dictyopterous_insect.n.01 (:dictyopterous_insect.n.01)
+
+SubClassOf(:dictyopterous_insect.n.01 :insect.n.01)
+
+# Class: :digital_clock.n.01 (:digital_clock.n.01)
+
+SubClassOf(:digital_clock.n.01 :clock.n.01)
+
+# Class: :digital_computer.n.01 (:digital_computer.n.01)
+
+SubClassOf(:digital_computer.n.01 :computer.n.01)
+
+# Class: :digital_watch.n.01 (:digital_watch.n.01)
+
+SubClassOf(:digital_watch.n.01 :watch.n.01)
+
+# Class: :dining_table.n.01 (:dining_table.n.01)
+
+SubClassOf(:dining_table.n.01 :table.n.03)
+
+# Class: :dip.n.04 (:dip.n.04)
+
+SubClassOf(:dip.n.04 :condiment.n.01)
+DisjointClasses(:dip.n.04 :sauce.n.01)
+
+# Class: :dipterous_insect.n.01 (:dipterous_insect.n.01)
+
+SubClassOf(:dipterous_insect.n.01 :insect.n.01)
+
+# Class: :dish.n.02 (:dish.n.02)
+
+SubClassOf(:dish.n.02 :nutriment.n.01)
+
+# Class: :dishwasher.n.01 (:dishwasher.n.01)
+
+SubClassOf(:dishwasher.n.01 :white_goods.n.01)
+
+# Class: :disk.n.02 (:disk.n.02)
+
+SubClassOf(:disk.n.02 :circle.n.08)
+
+# Class: :disk_brake.n.01 (:disk_brake.n.01)
+
+SubClassOf(:disk_brake.n.01 :hydraulic_brake.n.01)
+
+# Class: :doberman.n.01 (:doberman.n.01)
+
+SubClassOf(:doberman.n.01 :pinscher.n.01)
+
+# Class: :dog.n.01 (:dog.n.01)
+
+SubClassOf(:dog.n.01 :canine.n.02)
+
+# Class: :dome.n.04 (:dome.n.04)
+
+SubClassOf(:dome.n.04 :roof.n.01)
+
+# Class: :domestic_cat.n.01 (:domestic_cat.n.01)
+
+SubClassOf(:domestic_cat.n.01 :cat.n.01)
+DisjointClasses(:domestic_cat.n.01 :wildcat.n.03)
+
+# Class: :door.n.01 (:door.n.01)
+
+SubClassOf(:door.n.01 :movable_barrier.n.01)
+DisjointClasses(:door.n.01 :gate.n.01)
+
+# Class: :double-reed_instrument.n.01 (:double-reed_instrument.n.01)
+
+SubClassOf(:double-reed_instrument.n.01 :beating-reed_instrument.n.01)
+DisjointClasses(:double-reed_instrument.n.01 :single-reed_instrument.n.01)
+
+# Class: :dough.n.01 (:dough.n.01)
+
+SubClassOf(:dough.n.01 :concoction.n.01)
+
+# Class: :dowitcher.n.01 (:dowitcher.n.01)
+
+SubClassOf(:dowitcher.n.01 :snipe.n.01)
+
+# Class: :dragonfly.n.01 (:dragonfly.n.01)
+
+SubClassOf(:dragonfly.n.01 :odonate.n.01)
+
+# Class: :drake.n.02 (:drake.n.02)
+
+SubClassOf(:drake.n.02 :duck.n.01)
+DisjointClasses(:drake.n.02 :sea_duck.n.01)
+
+# Class: :drinking_vessel.n.01 (:drinking_vessel.n.01)
+
+SubClassOf(:drinking_vessel.n.01 :vessel.n.03)
+
+# Class: :drum.n.01 (:drum.n.01)
+
+SubClassOf(:drum.n.01 :percussion_instrument.n.01)
+
+# Class: :duck.n.01 (:duck.n.01)
+
+SubClassOf(:duck.n.01 :anseriform_bird.n.01)
+DisjointClasses(:duck.n.01 :goose.n.01)
+
+# Class: :dung_beetle.n.01 (:dung_beetle.n.01)
+
+SubClassOf(:dung_beetle.n.01 :scarabaeid_beetle.n.01)
+DisjointClasses(:dung_beetle.n.01 :rhinoceros_beetle.n.01)
+
+# Class: :durables.n.01 (:durables.n.01)
+
+SubClassOf(:durables.n.01 :consumer_goods.n.01)
+
+# Class: :dutch_oven.n.01 (:dutch_oven.n.01)
+
+SubClassOf(:dutch_oven.n.01 :oven.n.01)
+DisjointClasses(:dutch_oven.n.01 :rotisserie.n.01)
+
+# Class: :eating_apple.n.01 (:eating_apple.n.01)
+
+SubClassOf(:eating_apple.n.01 :apple.n.01)
+
+# Class: :edge_tool.n.01 (:edge_tool.n.01)
+
+SubClassOf(:edge_tool.n.01 :cutter.n.06)
+
+# Class: :edible_fruit.n.01 (:edible_fruit.n.01)
+
+SubClassOf(:edible_fruit.n.01 :fruit.n.01)
+
+# Class: :eel.n.02 (:eel.n.02)
+
+SubClassOf(:eel.n.02 :soft-finned_fish.n.01)
+
+# Class: :eggnog.n.01 (:eggnog.n.01)
+
+SubClassOf(:eggnog.n.01 :punch.n.02)
+
+# Class: :egret.n.01 (:egret.n.01)
+
+SubClassOf(:egret.n.01 :heron.n.02)
+
+# Class: :egyptian_cat.n.01 (:egyptian_cat.n.01)
+
+SubClassOf(:egyptian_cat.n.01 :domestic_cat.n.01)
+
+# Class: :elapid.n.01 (:elapid.n.01)
+
+SubClassOf(:elapid.n.01 :snake.n.01)
+
+# Class: :elasmobranch.n.01 (:elasmobranch.n.01)
+
+SubClassOf(:elasmobranch.n.01 :cartilaginous_fish.n.01)
+
+# Class: :electric_guitar.n.01 (:electric_guitar.n.01)
+
+SubClassOf(:electric_guitar.n.01 :guitar.n.01)
+
+# Class: :electric_ray.n.01 (:electric_ray.n.01)
+
+SubClassOf(:electric_ray.n.01 :ray.n.07)
+DisjointClasses(:electric_ray.n.01 :stingray.n.01)
+
+# Class: :electronic_equipment.n.01 (:electronic_equipment.n.01)
+
+SubClassOf(:electronic_equipment.n.01 :equipment.n.01)
+
+# Class: :english_foxhound.n.01 (:english_foxhound.n.01)
+
+SubClassOf(:english_foxhound.n.01 :foxhound.n.01)
+DisjointClasses(:english_foxhound.n.01 :walker_hound.n.01)
+
+# Class: :english_setter.n.01 (:english_setter.n.01)
+
+SubClassOf(:english_setter.n.01 :setter.n.02)
+
+# Class: :english_springer.n.01 (:english_springer.n.01)
+
+SubClassOf(:english_springer.n.01 :springer_spaniel.n.01)
+DisjointClasses(:english_springer.n.01 :welsh_springer_spaniel.n.01)
+
+# Class: :entertainment_center.n.01 (:entertainment_center.n.01)
+
+SubClassOf(:entertainment_center.n.01 :wall_unit.n.01)
+
+# Class: :entlebucher.n.01 (:entlebucher.n.01)
+
+SubClassOf(:entlebucher.n.01 :sennenhunde.n.01)
+
+# Class: :entree.n.01 (:entree.n.01)
+
+SubClassOf(:entree.n.01 :course.n.07)
+
+# Class: :equine.n.01 (:equine.n.01)
+
+SubClassOf(:equine.n.01 :odd-toed_ungulate.n.01)
+
+# Class: :equipment.n.01 (:equipment.n.01)
+
+SubClassOf(:equipment.n.01 :instrumentality.n.03)
+
+# Class: :eskimo_dog.n.01 (:eskimo_dog.n.01)
+
+SubClassOf(:eskimo_dog.n.01 :working_dog.n.01)
+
+# Class: :espresso.n.01 (:espresso.n.01)
+
+SubClassOf(:espresso.n.01 :coffee.n.01)
+
+# Class: :espresso_maker.n.01 (:espresso_maker.n.01)
+
+SubClassOf(:espresso_maker.n.01 :coffee_maker.n.01)
+
+# Class: :establishment.n.04 (:establishment.n.04)
+
+SubClassOf(:establishment.n.04 :structure.n.01)
+
+# Class: :european_gallinule.n.01 (:european_gallinule.n.01)
+
+SubClassOf(:european_gallinule.n.01 :purple_gallinule.n.01)
+
+# Class: :even-toed_ungulate.n.01 (:even-toed_ungulate.n.01)
+
+SubClassOf(:even-toed_ungulate.n.01 :ungulate.n.01)
+DisjointClasses(:even-toed_ungulate.n.01 :odd-toed_ungulate.n.01)
+
+# Class: :excavation.n.03 (:excavation.n.03)
+
+SubClassOf(:excavation.n.03 :artifact.n.01)
+
+# Class: :face_mask.n.01 (:face_mask.n.01)
+
+SubClassOf(:face_mask.n.01 :mask.n.04)
+DisjointClasses(:face_mask.n.01 :gasmask.n.01)
+
+# Class: :face_powder.n.01 (:face_powder.n.01)
+
+SubClassOf(:face_powder.n.01 :makeup.n.01)
+
+# Class: :fare.n.04 (:fare.n.04)
+
+SubClassOf(:fare.n.04 :food.n.01)
+
+# Class: :farm_building.n.01 (:farm_building.n.01)
+
+SubClassOf(:farm_building.n.01 :building.n.01)
+
+# Class: :farm_machine.n.01 (:farm_machine.n.01)
+
+SubClassOf(:farm_machine.n.01 :machine.n.01)
+
+# Class: :fastener.n.02 (:fastener.n.02)
+
+SubClassOf(:fastener.n.02 :restraint.n.06)
+
+# Class: :feather_boa.n.01 (:feather_boa.n.01)
+
+SubClassOf(:feather_boa.n.01 :scarf.n.01)
+DisjointClasses(:feather_boa.n.01 :stole.n.01)
+
+# Class: :feed.n.01 (:feed.n.01)
+
+SubClassOf(:feed.n.01 :food.n.01)
+
+# Class: :feline.n.01 (:feline.n.01)
+
+SubClassOf(:feline.n.01 :carnivore.n.01)
+
+# Class: :fence.n.01 (:fence.n.01)
+
+SubClassOf(:fence.n.01 :barrier.n.01)
+
+# Class: :fig.n.04 (:fig.n.04)
+
+SubClassOf(:fig.n.04 :edible_fruit.n.01)
+
+# Class: :file.n.03 (:file.n.03)
+
+SubClassOf(:file.n.03 :office_furniture.n.01)
+
+# Class: :finch.n.01 (:finch.n.01)
+
+SubClassOf(:finch.n.01 :oscine.n.01)
+
+# Class: :fire_engine.n.01 (:fire_engine.n.01)
+
+SubClassOf(:fire_engine.n.01 :truck.n.01)
+
+# Class: :fire_screen.n.01 (:fire_screen.n.01)
+
+SubClassOf(:fire_screen.n.01 :screen.n.05)
+
+# Class: :firearm.n.01 (:firearm.n.01)
+
+SubClassOf(:firearm.n.01 :gun.n.01)
+
+# Class: :fireboat.n.01 (:fireboat.n.01)
+
+SubClassOf(:fireboat.n.01 :boat.n.01)
+
+# Class: :fish.n.01 (:fish.n.01)
+
+SubClassOf(:fish.n.01 :aquatic_vertebrate.n.01)
+
+# Class: :flamingo.n.01 (:flamingo.n.01)
+
+SubClassOf(:flamingo.n.01 :wading_bird.n.01)
+
+# Class: :flat-coated_retriever.n.01 (:flat-coated_retriever.n.01)
+
+SubClassOf(:flat-coated_retriever.n.01 :retriever.n.01)
+
+# Class: :flavorer.n.01 (:flavorer.n.01)
+
+SubClassOf(:flavorer.n.01 :ingredient.n.03)
+
+# Class: :floor_cover.n.01 (:floor_cover.n.01)
+
+SubClassOf(:floor_cover.n.01 :covering.n.02)
+DisjointClasses(:floor_cover.n.01 :protective_covering.n.01)
+
+# Class: :flute.n.01 (:flute.n.01)
+
+SubClassOf(:flute.n.01 :woodwind.n.01)
+
+# Class: :fly.n.01 (:fly.n.01)
+
+SubClassOf(:fly.n.01 :dipterous_insect.n.01)
+
+# Class: :fodder.n.02 (:fodder.n.02)
+
+SubClassOf(:fodder.n.02 :feed.n.01)
+
+# Class: :folding_chair.n.01 (:folding_chair.n.01)
+
+SubClassOf(:folding_chair.n.01 :chair.n.01)
+
+# Class: :food.n.01 (:food.n.01)
+
+SubClassOf(:food.n.01 :substance.n.07)
+
+# Class: :food.n.02 (:food.n.02)
+
+SubClassOf(:food.n.02 :solid.n.01)
+
+# Class: :food_fish.n.01 (:food_fish.n.01)
+
+SubClassOf(:food_fish.n.01 :fish.n.01)
+
+# Class: :foodstuff.n.02 (:foodstuff.n.02)
+
+SubClassOf(:foodstuff.n.02 :food.n.01)
+
+# Class: :four-poster.n.01 (:four-poster.n.01)
+
+SubClassOf(:four-poster.n.01 :bed.n.01)
+
+# Class: :fox_terrier.n.01 (:fox_terrier.n.01)
+
+SubClassOf(:fox_terrier.n.01 :terrier.n.01)
+
+# Class: :foxhound.n.01 (:foxhound.n.01)
+
+SubClassOf(:foxhound.n.01 :hound.n.01)
+
+# Class: :free-reed_instrument.n.01 (:free-reed_instrument.n.01)
+
+SubClassOf(:free-reed_instrument.n.01 :wind_instrument.n.01)
+
+# Class: :french_bulldog.n.01 (:french_bulldog.n.01)
+
+SubClassOf(:french_bulldog.n.01 :bulldog.n.01)
+
+# Class: :french_horn.n.01 (:french_horn.n.01)
+
+SubClassOf(:french_horn.n.01 :brass.n.02)
+
+# Class: :frilled_lizard.n.01 (:frilled_lizard.n.01)
+
+SubClassOf(:frilled_lizard.n.01 :agamid.n.01)
+
+# Class: :frozen_dessert.n.01 (:frozen_dessert.n.01)
+
+SubClassOf(:frozen_dessert.n.01 :dessert.n.01)
+DisjointClasses(:frozen_dessert.n.01 :pudding.n.02)
+
+# Class: :fruit.n.01 (:fruit.n.01)
+
+SubClassOf(:fruit.n.01 :reproductive_structure.n.01)
+
+# Class: :fur_coat.n.01 (:fur_coat.n.01)
+
+SubClassOf(:fur_coat.n.01 :coat.n.01)
+
+# Class: :furnishing.n.02 (:furnishing.n.02)
+
+SubClassOf(:furnishing.n.02 :instrumentality.n.03)
+
+# Class: :furniture.n.01 (:furniture.n.01)
+
+SubClassOf(:furniture.n.01 :furnishing.n.02)
+
+# Class: :gallinule.n.01 (:gallinule.n.01)
+
+SubClassOf(:gallinule.n.01 :aquatic_bird.n.01)
+
+# Class: :game.n.09 (:game.n.09)
+
+SubClassOf(:game.n.09 :game_equipment.n.01)
+
+# Class: :game_equipment.n.01 (:game_equipment.n.01)
+
+SubClassOf(:game_equipment.n.01 :equipment.n.01)
+
+# Class: :ganoid.n.01 (:ganoid.n.01)
+
+SubClassOf(:ganoid.n.01 :teleost_fish.n.01)
+
+# Class: :gar.n.01 (:gar.n.01)
+
+SubClassOf(:gar.n.01 :ganoid.n.01)
+DisjointClasses(:gar.n.01 :sturgeon.n.01)
+
+# Class: :garbage_truck.n.01 (:garbage_truck.n.01)
+
+SubClassOf(:garbage_truck.n.01 :truck.n.01)
+
+# Class: :garden_tool.n.01 (:garden_tool.n.01)
+
+SubClassOf(:garden_tool.n.01 :tool.n.01)
+
+# Class: :garment.n.01 (:garment.n.01)
+
+SubClassOf(:garment.n.01 :clothing.n.01)
+
+# Class: :garter_snake.n.01 (:garter_snake.n.01)
+
+SubClassOf(:garter_snake.n.01 :colubrid_snake.n.01)
+
+# Class: :gas_pump.n.01 (:gas_pump.n.01)
+
+SubClassOf(:gas_pump.n.01 :pump.n.01)
+
+# Class: :gasmask.n.01 (:gasmask.n.01)
+
+SubClassOf(:gasmask.n.01 :mask.n.04)
+
+# Class: :gate.n.01 (:gate.n.01)
+
+SubClassOf(:gate.n.01 :movable_barrier.n.01)
+
+# Class: :gazelle.n.01 (:gazelle.n.01)
+
+SubClassOf(:gazelle.n.01 :antelope.n.01)
+
+# Class: :gecko.n.01 (:gecko.n.01)
+
+SubClassOf(:gecko.n.01 :lizard.n.01)
+
+# Class: :geological_formation.n.01 (:geological_formation.n.01)
+
+SubClassOf(:geological_formation.n.01 :object.n.01)
+DisjointClasses(:geological_formation.n.01 :whole.n.02)
+
+# Class: :german_shepherd.n.01 (:german_shepherd.n.01)
+
+SubClassOf(:german_shepherd.n.01 :shepherd_dog.n.01)
+
+# Class: :german_short-haired_pointer.n.01 (:german_short-haired_pointer.n.01)
+
+SubClassOf(:german_short-haired_pointer.n.01 :pointer.n.04)
+DisjointClasses(:german_short-haired_pointer.n.01 :vizsla.n.01)
+
+# Class: :geyser.n.01 (:geyser.n.01)
+
+SubClassOf(:geyser.n.01 :spring.n.03)
+
+# Class: :giant_schnauzer.n.01 (:giant_schnauzer.n.01)
+
+SubClassOf(:giant_schnauzer.n.01 :schnauzer.n.01)
+
+# Class: :gibbon.n.02 (:gibbon.n.02)
+
+SubClassOf(:gibbon.n.02 :lesser_ape.n.01)
+DisjointClasses(:gibbon.n.02 :siamang.n.01)
+
+# Class: :gila_monster.n.01 (:gila_monster.n.01)
+
+SubClassOf(:gila_monster.n.01 :venomous_lizard.n.01)
+
+# Class: :go-kart.n.01 (:go-kart.n.01)
+
+SubClassOf(:go-kart.n.01 :motor_vehicle.n.01)
+
+# Class: :goat.n.01 (:goat.n.01)
+
+SubClassOf(:goat.n.01 :bovid.n.01)
+
+# Class: :golden_retriever.n.01 (:golden_retriever.n.01)
+
+SubClassOf(:golden_retriever.n.01 :retriever.n.01)
+
+# Class: :goldfinch.n.02 (:goldfinch.n.02)
+
+SubClassOf(:goldfinch.n.02 :finch.n.01)
+
+# Class: :goldfish.n.01 (:goldfish.n.01)
+
+SubClassOf(:goldfish.n.01 :cyprinid.n.01)
+DisjointClasses(:goldfish.n.01 :tench.n.01)
+
+# Class: :golf_ball.n.01 (:golf_ball.n.01)
+
+SubClassOf(:golf_ball.n.01 :ball.n.01)
+
+# Class: :golf_equipment.n.01 (:golf_equipment.n.01)
+
+SubClassOf(:golf_equipment.n.01 :sports_equipment.n.01)
+
+# Class: :golfcart.n.01 (:golfcart.n.01)
+
+SubClassOf(:golfcart.n.01 :golf_equipment.n.01)
+
+# Class: :gondola.n.02 (:gondola.n.02)
+
+SubClassOf(:gondola.n.02 :boat.n.01)
+
+# Class: :gong.n.01 (:gong.n.01)
+
+SubClassOf(:gong.n.01 :percussion_instrument.n.01)
+
+# Class: :goose.n.01 (:goose.n.01)
+
+SubClassOf(:goose.n.01 :anseriform_bird.n.01)
+
+# Class: :gordon_setter.n.01 (:gordon_setter.n.01)
+
+SubClassOf(:gordon_setter.n.01 :setter.n.02)
+
+# Class: :gorilla.n.01 (:gorilla.n.01)
+
+SubClassOf(:gorilla.n.01 :great_ape.n.01)
+
+# Class: :grand_piano.n.01 (:grand_piano.n.01)
+
+SubClassOf(:grand_piano.n.01 :piano.n.01)
+DisjointClasses(:grand_piano.n.01 :upright.n.02)
+
+# Class: :granny_smith.n.01 (:granny_smith.n.01)
+
+SubClassOf(:granny_smith.n.01 :eating_apple.n.01)
+
+# Class: :grasshopper.n.01 (:grasshopper.n.01)
+
+SubClassOf(:grasshopper.n.01 :orthopterous_insect.n.01)
+
+# Class: :grate.n.03 (:grate.n.03)
+
+SubClassOf(:grate.n.03 :barrier.n.01)
+
+# Class: :great_ape.n.01 (:great_ape.n.01)
+
+SubClassOf(:great_ape.n.01 :anthropoid_ape.n.01)
+DisjointClasses(:great_ape.n.01 :lesser_ape.n.01)
+
+# Class: :great_dane.n.01 (:great_dane.n.01)
+
+SubClassOf(:great_dane.n.01 :working_dog.n.01)
+
+# Class: :great_white_shark.n.01 (:great_white_shark.n.01)
+
+SubClassOf(:great_white_shark.n.01 :mackerel_shark.n.01)
+
+# Class: :greater_swiss_mountain_dog.n.01 (:greater_swiss_mountain_dog.n.01)
+
+SubClassOf(:greater_swiss_mountain_dog.n.01 :sennenhunde.n.01)
+
+# Class: :green_lizard.n.01 (:green_lizard.n.01)
+
+SubClassOf(:green_lizard.n.01 :lacertid_lizard.n.01)
+
+# Class: :green_mamba.n.01 (:green_mamba.n.01)
+
+SubClassOf(:green_mamba.n.01 :black_mamba.n.01)
+
+# Class: :green_snake.n.02 (:green_snake.n.02)
+
+SubClassOf(:green_snake.n.02 :colubrid_snake.n.01)
+
+# Class: :greenhouse.n.01 (:greenhouse.n.01)
+
+SubClassOf(:greenhouse.n.01 :building.n.01)
+
+# Class: :greyhound.n.01 (:greyhound.n.01)
+
+SubClassOf(:greyhound.n.01 :hound.n.01)
+
+# Class: :grille.n.02 (:grille.n.02)
+
+SubClassOf(:grille.n.02 :grate.n.03)
+
+# Class: :grocery_store.n.01 (:grocery_store.n.01)
+
+SubClassOf(:grocery_store.n.01 :marketplace.n.02)
+
+# Class: :groenendael.n.01 (:groenendael.n.01)
+
+SubClassOf(:groenendael.n.01 :belgian_sheepdog.n.01)
+DisjointClasses(:groenendael.n.01 :malinois.n.01)
+
+# Class: :ground_beetle.n.01 (:ground_beetle.n.01)
+
+SubClassOf(:ground_beetle.n.01 :beetle.n.01)
+
+# Class: :guacamole.n.01 (:guacamole.n.01)
+
+SubClassOf(:guacamole.n.01 :dip.n.04)
+
+# Class: :guenon.n.01 (:guenon.n.01)
+
+SubClassOf(:guenon.n.01 :old_world_monkey.n.01)
+
+# Class: :guillotine.n.02 (:guillotine.n.02)
+
+SubClassOf(:guillotine.n.02 :instrument_of_execution.n.01)
+
+# Class: :guitar.n.01 (:guitar.n.01)
+
+SubClassOf(:guitar.n.01 :stringed_instrument.n.01)
+
+# Class: :gun.n.01 (:gun.n.01)
+
+SubClassOf(:gun.n.01 :weapon.n.01)
+
+# Class: :hair_slide.n.01 (:hair_slide.n.01)
+
+SubClassOf(:hair_slide.n.01 :clip.n.03)
+
+# Class: :hamburger.n.01 (:hamburger.n.01)
+
+SubClassOf(:hamburger.n.01 :sandwich.n.01)
+DisjointClasses(:hamburger.n.01 :hotdog.n.02)
+
+# Class: :hammer.n.02 (:hammer.n.02)
+
+SubClassOf(:hammer.n.02 :hand_tool.n.01)
+
+# Class: :hammerhead.n.03 (:hammerhead.n.03)
+
+SubClassOf(:hammerhead.n.03 :shark.n.01)
+
+# Class: :hand-held_computer.n.01 (:hand-held_computer.n.01)
+
+SubClassOf(:hand-held_computer.n.01 :portable_computer.n.01)
+
+# Class: :hand_blower.n.01 (:hand_blower.n.01)
+
+SubClassOf(:hand_blower.n.01 :blower.n.01)
+
+# Class: :hand_glass.n.02 (:hand_glass.n.02)
+
+SubClassOf(:hand_glass.n.02 :light_microscope.n.01)
+
+# Class: :hand_tool.n.01 (:hand_tool.n.01)
+
+SubClassOf(:hand_tool.n.01 :tool.n.01)
+
+# Class: :harmonica.n.01 (:harmonica.n.01)
+
+SubClassOf(:harmonica.n.01 :free-reed_instrument.n.01)
+
+# Class: :harp.n.01 (:harp.n.01)
+
+SubClassOf(:harp.n.01 :chordophone.n.01)
+
+# Class: :hartebeest.n.01 (:hartebeest.n.01)
+
+SubClassOf(:hartebeest.n.01 :antelope.n.01)
+
+# Class: :harvester.n.02 (:harvester.n.02)
+
+SubClassOf(:harvester.n.02 :farm_machine.n.01)
+DisjointClasses(:harvester.n.02 :thresher.n.01)
+
+# Class: :hatchet.n.02 (:hatchet.n.02)
+
+SubClassOf(:hatchet.n.02 :ax.n.01)
+
+# Class: :hay.n.01 (:hay.n.01)
+
+SubClassOf(:hay.n.01 :fodder.n.02)
+
+# Class: :head_cabbage.n.02 (:head_cabbage.n.02)
+
+SubClassOf(:head_cabbage.n.02 :cabbage.n.01)
+
+# Class: :heavier-than-air_craft.n.01 (:heavier-than-air_craft.n.01)
+
+SubClassOf(:heavier-than-air_craft.n.01 :aircraft.n.01)
+DisjointClasses(:heavier-than-air_craft.n.01 :lighter-than-air_craft.n.01)
+
+# Class: :helmet.n.01 (:helmet.n.01)
+
+SubClassOf(:helmet.n.01 :armor_plate.n.01)
+
+# Class: :heron.n.02 (:heron.n.02)
+
+SubClassOf(:heron.n.02 :wading_bird.n.01)
+
+# Class: :hippopotamus.n.01 (:hippopotamus.n.01)
+
+SubClassOf(:hippopotamus.n.01 :even-toed_ungulate.n.01)
+
+# Class: :hog.n.03 (:hog.n.03)
+
+SubClassOf(:hog.n.03 :swine.n.01)
+
+# Class: :hognose_snake.n.01 (:hognose_snake.n.01)
+
+SubClassOf(:hognose_snake.n.01 :colubrid_snake.n.01)
+
+# Class: :holster.n.01 (:holster.n.01)
+
+SubClassOf(:holster.n.01 :sheath.n.01)
+DisjointClasses(:holster.n.01 :scabbard.n.01)
+
+# Class: :home_appliance.n.01 (:home_appliance.n.01)
+
+SubClassOf(:home_appliance.n.01 :appliance.n.02)
+
+# Class: :home_theater.n.01 (:home_theater.n.01)
+
+SubClassOf(:home_theater.n.01 :theater.n.01)
+
+# Class: :homopterous_insect.n.01 (:homopterous_insect.n.01)
+
+SubClassOf(:homopterous_insect.n.01 :insect.n.01)
+
+# Class: :hook.n.04 (:hook.n.04)
+
+SubClassOf(:hook.n.04 :mechanical_device.n.01)
+
+# Class: :hoopskirt.n.01 (:hoopskirt.n.01)
+
+SubClassOf(:hoopskirt.n.01 :skirt.n.02)
+
+# Class: :horned_viper.n.01 (:horned_viper.n.01)
+
+SubClassOf(:horned_viper.n.01 :viper.n.01)
+DisjointClasses(:horned_viper.n.01 :pit_viper.n.01)
+
+# Class: :horse.n.01 (:horse.n.01)
+
+SubClassOf(:horse.n.01 :equine.n.01)
+DisjointClasses(:horse.n.01 :zebra.n.01)
+
+# Class: :hot_pot.n.01 (:hot_pot.n.01)
+
+SubClassOf(:hot_pot.n.01 :stew.n.02)
+
+# Class: :hotdog.n.02 (:hotdog.n.02)
+
+SubClassOf(:hotdog.n.02 :sandwich.n.01)
+
+# Class: :hound.n.01 (:hound.n.01)
+
+SubClassOf(:hound.n.01 :hunting_dog.n.01)
+
+# Class: :hourglass.n.01 (:hourglass.n.01)
+
+SubClassOf(:hourglass.n.01 :sandglass.n.01)
+
+# Class: :house.n.01 (:house.n.01)
+
+SubClassOf(:house.n.01 :building.n.01)
+
+# Class: :house_finch.n.01 (:house_finch.n.01)
+
+SubClassOf(:house_finch.n.01 :finch.n.01)
+
+# Class: :howler_monkey.n.01 (:howler_monkey.n.01)
+
+SubClassOf(:howler_monkey.n.01 :new_world_monkey.n.01)
+
+# Class: :hunting_dog.n.01 (:hunting_dog.n.01)
+
+SubClassOf(:hunting_dog.n.01 :dog.n.01)
+DisjointClasses(:hunting_dog.n.01 :working_dog.n.01)
+
+# Class: :hydraulic_brake.n.01 (:hydraulic_brake.n.01)
+
+SubClassOf(:hydraulic_brake.n.01 :brake_system.n.01)
+
+# Class: :hymenopterous_insect.n.01 (:hymenopterous_insect.n.01)
+
+SubClassOf(:hymenopterous_insect.n.01 :insect.n.01)
+
+# Class: :ibex.n.01 (:ibex.n.01)
+
+SubClassOf(:ibex.n.01 :wild_goat.n.01)
+
+# Class: :ibizan_hound.n.01 (:ibizan_hound.n.01)
+
+SubClassOf(:ibizan_hound.n.01 :hound.n.01)
+
+# Class: :ice_cream.n.01 (:ice_cream.n.01)
+
+SubClassOf(:ice_cream.n.01 :frozen_dessert.n.01)
+DisjointClasses(:ice_cream.n.01 :ice_lolly.n.01)
+
+# Class: :ice_lolly.n.01 (:ice_lolly.n.01)
+
+SubClassOf(:ice_lolly.n.01 :frozen_dessert.n.01)
+
+# Class: :iguanid.n.01 (:iguanid.n.01)
+
+SubClassOf(:iguanid.n.01 :lizard.n.01)
+
+# Class: :impala.n.01 (:impala.n.01)
+
+SubClassOf(:impala.n.01 :antelope.n.01)
+
+# Class: :implement.n.01 (:implement.n.01)
+
+SubClassOf(:implement.n.01 :instrumentality.n.03)
+
+# Class: :indian_cobra.n.01 (:indian_cobra.n.01)
+
+SubClassOf(:indian_cobra.n.01 :cobra.n.01)
+
+# Class: :indigo_bunting.n.01 (:indigo_bunting.n.01)
+
+SubClassOf(:indigo_bunting.n.01 :bunting.n.02)
+
+# Class: :indri.n.01 (:indri.n.01)
+
+SubClassOf(:indri.n.01 :lemur.n.01)
+DisjointClasses(:indri.n.01 :madagascar_cat.n.01)
+
+# Class: :ingredient.n.03 (:ingredient.n.03)
+
+SubClassOf(:ingredient.n.03 :foodstuff.n.02)
+
+# Class: :insect.n.01 (:insect.n.01)
+
+SubClassOf(:insect.n.01 :arthropod.n.01)
+
+# Class: :institution.n.02 (:institution.n.02)
+
+SubClassOf(:institution.n.02 :establishment.n.04)
+DisjointClasses(:institution.n.02 :place_of_business.n.01)
+
+# Class: :instrument.n.01 (:instrument.n.01)
+
+SubClassOf(:instrument.n.01 :device.n.01)
+
+# Class: :instrument_of_execution.n.01 (:instrument_of_execution.n.01)
+
+SubClassOf(:instrument_of_execution.n.01 :instrument.n.01)
+
+# Class: :instrumentality.n.03 (:instrumentality.n.03)
+
+SubClassOf(:instrumentality.n.03 :artifact.n.01)
+
+# Class: :invertebrate.n.01 (:invertebrate.n.01)
+
+SubClassOf(:invertebrate.n.01 :animal.n.01)
+
+# Class: :ipod.n.01 (:ipod.n.01)
+
+SubClassOf(:ipod.n.01 :stereo.n.01)
+
+# Class: :irish_setter.n.01 (:irish_setter.n.01)
+
+SubClassOf(:irish_setter.n.01 :setter.n.02)
+
+# Class: :irish_terrier.n.01 (:irish_terrier.n.01)
+
+SubClassOf(:irish_terrier.n.01 :terrier.n.01)
+
+# Class: :irish_water_spaniel.n.01 (:irish_water_spaniel.n.01)
+
+SubClassOf(:irish_water_spaniel.n.01 :water_spaniel.n.01)
+
+# Class: :irish_wolfhound.n.01 (:irish_wolfhound.n.01)
+
+SubClassOf(:irish_wolfhound.n.01 :wolfhound.n.01)
+
+# Class: :iron.n.04 (:iron.n.04)
+
+SubClassOf(:iron.n.04 :home_appliance.n.01)
+
+# Class: :italian_greyhound.n.01 (:italian_greyhound.n.01)
+
+SubClassOf(:italian_greyhound.n.01 :greyhound.n.01)
+DisjointClasses(:italian_greyhound.n.01 :whippet.n.01)
+
+# Class: :jackfruit.n.02 (:jackfruit.n.02)
+
+SubClassOf(:jackfruit.n.02 :edible_fruit.n.01)
+
+# Class: :jaguar.n.01 (:jaguar.n.01)
+
+SubClassOf(:jaguar.n.01 :big_cat.n.01)
+
+# Class: :jar.n.01 (:jar.n.01)
+
+SubClassOf(:jar.n.01 :vessel.n.03)
+
+# Class: :jay.n.02 (:jay.n.02)
+
+SubClassOf(:jay.n.02 :corvine_bird.n.01)
+DisjointClasses(:jay.n.02 :magpie.n.01)
+
+# Class: :jean.n.01 (:jean.n.01)
+
+SubClassOf(:jean.n.01 :trouser.n.01)
+
+# Class: :jeep.n.01 (:jeep.n.01)
+
+SubClassOf(:jeep.n.01 :car.n.01)
+
+# Class: :jersey.n.03 (:jersey.n.03)
+
+SubClassOf(:jersey.n.03 :shirt.n.01)
+
+# Class: :jigsaw_puzzle.n.01 (:jigsaw_puzzle.n.01)
+
+SubClassOf(:jigsaw_puzzle.n.01 :puzzle.n.02)
+
+# Class: :jug.n.01 (:jug.n.01)
+
+SubClassOf(:jug.n.01 :bottle.n.01)
+
+# Class: :junco.n.01 (:junco.n.01)
+
+SubClassOf(:junco.n.01 :finch.n.01)
+
+# Class: :kelpie.n.02 (:kelpie.n.02)
+
+SubClassOf(:kelpie.n.02 :shepherd_dog.n.01)
+
+# Class: :kerry_blue_terrier.n.01 (:kerry_blue_terrier.n.01)
+
+SubClassOf(:kerry_blue_terrier.n.01 :terrier.n.01)
+
+# Class: :keyboard_instrument.n.01 (:keyboard_instrument.n.01)
+
+SubClassOf(:keyboard_instrument.n.01 :musical_instrument.n.01)
+
+# Class: :kimono.n.01 (:kimono.n.01)
+
+SubClassOf(:kimono.n.01 :robe.n.01)
+
+# Class: :king_penguin.n.01 (:king_penguin.n.01)
+
+SubClassOf(:king_penguin.n.01 :penguin.n.01)
+
+# Class: :king_snake.n.01 (:king_snake.n.01)
+
+SubClassOf(:king_snake.n.01 :colubrid_snake.n.01)
+
+# Class: :kitchen_appliance.n.01 (:kitchen_appliance.n.01)
+
+SubClassOf(:kitchen_appliance.n.01 :home_appliance.n.01)
+
+# Class: :kitchen_utensil.n.01 (:kitchen_utensil.n.01)
+
+SubClassOf(:kitchen_utensil.n.01 :utensil.n.01)
+
+# Class: :knife.n.01 (:knife.n.01)
+
+SubClassOf(:knife.n.01 :edge_tool.n.01)
+
+# Class: :knot.n.02 (:knot.n.02)
+
+SubClassOf(:knot.n.02 :fastener.n.02)
+
+# Class: :komodo_dragon.n.01 (:komodo_dragon.n.01)
+
+SubClassOf(:komodo_dragon.n.01 :monitor.n.07)
+
+# Class: :komondor.n.01 (:komondor.n.01)
+
+SubClassOf(:komondor.n.01 :shepherd_dog.n.01)
+
+# Class: :kuvasz.n.01 (:kuvasz.n.01)
+
+SubClassOf(:kuvasz.n.01 :watchdog.n.02)
+
+# Class: :lab_coat.n.01 (:lab_coat.n.01)
+
+SubClassOf(:lab_coat.n.01 :coat.n.01)
+
+# Class: :labrador_retriever.n.01 (:labrador_retriever.n.01)
+
+SubClassOf(:labrador_retriever.n.01 :retriever.n.01)
+
+# Class: :lacertid_lizard.n.01 (:lacertid_lizard.n.01)
+
+SubClassOf(:lacertid_lizard.n.01 :lizard.n.01)
+
+# Class: :lacewing.n.01 (:lacewing.n.01)
+
+SubClassOf(:lacewing.n.01 :neuropteron.n.01)
+
+# Class: :ladle.n.01 (:ladle.n.01)
+
+SubClassOf(:ladle.n.01 :vessel.n.03)
+
+# Class: :ladybug.n.01 (:ladybug.n.01)
+
+SubClassOf(:ladybug.n.01 :beetle.n.01)
+
+# Class: :lakeland_terrier.n.01 (:lakeland_terrier.n.01)
+
+SubClassOf(:lakeland_terrier.n.01 :wirehair.n.01)
+DisjointClasses(:lakeland_terrier.n.01 :welsh_terrier.n.01)
+
+# Class: :lakeside.n.01 (:lakeside.n.01)
+
+SubClassOf(:lakeside.n.01 :shore.n.01)
+DisjointClasses(:lakeside.n.01 :seashore.n.01)
+
+# Class: :lamellicorn_beetle.n.01 (:lamellicorn_beetle.n.01)
+
+SubClassOf(:lamellicorn_beetle.n.01 :beetle.n.01)
+
+# Class: :lamp.n.02 (:lamp.n.02)
+
+SubClassOf(:lamp.n.02 :furniture.n.01)
+
+# Class: :lampshade.n.01 (:lampshade.n.01)
+
+SubClassOf(:lampshade.n.01 :shade.n.03)
+
+# Class: :langur.n.01 (:langur.n.01)
+
+SubClassOf(:langur.n.01 :old_world_monkey.n.01)
+
+# Class: :laptop.n.01 (:laptop.n.01)
+
+SubClassOf(:laptop.n.01 :portable_computer.n.01)
+
+# Class: :lawn_mower.n.01 (:lawn_mower.n.01)
+
+SubClassOf(:lawn_mower.n.01 :garden_tool.n.01)
+
+# Class: :leaf_beetle.n.01 (:leaf_beetle.n.01)
+
+SubClassOf(:leaf_beetle.n.01 :beetle.n.01)
+
+# Class: :leafhopper.n.01 (:leafhopper.n.01)
+
+SubClassOf(:leafhopper.n.01 :homopterous_insect.n.01)
+
+# Class: :lemon.n.01 (:lemon.n.01)
+
+SubClassOf(:lemon.n.01 :citrus.n.01)
+DisjointClasses(:lemon.n.01 :orange.n.01)
+
+# Class: :lemur.n.01 (:lemur.n.01)
+
+SubClassOf(:lemur.n.01 :primate.n.02)
+
+# Class: :lens_cap.n.01 (:lens_cap.n.01)
+
+SubClassOf(:lens_cap.n.01 :cap.n.04)
+DisjointClasses(:lens_cap.n.01 :thimble.n.02)
+
+# Class: :leopard.n.02 (:leopard.n.02)
+
+SubClassOf(:leopard.n.02 :big_cat.n.01)
+
+# Class: :lepidopterous_insect.n.01 (:lepidopterous_insect.n.01)
+
+SubClassOf(:lepidopterous_insect.n.01 :insect.n.01)
+
+# Class: :lesser_ape.n.01 (:lesser_ape.n.01)
+
+SubClassOf(:lesser_ape.n.01 :anthropoid_ape.n.01)
+
+# Class: :letter_opener.n.01 (:letter_opener.n.01)
+
+SubClassOf(:letter_opener.n.01 :knife.n.01)
+
+# Class: :lhasa.n.02 (:lhasa.n.02)
+
+SubClassOf(:lhasa.n.02 :terrier.n.01)
+
+# Class: :library.n.05 (:library.n.05)
+
+SubClassOf(:library.n.05 :building.n.01)
+
+# Class: :lifeboat.n.01 (:lifeboat.n.01)
+
+SubClassOf(:lifeboat.n.01 :sea_boat.n.01)
+
+# Class: :light_microscope.n.01 (:light_microscope.n.01)
+
+SubClassOf(:light_microscope.n.01 :microscope.n.01)
+
+# Class: :lighter-than-air_craft.n.01 (:lighter-than-air_craft.n.01)
+
+SubClassOf(:lighter-than-air_craft.n.01 :aircraft.n.01)
+
+# Class: :limousine.n.01 (:limousine.n.01)
+
+SubClassOf(:limousine.n.01 :car.n.01)
+
+# Class: :limpkin.n.01 (:limpkin.n.01)
+
+SubClassOf(:limpkin.n.01 :wading_bird.n.01)
+
+# Class: :liner.n.04 (:liner.n.04)
+
+SubClassOf(:liner.n.04 :passenger_ship.n.01)
+
+# Class: :lion.n.01 (:lion.n.01)
+
+SubClassOf(:lion.n.01 :big_cat.n.01)
+
+# Class: :lionfish.n.01 (:lionfish.n.01)
+
+SubClassOf(:lionfish.n.01 :scorpaenid.n.01)
+
+# Class: :little_blue_heron.n.01 (:little_blue_heron.n.01)
+
+SubClassOf(:little_blue_heron.n.01 :heron.n.02)
+
+# Class: :living_thing.n.01 (:living_thing.n.01)
+
+SubClassOf(:living_thing.n.01 :whole.n.02)
+
+# Class: :lizard.n.01 (:lizard.n.01)
+
+SubClassOf(:lizard.n.01 :saurian.n.01)
+
+# Class: :llama.n.01 (:llama.n.01)
+
+SubClassOf(:llama.n.01 :even-toed_ungulate.n.01)
+
+# Class: :lock.n.01 (:lock.n.01)
+
+SubClassOf(:lock.n.01 :fastener.n.02)
+
+# Class: :long-horned_beetle.n.01 (:long-horned_beetle.n.01)
+
+SubClassOf(:long-horned_beetle.n.01 :beetle.n.01)
+
+# Class: :loupe.n.01 (:loupe.n.01)
+
+SubClassOf(:loupe.n.01 :hand_glass.n.02)
+
+# Class: :lycaenid.n.01 (:lycaenid.n.01)
+
+SubClassOf(:lycaenid.n.01 :butterfly.n.01)
+
+# Class: :lynx.n.02 (:lynx.n.02)
+
+SubClassOf(:lynx.n.02 :wildcat.n.03)
+
+# Class: :macaque.n.01 (:macaque.n.01)
+
+SubClassOf(:macaque.n.01 :old_world_monkey.n.01)
+
+# Class: :machine.n.01 (:machine.n.01)
+
+SubClassOf(:machine.n.01 :device.n.01)
+
+# Class: :machine.n.04 (:machine.n.04)
+
+SubClassOf(:machine.n.04 :mechanical_device.n.01)
+
+# Class: :mackerel_shark.n.01 (:mackerel_shark.n.01)
+
+SubClassOf(:mackerel_shark.n.01 :shark.n.01)
+
+# Class: :madagascar_cat.n.01 (:madagascar_cat.n.01)
+
+SubClassOf(:madagascar_cat.n.01 :lemur.n.01)
+
+# Class: :magnetic_compass.n.01 (:magnetic_compass.n.01)
+
+SubClassOf(:magnetic_compass.n.01 :compass.n.01)
+
+# Class: :magnifier.n.01 (:magnifier.n.01)
+
+SubClassOf(:magnifier.n.01 :scientific_instrument.n.01)
+
+# Class: :magpie.n.01 (:magpie.n.01)
+
+SubClassOf(:magpie.n.01 :corvine_bird.n.01)
+
+# Class: :maillot.n.01 (:maillot.n.01)
+
+SubClassOf(:maillot.n.01 :swimsuit.n.01)
+
+# Class: :makeup.n.01 (:makeup.n.01)
+
+SubClassOf(:makeup.n.01 :cosmetic.n.01)
+
+# Class: :malamute.n.01 (:malamute.n.01)
+
+SubClassOf(:malamute.n.01 :sled_dog.n.01)
+DisjointClasses(:malamute.n.01 :siberian_husky.n.01)
+
+# Class: :malinois.n.01 (:malinois.n.01)
+
+SubClassOf(:malinois.n.01 :belgian_sheepdog.n.01)
+
+# Class: :mamba.n.01 (:mamba.n.01)
+
+SubClassOf(:mamba.n.01 :elapid.n.01)
+
+# Class: :mammal.n.01 (:mammal.n.01)
+
+SubClassOf(:mammal.n.01 :vertebrate.n.01)
+
+# Class: :mantis.n.01 (:mantis.n.01)
+
+SubClassOf(:mantis.n.01 :dictyopterous_insect.n.01)
+
+# Class: :maraca.n.01 (:maraca.n.01)
+
+SubClassOf(:maraca.n.01 :percussion_instrument.n.01)
+
+# Class: :marimba.n.01 (:marimba.n.01)
+
+SubClassOf(:marimba.n.01 :percussion_instrument.n.01)
+
+# Class: :marketplace.n.02 (:marketplace.n.02)
+
+SubClassOf(:marketplace.n.02 :mercantile_establishment.n.01)
+DisjointClasses(:marketplace.n.02 :shop.n.01)
+
+# Class: :marmoset.n.01 (:marmoset.n.01)
+
+SubClassOf(:marmoset.n.01 :new_world_monkey.n.01)
+
+# Class: :mask.n.04 (:mask.n.04)
+
+SubClassOf(:mask.n.04 :protective_covering.n.01)
+
+# Class: :mastiff.n.01 (:mastiff.n.01)
+
+SubClassOf(:mastiff.n.01 :working_dog.n.01)
+
+# Class: :matter.n.03 (:matter.n.03)
+
+SubClassOf(:matter.n.03 :physical_entity.n.01)
+DisjointClasses(:matter.n.03 :object.n.01)
+
+# Class: :measuring_instrument.n.01 (:measuring_instrument.n.01)
+
+SubClassOf(:measuring_instrument.n.01 :instrument.n.01)
+
+# Class: :measuring_stick.n.01 (:measuring_stick.n.01)
+
+SubClassOf(:measuring_stick.n.01 :measuring_instrument.n.01)
+
+# Class: :mechanical_device.n.01 (:mechanical_device.n.01)
+
+SubClassOf(:mechanical_device.n.01 :mechanism.n.05)
+
+# Class: :mechanism.n.03 (:mechanism.n.03)
+
+SubClassOf(:mechanism.n.03 :natural_object.n.01)
+DisjointClasses(:mechanism.n.03 :plant_part.n.01)
+
+# Class: :mechanism.n.05 (:mechanism.n.05)
+
+SubClassOf(:mechanism.n.05 :device.n.01)
+
+# Class: :medical_instrument.n.01 (:medical_instrument.n.01)
+
+SubClassOf(:medical_instrument.n.01 :instrument.n.01)
+
+# Class: :medicine_chest.n.01 (:medicine_chest.n.01)
+
+SubClassOf(:medicine_chest.n.01 :cabinet.n.01)
+
+# Class: :menu.n.02 (:menu.n.02)
+
+SubClassOf(:menu.n.02 :fare.n.04)
+
+# Class: :mercantile_establishment.n.01 (:mercantile_establishment.n.01)
+
+SubClassOf(:mercantile_establishment.n.01 :place_of_business.n.01)
+
+# Class: :merganser.n.01 (:merganser.n.01)
+
+SubClassOf(:merganser.n.01 :sea_duck.n.01)
+
+# Class: :meter.n.02 (:meter.n.02)
+
+SubClassOf(:meter.n.02 :measuring_instrument.n.01)
+
+# Class: :microscope.n.01 (:microscope.n.01)
+
+SubClassOf(:microscope.n.01 :magnifier.n.01)
+DisjointClasses(:microscope.n.01 :telescope.n.01)
+
+# Class: :microwave.n.02 (:microwave.n.02)
+
+SubClassOf(:microwave.n.02 :kitchen_appliance.n.01)
+
+# Class: :military_vehicle.n.01 (:military_vehicle.n.01)
+
+SubClassOf(:military_vehicle.n.01 :vehicle.n.01)
+
+# Class: :miniature_pinscher.n.01 (:miniature_pinscher.n.01)
+
+SubClassOf(:miniature_pinscher.n.01 :pinscher.n.01)
+
+# Class: :miniature_schnauzer.n.01 (:miniature_schnauzer.n.01)
+
+SubClassOf(:miniature_schnauzer.n.01 :schnauzer.n.01)
+
+# Class: :minibike.n.01 (:minibike.n.01)
+
+SubClassOf(:minibike.n.01 :motorcycle.n.01)
+
+# Class: :miniskirt.n.01 (:miniskirt.n.01)
+
+SubClassOf(:miniskirt.n.01 :skirt.n.02)
+
+# Class: :minivan.n.01 (:minivan.n.01)
+
+SubClassOf(:minivan.n.01 :car.n.01)
+
+# Class: :missile.n.01 (:missile.n.01)
+
+SubClassOf(:missile.n.01 :rocket.n.01)
+
+# Class: :mixed_drink.n.01 (:mixed_drink.n.01)
+
+SubClassOf(:mixed_drink.n.01 :alcohol.n.01)
+DisjointClasses(:mixed_drink.n.01 :wine.n.01)
+
+# Class: :model_t.n.01 (:model_t.n.01)
+
+SubClassOf(:model_t.n.01 :car.n.01)
+
+# Class: :modem.n.01 (:modem.n.01)
+
+SubClassOf(:modem.n.01 :electronic_equipment.n.01)
+
+# Class: :monarch.n.02 (:monarch.n.02)
+
+SubClassOf(:monarch.n.02 :danaid.n.01)
+
+# Class: :monastery.n.01 (:monastery.n.01)
+
+SubClassOf(:monastery.n.01 :religious_residence.n.01)
+
+# Class: :monitor.n.05 (:monitor.n.05)
+
+SubClassOf(:monitor.n.05 :electronic_equipment.n.01)
+
+# Class: :monitor.n.07 (:monitor.n.07)
+
+SubClassOf(:monitor.n.07 :lizard.n.01)
+
+# Class: :monkey.n.01 (:monkey.n.01)
+
+SubClassOf(:monkey.n.01 :primate.n.02)
+
+# Class: :moped.n.01 (:moped.n.01)
+
+SubClassOf(:moped.n.01 :minibike.n.01)
+
+# Class: :mortar.n.03 (:mortar.n.03)
+
+SubClassOf(:mortar.n.03 :vessel.n.03)
+
+# Class: :mosque.n.01 (:mosque.n.01)
+
+SubClassOf(:mosque.n.01 :place_of_worship.n.01)
+
+# Class: :mosquito_net.n.01 (:mosquito_net.n.01)
+
+SubClassOf(:mosquito_net.n.01 :screen.n.05)
+
+# Class: :motor_vehicle.n.01 (:motor_vehicle.n.01)
+
+SubClassOf(:motor_vehicle.n.01 :self-propelled_vehicle.n.01)
+
+# Class: :motorboat.n.01 (:motorboat.n.01)
+
+SubClassOf(:motorboat.n.01 :boat.n.01)
+
+# Class: :motorcycle.n.01 (:motorcycle.n.01)
+
+SubClassOf(:motorcycle.n.01 :motor_vehicle.n.01)
+
+# Class: :mountain.n.01 (:mountain.n.01)
+
+SubClassOf(:mountain.n.01 :natural_elevation.n.01)
+
+# Class: :mountain_sheep.n.01 (:mountain_sheep.n.01)
+
+SubClassOf(:mountain_sheep.n.01 :wild_sheep.n.01)
+
+# Class: :movable_barrier.n.01 (:movable_barrier.n.01)
+
+SubClassOf(:movable_barrier.n.01 :barrier.n.01)
+
+# Class: :moving_van.n.01 (:moving_van.n.01)
+
+SubClassOf(:moving_van.n.01 :van.n.05)
+DisjointClasses(:moving_van.n.01 :police_van.n.01)
+
+# Class: :mug.n.04 (:mug.n.04)
+
+SubClassOf(:mug.n.04 :drinking_vessel.n.01)
+
+# Class: :mushroom.n.05 (:mushroom.n.05)
+
+SubClassOf(:mushroom.n.05 :vegetable.n.01)
+
+# Class: :musical_instrument.n.01 (:musical_instrument.n.01)
+
+SubClassOf(:musical_instrument.n.01 :device.n.01)
+
+# Class: :muzzle.n.03 (:muzzle.n.03)
+
+SubClassOf(:muzzle.n.03 :restraint.n.06)
+
+# Class: :nail.n.02 (:nail.n.02)
+
+SubClassOf(:nail.n.02 :fastener.n.02)
+
+# Class: :natural_depression.n.01 (:natural_depression.n.01)
+
+SubClassOf(:natural_depression.n.01 :geological_formation.n.01)
+
+# Class: :natural_elevation.n.01 (:natural_elevation.n.01)
+
+SubClassOf(:natural_elevation.n.01 :geological_formation.n.01)
+
+# Class: :natural_object.n.01 (:natural_object.n.01)
+
+SubClassOf(:natural_object.n.01 :whole.n.02)
+
+# Class: :navigational_instrument.n.01 (:navigational_instrument.n.01)
+
+SubClassOf(:navigational_instrument.n.01 :instrument.n.01)
+
+# Class: :necktie.n.01 (:necktie.n.01)
+
+SubClassOf(:necktie.n.01 :neckwear.n.01)
+
+# Class: :neckwear.n.01 (:neckwear.n.01)
+
+SubClassOf(:neckwear.n.01 :garment.n.01)
+
+# Class: :neuropteron.n.01 (:neuropteron.n.01)
+
+SubClassOf(:neuropteron.n.01 :insect.n.01)
+
+# Class: :new_world_monkey.n.01 (:new_world_monkey.n.01)
+
+SubClassOf(:new_world_monkey.n.01 :monkey.n.01)
+DisjointClasses(:new_world_monkey.n.01 :old_world_monkey.n.01)
+
+# Class: :night_snake.n.01 (:night_snake.n.01)
+
+SubClassOf(:night_snake.n.01 :colubrid_snake.n.01)
+
+# Class: :nightingale.n.01 (:nightingale.n.01)
+
+SubClassOf(:nightingale.n.01 :thrush.n.03)
+DisjointClasses(:nightingale.n.01 :robin.n.02)
+
+# Class: :norfolk_terrier.n.01 (:norfolk_terrier.n.01)
+
+SubClassOf(:norfolk_terrier.n.01 :terrier.n.01)
+
+# Class: :norwegian_elkhound.n.01 (:norwegian_elkhound.n.01)
+
+SubClassOf(:norwegian_elkhound.n.01 :hound.n.01)
+
+# Class: :norwich_terrier.n.01 (:norwich_terrier.n.01)
+
+SubClassOf(:norwich_terrier.n.01 :terrier.n.01)
+
+# Class: :notebook.n.02 (:notebook.n.02)
+
+SubClassOf(:notebook.n.02 :portable_computer.n.01)
+
+# Class: :nutriment.n.01 (:nutriment.n.01)
+
+SubClassOf(:nutriment.n.01 :food.n.01)
+
+# Class: :nymphalid.n.01 (:nymphalid.n.01)
+
+SubClassOf(:nymphalid.n.01 :butterfly.n.01)
+
+# Class: :object.n.01 (:object.n.01)
+
+SubClassOf(:object.n.01 :physical_entity.n.01)
+
+# Class: :oboe.n.01 (:oboe.n.01)
+
+SubClassOf(:oboe.n.01 :double-reed_instrument.n.01)
+
+# Class: :obstruction.n.01 (:obstruction.n.01)
+
+SubClassOf(:obstruction.n.01 :structure.n.01)
+
+# Class: :ocarina.n.01 (:ocarina.n.01)
+
+SubClassOf(:ocarina.n.01 :wind_instrument.n.01)
+
+# Class: :odd-toed_ungulate.n.01 (:odd-toed_ungulate.n.01)
+
+SubClassOf(:odd-toed_ungulate.n.01 :ungulate.n.01)
+
+# Class: :odometer.n.01 (:odometer.n.01)
+
+SubClassOf(:odometer.n.01 :meter.n.02)
+
+# Class: :odonate.n.01 (:odonate.n.01)
+
+SubClassOf(:odonate.n.01 :insect.n.01)
+
+# Class: :office_furniture.n.01 (:office_furniture.n.01)
+
+SubClassOf(:office_furniture.n.01 :furniture.n.01)
+
+# Class: :old_english_sheepdog.n.01 (:old_english_sheepdog.n.01)
+
+SubClassOf(:old_english_sheepdog.n.01 :shepherd_dog.n.01)
+
+# Class: :old_world_buffalo.n.01 (:old_world_buffalo.n.01)
+
+SubClassOf(:old_world_buffalo.n.01 :bovid.n.01)
+
+# Class: :old_world_monkey.n.01 (:old_world_monkey.n.01)
+
+SubClassOf(:old_world_monkey.n.01 :monkey.n.01)
+
+# Class: :opener.n.03 (:opener.n.03)
+
+SubClassOf(:opener.n.03 :hand_tool.n.01)
+
+# Class: :optical_instrument.n.01 (:optical_instrument.n.01)
+
+SubClassOf(:optical_instrument.n.01 :instrument.n.01)
+
+# Class: :orange.n.01 (:orange.n.01)
+
+SubClassOf(:orange.n.01 :citrus.n.01)
+
+# Class: :orangutan.n.01 (:orangutan.n.01)
+
+SubClassOf(:orangutan.n.01 :great_ape.n.01)
+
+# Class: :organ.n.05 (:organ.n.05)
+
+SubClassOf(:organ.n.05 :keyboard_instrument.n.01)
+DisjointClasses(:organ.n.05 :piano.n.01)
+
+# Class: :organism.n.01 (:organism.n.01)
+
+SubClassOf(:organism.n.01 :living_thing.n.01)
+
+# Class: :orthopterous_insect.n.01 (:orthopterous_insect.n.01)
+
+SubClassOf(:orthopterous_insect.n.01 :insect.n.01)
+
+# Class: :oscilloscope.n.01 (:oscilloscope.n.01)
+
+SubClassOf(:oscilloscope.n.01 :electronic_equipment.n.01)
+
+# Class: :oscine.n.01 (:oscine.n.01)
+
+SubClassOf(:oscine.n.01 :passerine.n.01)
+
+# Class: :otterhound.n.01 (:otterhound.n.01)
+
+SubClassOf(:otterhound.n.01 :hound.n.01)
+
+# Class: :outbuilding.n.01 (:outbuilding.n.01)
+
+SubClassOf(:outbuilding.n.01 :building.n.01)
+
+# Class: :oven.n.01 (:oven.n.01)
+
+SubClassOf(:oven.n.01 :kitchen_appliance.n.01)
+
+# Class: :overgarment.n.01 (:overgarment.n.01)
+
+SubClassOf(:overgarment.n.01 :garment.n.01)
+
+# Class: :overskirt.n.01 (:overskirt.n.01)
+
+SubClassOf(:overskirt.n.01 :skirt.n.02)
+
+# Class: :ox.n.01 (:ox.n.01)
+
+SubClassOf(:ox.n.01 :cattle.n.01)
+
+# Class: :oystercatcher.n.01 (:oystercatcher.n.01)
+
+SubClassOf(:oystercatcher.n.01 :shorebird.n.01)
+
+# Class: :paddlewheel.n.01 (:paddlewheel.n.01)
+
+SubClassOf(:paddlewheel.n.01 :wheel.n.01)
+
+# Class: :padlock.n.01 (:padlock.n.01)
+
+SubClassOf(:padlock.n.01 :lock.n.01)
+
+# Class: :palace.n.04 (:palace.n.04)
+
+SubClassOf(:palace.n.04 :residence.n.02)
+DisjointClasses(:palace.n.04 :religious_residence.n.01)
+
+# Class: :panpipe.n.01 (:panpipe.n.01)
+
+SubClassOf(:panpipe.n.01 :pipe.n.04)
+
+# Class: :park_bench.n.01 (:park_bench.n.01)
+
+SubClassOf(:park_bench.n.01 :bench.n.01)
+
+# Class: :parking_meter.n.01 (:parking_meter.n.01)
+
+SubClassOf(:parking_meter.n.01 :timer.n.01)
+DisjointClasses(:parking_meter.n.01 :stopwatch.n.01)
+
+# Class: :passenger_ship.n.01 (:passenger_ship.n.01)
+
+SubClassOf(:passenger_ship.n.01 :ship.n.01)
+
+# Class: :passerine.n.01 (:passerine.n.01)
+
+SubClassOf(:passerine.n.01 :bird.n.01)
+
+# Class: :patas.n.01 (:patas.n.01)
+
+SubClassOf(:patas.n.01 :old_world_monkey.n.01)
+
+# Class: :pay-phone.n.01 (:pay-phone.n.01)
+
+SubClassOf(:pay-phone.n.01 :telephone.n.01)
+
+# Class: :pelagic_bird.n.01 (:pelagic_bird.n.01)
+
+SubClassOf(:pelagic_bird.n.01 :seabird.n.01)
+
+# Class: :pelecaniform_seabird.n.01 (:pelecaniform_seabird.n.01)
+
+SubClassOf(:pelecaniform_seabird.n.01 :seabird.n.01)
+
+# Class: :pelican.n.01 (:pelican.n.01)
+
+SubClassOf(:pelican.n.01 :pelecaniform_seabird.n.01)
+
+# Class: :penal_institution.n.01 (:penal_institution.n.01)
+
+SubClassOf(:penal_institution.n.01 :institution.n.02)
+
+# Class: :penguin.n.01 (:penguin.n.01)
+
+SubClassOf(:penguin.n.01 :sphenisciform_seabird.n.01)
+
+# Class: :pepper.n.04 (:pepper.n.04)
+
+SubClassOf(:pepper.n.04 :solanaceous_vegetable.n.01)
+
+# Class: :percoid_fish.n.01 (:percoid_fish.n.01)
+
+SubClassOf(:percoid_fish.n.01 :spiny-finned_fish.n.01)
+
+# Class: :percussion_instrument.n.01 (:percussion_instrument.n.01)
+
+SubClassOf(:percussion_instrument.n.01 :musical_instrument.n.01)
+
+# Class: :peripheral.n.01 (:peripheral.n.01)
+
+SubClassOf(:peripheral.n.01 :electronic_equipment.n.01)
+
+# Class: :persian_cat.n.01 (:persian_cat.n.01)
+
+SubClassOf(:persian_cat.n.01 :domestic_cat.n.01)
+
+# Class: :personal_computer.n.01 (:personal_computer.n.01)
+
+SubClassOf(:personal_computer.n.01 :digital_computer.n.01)
+
+# Class: :phasmid.n.01 (:phasmid.n.01)
+
+SubClassOf(:phasmid.n.01 :insect.n.01)
+
+# Class: :physical_entity.n.01 (:physical_entity.n.01)
+
+SubClassOf(:physical_entity.n.01 :entity.n.01)
+
+# Class: :piano.n.01 (:piano.n.01)
+
+SubClassOf(:piano.n.01 :keyboard_instrument.n.01)
+
+# Class: :pickelhaube.n.01 (:pickelhaube.n.01)
+
+SubClassOf(:pickelhaube.n.01 :helmet.n.01)
+
+# Class: :picket_fence.n.01 (:picket_fence.n.01)
+
+SubClassOf(:picket_fence.n.01 :fence.n.01)
+
+# Class: :pickup.n.01 (:pickup.n.01)
+
+SubClassOf(:pickup.n.01 :truck.n.01)
+
+# Class: :pierid.n.01 (:pierid.n.01)
+
+SubClassOf(:pierid.n.01 :butterfly.n.01)
+
+# Class: :pill_bottle.n.01 (:pill_bottle.n.01)
+
+SubClassOf(:pill_bottle.n.01 :bottle.n.01)
+
+# Class: :pin.n.09 (:pin.n.09)
+
+SubClassOf(:pin.n.09 :fastener.n.02)
+
+# Class: :pineapple.n.02 (:pineapple.n.02)
+
+SubClassOf(:pineapple.n.02 :edible_fruit.n.01)
+
+# Class: :ping-pong_ball.n.01 (:ping-pong_ball.n.01)
+
+SubClassOf(:ping-pong_ball.n.01 :ball.n.01)
+
+# Class: :pinscher.n.01 (:pinscher.n.01)
+
+SubClassOf(:pinscher.n.01 :watchdog.n.02)
+
+# Class: :pinwheel.n.02 (:pinwheel.n.02)
+
+SubClassOf(:pinwheel.n.02 :wheel.n.01)
+
+# Class: :pipe.n.04 (:pipe.n.04)
+
+SubClassOf(:pipe.n.04 :wind_instrument.n.01)
+
+# Class: :pirate.n.03 (:pirate.n.03)
+
+SubClassOf(:pirate.n.03 :ship.n.01)
+
+# Class: :pistol.n.01 (:pistol.n.01)
+
+SubClassOf(:pistol.n.01 :firearm.n.01)
+
+# Class: :pit_viper.n.01 (:pit_viper.n.01)
+
+SubClassOf(:pit_viper.n.01 :viper.n.01)
+
+# Class: :pitcher.n.02 (:pitcher.n.02)
+
+SubClassOf(:pitcher.n.02 :vessel.n.03)
+
+# Class: :pizza.n.01 (:pizza.n.01)
+
+SubClassOf(:pizza.n.01 :dish.n.02)
+
+# Class: :place_of_business.n.01 (:place_of_business.n.01)
+
+SubClassOf(:place_of_business.n.01 :establishment.n.04)
+
+# Class: :place_of_worship.n.01 (:place_of_worship.n.01)
+
+SubClassOf(:place_of_worship.n.01 :building.n.01)
+
+# Class: :placental.n.01 (:placental.n.01)
+
+SubClassOf(:placental.n.01 :mammal.n.01)
+
+# Class: :plane.n.05 (:plane.n.05)
+
+SubClassOf(:plane.n.05 :edge_tool.n.01)
+
+# Class: :planetarium.n.01 (:planetarium.n.01)
+
+SubClassOf(:planetarium.n.01 :building.n.01)
+
+# Class: :plant_organ.n.01 (:plant_organ.n.01)
+
+SubClassOf(:plant_organ.n.01 :plant_part.n.01)
+
+# Class: :plant_part.n.01 (:plant_part.n.01)
+
+SubClassOf(:plant_part.n.01 :natural_object.n.01)
+
+# Class: :plate.n.08 (:plate.n.08)
+
+SubClassOf(:plate.n.08 :entree.n.01)
+
+# Class: :plate.n.14 (:plate.n.14)
+
+SubClassOf(:plate.n.14 :shield.n.01)
+
+# Class: :plectognath.n.01 (:plectognath.n.01)
+
+SubClassOf(:plectognath.n.01 :spiny-finned_fish.n.01)
+
+# Class: :plover.n.01 (:plover.n.01)
+
+SubClassOf(:plover.n.01 :shorebird.n.01)
+
+# Class: :plow.n.01 (:plow.n.01)
+
+SubClassOf(:plow.n.01 :tool.n.01)
+
+# Class: :plunger.n.03 (:plunger.n.03)
+
+SubClassOf(:plunger.n.03 :hand_tool.n.01)
+
+# Class: :pointer.n.04 (:pointer.n.04)
+
+SubClassOf(:pointer.n.04 :sporting_dog.n.01)
+
+# Class: :police_van.n.01 (:police_van.n.01)
+
+SubClassOf(:police_van.n.01 :van.n.05)
+
+# Class: :pomegranate.n.02 (:pomegranate.n.02)
+
+SubClassOf(:pomegranate.n.02 :edible_fruit.n.01)
+
+# Class: :poncho.n.01 (:poncho.n.01)
+
+SubClassOf(:poncho.n.01 :cloak.n.02)
+
+# Class: :pool.n.01 (:pool.n.01)
+
+SubClassOf(:pool.n.01 :excavation.n.03)
+
+# Class: :pop_bottle.n.01 (:pop_bottle.n.01)
+
+SubClassOf(:pop_bottle.n.01 :bottle.n.01)
+
+# Class: :portable_computer.n.01 (:portable_computer.n.01)
+
+SubClassOf(:portable_computer.n.01 :personal_computer.n.01)
+
+# Class: :pot.n.01 (:pot.n.01)
+
+SubClassOf(:pot.n.01 :cooking_utensil.n.01)
+
+# Class: :potpie.n.01 (:potpie.n.01)
+
+SubClassOf(:potpie.n.01 :dish.n.02)
+
+# Class: :potter (:potter)
+
+SubClassOf(:potter :wheel.n.01)
+
+# Class: :prayer_rug.n.01 (:prayer_rug.n.01)
+
+SubClassOf(:prayer_rug.n.01 :rug.n.01)
+
+# Class: :primate.n.02 (:primate.n.02)
+
+SubClassOf(:primate.n.02 :placental.n.01)
+
+# Class: :prison.n.01 (:prison.n.01)
+
+SubClassOf(:prison.n.01 :correctional_institution.n.01)
+
+# Class: :proboscis_monkey.n.01 (:proboscis_monkey.n.01)
+
+SubClassOf(:proboscis_monkey.n.01 :old_world_monkey.n.01)
+
+# Class: :produce.n.01 (:produce.n.01)
+
+SubClassOf(:produce.n.01 :food.n.02)
+
+# Class: :projectile.n.01 (:projectile.n.01)
+
+SubClassOf(:projectile.n.01 :weapon.n.01)
+
+# Class: :projector.n.02 (:projector.n.02)
+
+SubClassOf(:projector.n.02 :optical_instrument.n.01)
+
+# Class: :promontory.n.01 (:promontory.n.01)
+
+SubClassOf(:promontory.n.01 :natural_elevation.n.01)
+
+# Class: :protective_covering.n.01 (:protective_covering.n.01)
+
+SubClassOf(:protective_covering.n.01 :covering.n.02)
+
+# Class: :puck.n.02 (:puck.n.02)
+
+SubClassOf(:puck.n.02 :disk.n.02)
+
+# Class: :pudding.n.02 (:pudding.n.02)
+
+SubClassOf(:pudding.n.02 :dessert.n.01)
+
+# Class: :puffer.n.02 (:puffer.n.02)
+
+SubClassOf(:puffer.n.02 :plectognath.n.01)
+
+# Class: :pullover.n.01 (:pullover.n.01)
+
+SubClassOf(:pullover.n.01 :sweater.n.01)
+
+# Class: :pump.n.01 (:pump.n.01)
+
+SubClassOf(:pump.n.01 :mechanical_device.n.01)
+
+# Class: :punch.n.02 (:punch.n.02)
+
+SubClassOf(:punch.n.02 :mixed_drink.n.01)
+
+# Class: :punching_bag.n.02 (:punching_bag.n.02)
+
+SubClassOf(:punching_bag.n.02 :ball.n.01)
+
+# Class: :purple_gallinule.n.01 (:purple_gallinule.n.01)
+
+SubClassOf(:purple_gallinule.n.01 :gallinule.n.01)
+
+# Class: :puzzle.n.02 (:puzzle.n.02)
+
+SubClassOf(:puzzle.n.02 :game.n.09)
+
+# Class: :python.n.01 (:python.n.01)
+
+SubClassOf(:python.n.01 :boa.n.02)
+
+# Class: :racer.n.02 (:racer.n.02)
+
+SubClassOf(:racer.n.02 :car.n.01)
+
+# Class: :radiator.n.03 (:radiator.n.03)
+
+SubClassOf(:radiator.n.03 :mechanism.n.05)
+
+# Class: :radio_telescope.n.01 (:radio_telescope.n.01)
+
+SubClassOf(:radio_telescope.n.01 :astronomical_telescope.n.01)
+
+# Class: :radiotelephone.n.02 (:radiotelephone.n.02)
+
+SubClassOf(:radiotelephone.n.02 :telephone.n.01)
+
+# Class: :rail.n.05 (:rail.n.05)
+
+SubClassOf(:rail.n.05 :wading_bird.n.01)
+
+# Class: :rail_fence.n.01 (:rail_fence.n.01)
+
+SubClassOf(:rail_fence.n.01 :fence.n.01)
+
+# Class: :rain_barrel.n.01 (:rain_barrel.n.01)
+
+SubClassOf(:rain_barrel.n.01 :cistern.n.03)
+
+# Class: :raincoat.n.01 (:raincoat.n.01)
+
+SubClassOf(:raincoat.n.01 :coat.n.01)
+
+# Class: :ram.n.05 (:ram.n.05)
+
+SubClassOf(:ram.n.05 :sheep.n.01)
+
+# Class: :rattlesnake.n.01 (:rattlesnake.n.01)
+
+SubClassOf(:rattlesnake.n.01 :pit_viper.n.01)
+
+# Class: :ray.n.07 (:ray.n.07)
+
+SubClassOf(:ray.n.07 :elasmobranch.n.01)
+DisjointClasses(:ray.n.07 :shark.n.01)
+
+# Class: :red-backed_sandpiper.n.01 (:red-backed_sandpiper.n.01)
+
+SubClassOf(:red-backed_sandpiper.n.01 :sandpiper.n.01)
+DisjointClasses(:red-backed_sandpiper.n.01 :redshank.n.01)
+
+# Class: :red-breasted_merganser.n.01 (:red-breasted_merganser.n.01)
+
+SubClassOf(:red-breasted_merganser.n.01 :merganser.n.01)
+
+# Class: :red_wine.n.01 (:red_wine.n.01)
+
+SubClassOf(:red_wine.n.01 :wine.n.01)
+
+# Class: :redbone.n.01 (:redbone.n.01)
+
+SubClassOf(:redbone.n.01 :hound.n.01)
+
+# Class: :redshank.n.01 (:redshank.n.01)
+
+SubClassOf(:redshank.n.01 :sandpiper.n.01)
+
+# Class: :reef.n.01 (:reef.n.01)
+
+SubClassOf(:reef.n.01 :ridge.n.01)
+
+# Class: :reel.n.03 (:reel.n.03)
+
+SubClassOf(:reel.n.03 :winder.n.03)
+
+# Class: :refrigerator.n.01 (:refrigerator.n.01)
+
+SubClassOf(:refrigerator.n.01 :white_goods.n.01)
+
+# Class: :religious_residence.n.01 (:religious_residence.n.01)
+
+SubClassOf(:religious_residence.n.01 :residence.n.02)
+
+# Class: :reproducer.n.01 (:reproducer.n.01)
+
+SubClassOf(:reproducer.n.01 :audio_system.n.01)
+
+# Class: :reproductive_structure.n.01 (:reproductive_structure.n.01)
+
+SubClassOf(:reproductive_structure.n.01 :plant_organ.n.01)
+
+# Class: :reptile.n.01 (:reptile.n.01)
+
+SubClassOf(:reptile.n.01 :vertebrate.n.01)
+
+# Class: :requiem_shark.n.01 (:requiem_shark.n.01)
+
+SubClassOf(:requiem_shark.n.01 :shark.n.01)
+
+# Class: :reservoir.n.03 (:reservoir.n.03)
+
+SubClassOf(:reservoir.n.03 :tank.n.02)
+
+# Class: :residence.n.02 (:residence.n.02)
+
+SubClassOf(:residence.n.02 :house.n.01)
+
+# Class: :restaurant.n.01 (:restaurant.n.01)
+
+SubClassOf(:restaurant.n.01 :building.n.01)
+
+# Class: :restraint.n.06 (:restraint.n.06)
+
+SubClassOf(:restraint.n.06 :device.n.01)
+
+# Class: :retriever.n.01 (:retriever.n.01)
+
+SubClassOf(:retriever.n.01 :sporting_dog.n.01)
+
+# Class: :revolver.n.01 (:revolver.n.01)
+
+SubClassOf(:revolver.n.01 :pistol.n.01)
+
+# Class: :rhinoceros_beetle.n.01 (:rhinoceros_beetle.n.01)
+
+SubClassOf(:rhinoceros_beetle.n.01 :scarabaeid_beetle.n.01)
+
+# Class: :ride.n.02 (:ride.n.02)
+
+SubClassOf(:ride.n.02 :mechanical_device.n.01)
+
+# Class: :ridge.n.01 (:ridge.n.01)
+
+SubClassOf(:ridge.n.01 :natural_elevation.n.01)
+
+# Class: :rifle.n.01 (:rifle.n.01)
+
+SubClassOf(:rifle.n.01 :firearm.n.01)
+
+# Class: :ringlet.n.04 (:ringlet.n.04)
+
+SubClassOf(:ringlet.n.04 :butterfly.n.01)
+
+# Class: :ringneck_snake.n.01 (:ringneck_snake.n.01)
+
+SubClassOf(:ringneck_snake.n.01 :colubrid_snake.n.01)
+
+# Class: :robe.n.01 (:robe.n.01)
+
+SubClassOf(:robe.n.01 :garment.n.01)
+
+# Class: :robin.n.02 (:robin.n.02)
+
+SubClassOf(:robin.n.02 :thrush.n.03)
+
+# Class: :rock_beauty.n.01 (:rock_beauty.n.01)
+
+SubClassOf(:rock_beauty.n.01 :butterfly_fish.n.01)
+
+# Class: :rock_python.n.01 (:rock_python.n.01)
+
+SubClassOf(:rock_python.n.01 :python.n.01)
+
+# Class: :rocket.n.01 (:rocket.n.01)
+
+SubClassOf(:rocket.n.01 :vehicle.n.01)
+
+# Class: :rocking_chair.n.01 (:rocking_chair.n.01)
+
+SubClassOf(:rocking_chair.n.01 :chair.n.01)
+
+# Class: :roof.n.01 (:roof.n.01)
+
+SubClassOf(:roof.n.01 :protective_covering.n.01)
+
+# Class: :rotating_mechanism.n.01 (:rotating_mechanism.n.01)
+
+SubClassOf(:rotating_mechanism.n.01 :mechanism.n.05)
+
+# Class: :rotisserie.n.01 (:rotisserie.n.01)
+
+SubClassOf(:rotisserie.n.01 :oven.n.01)
+
+# Class: :rottweiler.n.01 (:rottweiler.n.01)
+
+SubClassOf(:rottweiler.n.01 :shepherd_dog.n.01)
+
+# Class: :ruddy_turnstone.n.01 (:ruddy_turnstone.n.01)
+
+SubClassOf(:ruddy_turnstone.n.01 :turnstone.n.01)
+
+# Class: :rug.n.01 (:rug.n.01)
+
+SubClassOf(:rug.n.01 :floor_cover.n.01)
+
+# Class: :rugby_ball.n.01 (:rugby_ball.n.01)
+
+SubClassOf(:rugby_ball.n.01 :ball.n.01)
+
+# Class: :rule.n.12 (:rule.n.12)
+
+SubClassOf(:rule.n.12 :measuring_stick.n.01)
+
+# Class: :ruminant.n.01 (:ruminant.n.01)
+
+SubClassOf(:ruminant.n.01 :even-toed_ungulate.n.01)
+
+# Class: :safety_belt.n.01 (:safety_belt.n.01)
+
+SubClassOf(:safety_belt.n.01 :belt.n.02)
+
+# Class: :safety_pin.n.01 (:safety_pin.n.01)
+
+SubClassOf(:safety_pin.n.01 :pin.n.09)
+
+# Class: :sailboat.n.01 (:sailboat.n.01)
+
+SubClassOf(:sailboat.n.01 :sailing_vessel.n.01)
+DisjointClasses(:sailboat.n.01 :schooner.n.02)
+
+# Class: :sailing_vessel.n.01 (:sailing_vessel.n.01)
+
+SubClassOf(:sailing_vessel.n.01 :vessel.n.02)
+
+# Class: :saint_bernard.n.01 (:saint_bernard.n.01)
+
+SubClassOf(:saint_bernard.n.01 :working_dog.n.01)
+
+# Class: :salmon.n.01 (:salmon.n.01)
+
+SubClassOf(:salmon.n.01 :food_fish.n.01)
+
+# Class: :saluki.n.01 (:saluki.n.01)
+
+SubClassOf(:saluki.n.01 :hound.n.01)
+
+# Class: :sandbar.n.01 (:sandbar.n.01)
+
+SubClassOf(:sandbar.n.01 :bar.n.08)
+
+# Class: :sandglass.n.01 (:sandglass.n.01)
+
+SubClassOf(:sandglass.n.01 :timepiece.n.01)
+
+# Class: :sandpiper.n.01 (:sandpiper.n.01)
+
+SubClassOf(:sandpiper.n.01 :shorebird.n.01)
+
+# Class: :sandwich.n.01 (:sandwich.n.01)
+
+SubClassOf(:sandwich.n.01 :snack_food.n.01)
+
+# Class: :sarong.n.01 (:sarong.n.01)
+
+SubClassOf(:sarong.n.01 :skirt.n.02)
+
+# Class: :sauce.n.01 (:sauce.n.01)
+
+SubClassOf(:sauce.n.01 :condiment.n.01)
+
+# Class: :saurian.n.01 (:saurian.n.01)
+
+SubClassOf(:saurian.n.01 :diapsid.n.01)
+DisjointClasses(:saurian.n.01 :snake.n.01)
+
+# Class: :sax.n.02 (:sax.n.02)
+
+SubClassOf(:sax.n.02 :single-reed_instrument.n.01)
+
+# Class: :scabbard.n.01 (:scabbard.n.01)
+
+SubClassOf(:scabbard.n.01 :sheath.n.01)
+
+# Class: :scale.n.07 (:scale.n.07)
+
+SubClassOf(:scale.n.07 :measuring_instrument.n.01)
+
+# Class: :scarabaeid_beetle.n.01 (:scarabaeid_beetle.n.01)
+
+SubClassOf(:scarabaeid_beetle.n.01 :lamellicorn_beetle.n.01)
+
+# Class: :scarf.n.01 (:scarf.n.01)
+
+SubClassOf(:scarf.n.01 :garment.n.01)
+
+# Class: :schipperke.n.01 (:schipperke.n.01)
+
+SubClassOf(:schipperke.n.01 :watchdog.n.02)
+
+# Class: :schnauzer.n.01 (:schnauzer.n.01)
+
+SubClassOf(:schnauzer.n.01 :terrier.n.01)
+
+# Class: :schooner.n.02 (:schooner.n.02)
+
+SubClassOf(:schooner.n.02 :sailing_vessel.n.01)
+
+# Class: :scientific_instrument.n.01 (:scientific_instrument.n.01)
+
+SubClassOf(:scientific_instrument.n.01 :instrument.n.01)
+
+# Class: :scorpaenid.n.01 (:scorpaenid.n.01)
+
+SubClassOf(:scorpaenid.n.01 :scorpaenoid.n.01)
+
+# Class: :scorpaenoid.n.01 (:scorpaenoid.n.01)
+
+SubClassOf(:scorpaenoid.n.01 :spiny-finned_fish.n.01)
+
+# Class: :scotch_terrier.n.01 (:scotch_terrier.n.01)
+
+SubClassOf(:scotch_terrier.n.01 :terrier.n.01)
+
+# Class: :scottish_deerhound.n.01 (:scottish_deerhound.n.01)
+
+SubClassOf(:scottish_deerhound.n.01 :hound.n.01)
+
+# Class: :screen.n.05 (:screen.n.05)
+
+SubClassOf(:screen.n.05 :protective_covering.n.01)
+
+# Class: :screw.n.04 (:screw.n.04)
+
+SubClassOf(:screw.n.04 :fastener.n.02)
+
+# Class: :screwdriver.n.01 (:screwdriver.n.01)
+
+SubClassOf(:screwdriver.n.01 :hand_tool.n.01)
+
+# Class: :sea_boat.n.01 (:sea_boat.n.01)
+
+SubClassOf(:sea_boat.n.01 :boat.n.01)
+
+# Class: :sea_duck.n.01 (:sea_duck.n.01)
+
+SubClassOf(:sea_duck.n.01 :duck.n.01)
+
+# Class: :sea_snake.n.01 (:sea_snake.n.01)
+
+SubClassOf(:sea_snake.n.01 :snake.n.01)
+
+# Class: :seabird.n.01 (:seabird.n.01)
+
+SubClassOf(:seabird.n.01 :aquatic_bird.n.01)
+
+# Class: :sealyham_terrier.n.01 (:sealyham_terrier.n.01)
+
+SubClassOf(:sealyham_terrier.n.01 :welsh_terrier.n.01)
+
+# Class: :seashore.n.01 (:seashore.n.01)
+
+SubClassOf(:seashore.n.01 :shore.n.01)
+
+# Class: :seat.n.03 (:seat.n.03)
+
+SubClassOf(:seat.n.03 :furniture.n.01)
+
+# Class: :seat_belt.n.01 (:seat_belt.n.01)
+
+SubClassOf(:seat_belt.n.01 :safety_belt.n.01)
+
+# Class: :self-propelled_vehicle.n.01 (:self-propelled_vehicle.n.01)
+
+SubClassOf(:self-propelled_vehicle.n.01 :wheeled_vehicle.n.01)
+
+# Class: :sennenhunde.n.01 (:sennenhunde.n.01)
+
+SubClassOf(:sennenhunde.n.01 :working_dog.n.01)
+
+# Class: :setter.n.02 (:setter.n.02)
+
+SubClassOf(:setter.n.02 :sporting_dog.n.01)
+
+# Class: :shade.n.03 (:shade.n.03)
+
+SubClassOf(:shade.n.03 :protective_covering.n.01)
+
+# Class: :shark.n.01 (:shark.n.01)
+
+SubClassOf(:shark.n.01 :elasmobranch.n.01)
+
+# Class: :sheath.n.01 (:sheath.n.01)
+
+SubClassOf(:sheath.n.01 :protective_covering.n.01)
+
+# Class: :shed.n.01 (:shed.n.01)
+
+SubClassOf(:shed.n.01 :outbuilding.n.01)
+
+# Class: :sheep.n.01 (:sheep.n.01)
+
+SubClassOf(:sheep.n.01 :bovid.n.01)
+
+# Class: :shelter.n.02 (:shelter.n.02)
+
+SubClassOf(:shelter.n.02 :protective_covering.n.01)
+
+# Class: :shepherd_dog.n.01 (:shepherd_dog.n.01)
+
+SubClassOf(:shepherd_dog.n.01 :working_dog.n.01)
+
+# Class: :shetland_sheepdog.n.01 (:shetland_sheepdog.n.01)
+
+SubClassOf(:shetland_sheepdog.n.01 :shepherd_dog.n.01)
+
+# Class: :shield.n.01 (:shield.n.01)
+
+SubClassOf(:shield.n.01 :protective_covering.n.01)
+
+# Class: :shield.n.02 (:shield.n.02)
+
+SubClassOf(:shield.n.02 :armor.n.01)
+
+# Class: :ship.n.01 (:ship.n.01)
+
+SubClassOf(:ship.n.01 :vessel.n.02)
+
+# Class: :shirt.n.01 (:shirt.n.01)
+
+SubClassOf(:shirt.n.01 :garment.n.01)
+
+# Class: :shoe_shop.n.01 (:shoe_shop.n.01)
+
+SubClassOf(:shoe_shop.n.01 :shop.n.01)
+
+# Class: :shop.n.01 (:shop.n.01)
+
+SubClassOf(:shop.n.01 :mercantile_establishment.n.01)
+
+# Class: :shore.n.01 (:shore.n.01)
+
+SubClassOf(:shore.n.01 :geological_formation.n.01)
+
+# Class: :shorebird.n.01 (:shorebird.n.01)
+
+SubClassOf(:shorebird.n.01 :wading_bird.n.01)
+
+# Class: :shovel.n.01 (:shovel.n.01)
+
+SubClassOf(:shovel.n.01 :hand_tool.n.01)
+
+# Class: :shrine.n.01 (:shrine.n.01)
+
+SubClassOf(:shrine.n.01 :place_of_worship.n.01)
+
+# Class: :siamang.n.01 (:siamang.n.01)
+
+SubClassOf(:siamang.n.01 :lesser_ape.n.01)
+
+# Class: :siamese_cat.n.01 (:siamese_cat.n.01)
+
+SubClassOf(:siamese_cat.n.01 :domestic_cat.n.01)
+
+# Class: :siberian_husky.n.01 (:siberian_husky.n.01)
+
+SubClassOf(:siberian_husky.n.01 :sled_dog.n.01)
+
+# Class: :sidewinder.n.01 (:sidewinder.n.01)
+
+SubClassOf(:sidewinder.n.01 :rattlesnake.n.01)
+
+# Class: :silky_terrier.n.01 (:silky_terrier.n.01)
+
+SubClassOf(:silky_terrier.n.01 :terrier.n.01)
+
+# Class: :single-reed_instrument.n.01 (:single-reed_instrument.n.01)
+
+SubClassOf(:single-reed_instrument.n.01 :beating-reed_instrument.n.01)
+
+# Class: :ski_mask.n.01 (:ski_mask.n.01)
+
+SubClassOf(:ski_mask.n.01 :face_mask.n.01)
+
+# Class: :skirt.n.02 (:skirt.n.02)
+
+SubClassOf(:skirt.n.02 :garment.n.01)
+
+# Class: :sled_dog.n.01 (:sled_dog.n.01)
+
+SubClassOf(:sled_dog.n.01 :working_dog.n.01)
+
+# Class: :slide_rule.n.01 (:slide_rule.n.01)
+
+SubClassOf(:slide_rule.n.01 :analog_computer.n.01)
+
+# Class: :sliding_door.n.01 (:sliding_door.n.01)
+
+SubClassOf(:sliding_door.n.01 :door.n.01)
+
+# Class: :slot.n.07 (:slot.n.07)
+
+SubClassOf(:slot.n.07 :slot_machine.n.01)
+DisjointClasses(:slot.n.07 :vending_machine.n.01)
+
+# Class: :slot_machine.n.01 (:slot_machine.n.01)
+
+SubClassOf(:slot_machine.n.01 :machine.n.01)
+
+# Class: :small_boat.n.01 (:small_boat.n.01)
+
+SubClassOf(:small_boat.n.01 :boat.n.01)
+
+# Class: :snack_food.n.01 (:snack_food.n.01)
+
+SubClassOf(:snack_food.n.01 :dish.n.02)
+
+# Class: :snake.n.01 (:snake.n.01)
+
+SubClassOf(:snake.n.01 :diapsid.n.01)
+
+# Class: :snipe.n.01 (:snipe.n.01)
+
+SubClassOf(:snipe.n.01 :shorebird.n.01)
+
+# Class: :snow_leopard.n.01 (:snow_leopard.n.01)
+
+SubClassOf(:snow_leopard.n.01 :big_cat.n.01)
+
+# Class: :snowplow.n.01 (:snowplow.n.01)
+
+SubClassOf(:snowplow.n.01 :motor_vehicle.n.01)
+
+# Class: :soccer_ball.n.01 (:soccer_ball.n.01)
+
+SubClassOf(:soccer_ball.n.01 :ball.n.01)
+
+# Class: :sofa.n.01 (:sofa.n.01)
+
+SubClassOf(:sofa.n.01 :seat.n.03)
+
+# Class: :soft-coated_wheaten_terrier.n.01 (:soft-coated_wheaten_terrier.n.01)
+
+SubClassOf(:soft-coated_wheaten_terrier.n.01 :terrier.n.01)
+
+# Class: :soft-finned_fish.n.01 (:soft-finned_fish.n.01)
+
+SubClassOf(:soft-finned_fish.n.01 :teleost_fish.n.01)
+
+# Class: :solanaceous_vegetable.n.01 (:solanaceous_vegetable.n.01)
+
+SubClassOf(:solanaceous_vegetable.n.01 :vegetable.n.01)
+
+# Class: :solid.n.01 (:solid.n.01)
+
+SubClassOf(:solid.n.01 :matter.n.03)
+DisjointClasses(:solid.n.01 :substance.n.07)
+
+# Class: :sorrel.n.05 (:sorrel.n.05)
+
+SubClassOf(:sorrel.n.05 :horse.n.01)
+
+# Class: :soup.n.01 (:soup.n.01)
+
+SubClassOf(:soup.n.01 :dish.n.02)
+
+# Class: :space_shuttle.n.01 (:space_shuttle.n.01)
+
+SubClassOf(:space_shuttle.n.01 :spacecraft.n.01)
+
+# Class: :spacecraft.n.01 (:spacecraft.n.01)
+
+SubClassOf(:spacecraft.n.01 :craft.n.02)
+
+# Class: :spaghetti_sauce.n.01 (:spaghetti_sauce.n.01)
+
+SubClassOf(:spaghetti_sauce.n.01 :sauce.n.01)
+
+# Class: :spaghetti_squash.n.02 (:spaghetti_squash.n.02)
+
+SubClassOf(:spaghetti_squash.n.02 :summer_squash.n.02)
+DisjointClasses(:spaghetti_squash.n.02 :zucchini.n.02)
+
+# Class: :spaniel.n.01 (:spaniel.n.01)
+
+SubClassOf(:spaniel.n.01 :sporting_dog.n.01)
+
+# Class: :spectacles.n.01 (:spectacles.n.01)
+
+SubClassOf(:spectacles.n.01 :optical_instrument.n.01)
+
+# Class: :speedboat.n.01 (:speedboat.n.01)
+
+SubClassOf(:speedboat.n.01 :motorboat.n.01)
+
+# Class: :sphenisciform_seabird.n.01 (:sphenisciform_seabird.n.01)
+
+SubClassOf(:sphenisciform_seabird.n.01 :seabird.n.01)
+
+# Class: :spider_monkey.n.01 (:spider_monkey.n.01)
+
+SubClassOf(:spider_monkey.n.01 :new_world_monkey.n.01)
+
+# Class: :spiny-finned_fish.n.01 (:spiny-finned_fish.n.01)
+
+SubClassOf(:spiny-finned_fish.n.01 :teleost_fish.n.01)
+
+# Class: :spoonbill.n.01 (:spoonbill.n.01)
+
+SubClassOf(:spoonbill.n.01 :wading_bird.n.01)
+
+# Class: :sporting_dog.n.01 (:sporting_dog.n.01)
+
+SubClassOf(:sporting_dog.n.01 :hunting_dog.n.01)
+
+# Class: :sports_car.n.01 (:sports_car.n.01)
+
+SubClassOf(:sports_car.n.01 :car.n.01)
+
+# Class: :sports_equipment.n.01 (:sports_equipment.n.01)
+
+SubClassOf(:sports_equipment.n.01 :equipment.n.01)
+
+# Class: :spring.n.03 (:spring.n.03)
+
+SubClassOf(:spring.n.03 :geological_formation.n.01)
+
+# Class: :springer_spaniel.n.01 (:springer_spaniel.n.01)
+
+SubClassOf(:springer_spaniel.n.01 :spaniel.n.01)
+
+# Class: :squash.n.02 (:squash.n.02)
+
+SubClassOf(:squash.n.02 :vegetable.n.01)
+
+# Class: :squirrel_monkey.n.01 (:squirrel_monkey.n.01)
+
+SubClassOf(:squirrel_monkey.n.01 :new_world_monkey.n.01)
+
+# Class: :staffordshire_bullterrier.n.01 (:staffordshire_bullterrier.n.01)
+
+SubClassOf(:staffordshire_bullterrier.n.01 :bullterrier.n.01)
+
+# Class: :standard_schnauzer.n.01 (:standard_schnauzer.n.01)
+
+SubClassOf(:standard_schnauzer.n.01 :schnauzer.n.01)
+
+# Class: :steel_drum.n.01 (:steel_drum.n.01)
+
+SubClassOf(:steel_drum.n.01 :percussion_instrument.n.01)
+
+# Class: :stereo.n.01 (:stereo.n.01)
+
+SubClassOf(:stereo.n.01 :reproducer.n.01)
+
+# Class: :stethoscope.n.01 (:stethoscope.n.01)
+
+SubClassOf(:stethoscope.n.01 :medical_instrument.n.01)
+DisjointClasses(:stethoscope.n.01 :syringe.n.01)
+
+# Class: :stew.n.02 (:stew.n.02)
+
+SubClassOf(:stew.n.02 :dish.n.02)
+
+# Class: :stingray.n.01 (:stingray.n.01)
+
+SubClassOf(:stingray.n.01 :ray.n.07)
+
+# Class: :stole.n.01 (:stole.n.01)
+
+SubClassOf(:stole.n.01 :scarf.n.01)
+
+# Class: :stone_wall.n.01 (:stone_wall.n.01)
+
+SubClassOf(:stone_wall.n.01 :fence.n.01)
+
+# Class: :stopwatch.n.01 (:stopwatch.n.01)
+
+SubClassOf(:stopwatch.n.01 :timer.n.01)
+
+# Class: :stork.n.01 (:stork.n.01)
+
+SubClassOf(:stork.n.01 :wading_bird.n.01)
+
+# Class: :strawberry.n.01 (:strawberry.n.01)
+
+SubClassOf(:strawberry.n.01 :berry.n.01)
+
+# Class: :stringed_instrument.n.01 (:stringed_instrument.n.01)
+
+SubClassOf(:stringed_instrument.n.01 :musical_instrument.n.01)
+
+# Class: :structure.n.01 (:structure.n.01)
+
+SubClassOf(:structure.n.01 :artifact.n.01)
+
+# Class: :studio_couch.n.01 (:studio_couch.n.01)
+
+SubClassOf(:studio_couch.n.01 :convertible.n.03)
+
+# Class: :stupa.n.01 (:stupa.n.01)
+
+SubClassOf(:stupa.n.01 :shrine.n.01)
+
+# Class: :sturgeon.n.01 (:sturgeon.n.01)
+
+SubClassOf(:sturgeon.n.01 :ganoid.n.01)
+
+# Class: :submarine.n.01 (:submarine.n.01)
+
+SubClassOf(:submarine.n.01 :submersible.n.02)
+
+# Class: :submersible.n.02 (:submersible.n.02)
+
+SubClassOf(:submersible.n.02 :warship.n.01)
+
+# Class: :substance.n.07 (:substance.n.07)
+
+SubClassOf(:substance.n.07 :matter.n.03)
+
+# Class: :suit.n.01 (:suit.n.01)
+
+SubClassOf(:suit.n.01 :garment.n.01)
+
+# Class: :sulphur_butterfly.n.01 (:sulphur_butterfly.n.01)
+
+SubClassOf(:sulphur_butterfly.n.01 :butterfly.n.01)
+
+# Class: :summer_squash.n.02 (:summer_squash.n.02)
+
+SubClassOf(:summer_squash.n.02 :squash.n.02)
+DisjointClasses(:summer_squash.n.02 :winter_squash.n.02)
+
+# Class: :sundial.n.01 (:sundial.n.01)
+
+SubClassOf(:sundial.n.01 :timepiece.n.01)
+
+# Class: :sunglasses.n.01 (:sunglasses.n.01)
+
+SubClassOf(:sunglasses.n.01 :spectacles.n.01)
+
+# Class: :sussex_spaniel.n.01 (:sussex_spaniel.n.01)
+
+SubClassOf(:sussex_spaniel.n.01 :spaniel.n.01)
+
+# Class: :swan.n.01 (:swan.n.01)
+
+SubClassOf(:swan.n.01 :aquatic_bird.n.01)
+
+# Class: :sweater.n.01 (:sweater.n.01)
+
+SubClassOf(:sweater.n.01 :garment.n.01)
+
+# Class: :sweatshirt.n.01 (:sweatshirt.n.01)
+
+SubClassOf(:sweatshirt.n.01 :pullover.n.01)
+
+# Class: :sweet_pepper.n.02 (:sweet_pepper.n.02)
+
+SubClassOf(:sweet_pepper.n.02 :pepper.n.04)
+
+# Class: :swimming_trunks.n.01 (:swimming_trunks.n.01)
+
+SubClassOf(:swimming_trunks.n.01 :swimsuit.n.01)
+
+# Class: :swimsuit.n.01 (:swimsuit.n.01)
+
+SubClassOf(:swimsuit.n.01 :garment.n.01)
+
+# Class: :swine.n.01 (:swine.n.01)
+
+SubClassOf(:swine.n.01 :even-toed_ungulate.n.01)
+
+# Class: :swing.n.02 (:swing.n.02)
+
+SubClassOf(:swing.n.02 :mechanical_device.n.01)
+
+# Class: :switch.n.01 (:switch.n.01)
+
+SubClassOf(:switch.n.01 :control.n.09)
+
+# Class: :syringe.n.01 (:syringe.n.01)
+
+SubClassOf(:syringe.n.01 :medical_instrument.n.01)
+
+# Class: :tabby.n.01 (:tabby.n.01)
+
+SubClassOf(:tabby.n.01 :domestic_cat.n.01)
+
+# Class: :table.n.02 (:table.n.02)
+
+SubClassOf(:table.n.02 :furniture.n.01)
+
+# Class: :table.n.03 (:table.n.03)
+
+SubClassOf(:table.n.03 :furniture.n.01)
+
+# Class: :table_lamp.n.01 (:table_lamp.n.01)
+
+SubClassOf(:table_lamp.n.01 :lamp.n.02)
+
+# Class: :tank.n.02 (:tank.n.02)
+
+SubClassOf(:tank.n.02 :vessel.n.03)
+
+# Class: :tape_player.n.01 (:tape_player.n.01)
+
+SubClassOf(:tape_player.n.01 :electronic_equipment.n.01)
+
+# Class: :teapot.n.01 (:teapot.n.01)
+
+SubClassOf(:teapot.n.01 :pot.n.01)
+
+# Class: :teiid_lizard.n.01 (:teiid_lizard.n.01)
+
+SubClassOf(:teiid_lizard.n.01 :lizard.n.01)
+
+# Class: :teleost_fish.n.01 (:teleost_fish.n.01)
+
+SubClassOf(:teleost_fish.n.01 :bony_fish.n.01)
+
+# Class: :telephone.n.01 (:telephone.n.01)
+
+SubClassOf(:telephone.n.01 :electronic_equipment.n.01)
+
+# Class: :telescope.n.01 (:telescope.n.01)
+
+SubClassOf(:telescope.n.01 :magnifier.n.01)
+
+# Class: :tench.n.01 (:tench.n.01)
+
+SubClassOf(:tench.n.01 :cyprinid.n.01)
+
+# Class: :tennis_ball.n.01 (:tennis_ball.n.01)
+
+SubClassOf(:tennis_ball.n.01 :ball.n.01)
+
+# Class: :terrier.n.01 (:terrier.n.01)
+
+SubClassOf(:terrier.n.01 :hunting_dog.n.01)
+
+# Class: :thatch.n.04 (:thatch.n.04)
+
+SubClassOf(:thatch.n.04 :roof.n.01)
+
+# Class: :theater.n.01 (:theater.n.01)
+
+SubClassOf(:theater.n.01 :building.n.01)
+
+# Class: :thimble.n.02 (:thimble.n.02)
+
+SubClassOf(:thimble.n.02 :cap.n.04)
+
+# Class: :thresher.n.01 (:thresher.n.01)
+
+SubClassOf(:thresher.n.01 :farm_machine.n.01)
+
+# Class: :throne.n.01 (:throne.n.01)
+
+SubClassOf(:throne.n.01 :chair_of_state.n.01)
+
+# Class: :thrush.n.03 (:thrush.n.03)
+
+SubClassOf(:thrush.n.03 :oscine.n.01)
+
+# Class: :thunder_snake.n.01 (:thunder_snake.n.01)
+
+SubClassOf(:thunder_snake.n.01 :colubrid_snake.n.01)
+
+# Class: :tibetan_mastiff.n.01 (:tibetan_mastiff.n.01)
+
+SubClassOf(:tibetan_mastiff.n.01 :mastiff.n.01)
+
+# Class: :tibetan_terrier.n.01 (:tibetan_terrier.n.01)
+
+SubClassOf(:tibetan_terrier.n.01 :terrier.n.01)
+
+# Class: :tiger.n.02 (:tiger.n.02)
+
+SubClassOf(:tiger.n.02 :big_cat.n.01)
+
+# Class: :tiger_beetle.n.01 (:tiger_beetle.n.01)
+
+SubClassOf(:tiger_beetle.n.01 :beetle.n.01)
+
+# Class: :tiger_cat.n.02 (:tiger_cat.n.02)
+
+SubClassOf(:tiger_cat.n.02 :domestic_cat.n.01)
+
+# Class: :tiger_shark.n.01 (:tiger_shark.n.01)
+
+SubClassOf(:tiger_shark.n.01 :requiem_shark.n.01)
+
+# Class: :tile_roof.n.01 (:tile_roof.n.01)
+
+SubClassOf(:tile_roof.n.01 :roof.n.01)
+
+# Class: :timepiece.n.01 (:timepiece.n.01)
+
+SubClassOf(:timepiece.n.01 :measuring_instrument.n.01)
+
+# Class: :timer.n.01 (:timer.n.01)
+
+SubClassOf(:timer.n.01 :timepiece.n.01)
+
+# Class: :titi.n.03 (:titi.n.03)
+
+SubClassOf(:titi.n.03 :new_world_monkey.n.01)
+
+# Class: :titmouse.n.01 (:titmouse.n.01)
+
+SubClassOf(:titmouse.n.01 :oscine.n.01)
+
+# Class: :toaster.n.02 (:toaster.n.02)
+
+SubClassOf(:toaster.n.02 :kitchen_appliance.n.01)
+
+# Class: :tobacco_shop.n.01 (:tobacco_shop.n.01)
+
+SubClassOf(:tobacco_shop.n.01 :shop.n.01)
+
+# Class: :toilet_seat.n.01 (:toilet_seat.n.01)
+
+SubClassOf(:toilet_seat.n.01 :seat.n.03)
+
+# Class: :toiletry.n.01 (:toiletry.n.01)
+
+SubClassOf(:toiletry.n.01 :instrumentality.n.03)
+
+# Class: :tool.n.01 (:tool.n.01)
+
+SubClassOf(:tool.n.01 :implement.n.01)
+DisjointClasses(:tool.n.01 :utensil.n.01)
+
+# Class: :tow_truck.n.01 (:tow_truck.n.01)
+
+SubClassOf(:tow_truck.n.01 :truck.n.01)
+
+# Class: :toyshop.n.01 (:toyshop.n.01)
+
+SubClassOf(:toyshop.n.01 :shop.n.01)
+
+# Class: :trailer_truck.n.01 (:trailer_truck.n.01)
+
+SubClassOf(:trailer_truck.n.01 :truck.n.01)
+
+# Class: :trench_coat.n.01 (:trench_coat.n.01)
+
+SubClassOf(:trench_coat.n.01 :raincoat.n.01)
+
+# Class: :trifle.n.01 (:trifle.n.01)
+
+SubClassOf(:trifle.n.01 :pudding.n.02)
+
+# Class: :trimaran.n.01 (:trimaran.n.01)
+
+SubClassOf(:trimaran.n.01 :sailboat.n.01)
+
+# Class: :trombone.n.01 (:trombone.n.01)
+
+SubClassOf(:trombone.n.01 :brass.n.02)
+
+# Class: :trouser.n.01 (:trouser.n.01)
+
+SubClassOf(:trouser.n.01 :garment.n.01)
+
+# Class: :truck.n.01 (:truck.n.01)
+
+SubClassOf(:truck.n.01 :motor_vehicle.n.01)
+
+# Class: :tub.n.02 (:tub.n.02)
+
+SubClassOf(:tub.n.02 :vessel.n.03)
+
+# Class: :turnstile.n.01 (:turnstile.n.01)
+
+SubClassOf(:turnstile.n.01 :gate.n.01)
+
+# Class: :turnstone.n.01 (:turnstone.n.01)
+
+SubClassOf(:turnstone.n.01 :plover.n.01)
+
+# Class: :umbrella.n.01 (:umbrella.n.01)
+
+SubClassOf(:umbrella.n.01 :canopy.n.03)
+
+# Class: :undergarment.n.01 (:undergarment.n.01)
+
+SubClassOf(:undergarment.n.01 :garment.n.01)
+
+# Class: :ungulate.n.01 (:ungulate.n.01)
+
+SubClassOf(:ungulate.n.01 :placental.n.01)
+
+# Class: :upright.n.02 (:upright.n.02)
+
+SubClassOf(:upright.n.02 :piano.n.01)
+
+# Class: :utensil.n.01 (:utensil.n.01)
+
+SubClassOf(:utensil.n.01 :implement.n.01)
+
+# Class: :vacuum.n.04 (:vacuum.n.04)
+
+SubClassOf(:vacuum.n.04 :home_appliance.n.01)
+
+# Class: :valley.n.01 (:valley.n.01)
+
+SubClassOf(:valley.n.01 :natural_depression.n.01)
+
+# Class: :van.n.05 (:van.n.05)
+
+SubClassOf(:van.n.05 :truck.n.01)
+
+# Class: :vase.n.01 (:vase.n.01)
+
+SubClassOf(:vase.n.01 :jar.n.01)
+
+# Class: :vault.n.03 (:vault.n.03)
+
+SubClassOf(:vault.n.03 :roof.n.01)
+
+# Class: :vegetable.n.01 (:vegetable.n.01)
+
+SubClassOf(:vegetable.n.01 :produce.n.01)
+
+# Class: :vehicle.n.01 (:vehicle.n.01)
+
+SubClassOf(:vehicle.n.01 :conveyance.n.03)
+
+# Class: :vending_machine.n.01 (:vending_machine.n.01)
+
+SubClassOf(:vending_machine.n.01 :slot_machine.n.01)
+
+# Class: :venomous_lizard.n.01 (:venomous_lizard.n.01)
+
+SubClassOf(:venomous_lizard.n.01 :lizard.n.01)
+
+# Class: :vertebrate.n.01 (:vertebrate.n.01)
+
+SubClassOf(:vertebrate.n.01 :chordate.n.01)
+
+# Class: :vessel.n.02 (:vessel.n.02)
+
+SubClassOf(:vessel.n.02 :craft.n.02)
+
+# Class: :vessel.n.03 (:vessel.n.03)
+
+SubClassOf(:vessel.n.03 :container.n.01)
+DisjointClasses(:vessel.n.03 :wheeled_vehicle.n.01)
+
+# Class: :vine_snake.n.01 (:vine_snake.n.01)
+
+SubClassOf(:vine_snake.n.01 :colubrid_snake.n.01)
+
+# Class: :violin.n.01 (:violin.n.01)
+
+SubClassOf(:violin.n.01 :bowed_stringed_instrument.n.01)
+
+# Class: :viper.n.01 (:viper.n.01)
+
+SubClassOf(:viper.n.01 :snake.n.01)
+
+# Class: :vizsla.n.01 (:vizsla.n.01)
+
+SubClassOf(:vizsla.n.01 :pointer.n.04)
+
+# Class: :volcano.n.02 (:volcano.n.02)
+
+SubClassOf(:volcano.n.02 :mountain.n.01)
+
+# Class: :volleyball.n.02 (:volleyball.n.02)
+
+SubClassOf(:volleyball.n.02 :ball.n.01)
+
+# Class: :wading_bird.n.01 (:wading_bird.n.01)
+
+SubClassOf(:wading_bird.n.01 :aquatic_bird.n.01)
+
+# Class: :waffle_iron.n.01 (:waffle_iron.n.01)
+
+SubClassOf(:waffle_iron.n.01 :kitchen_appliance.n.01)
+
+# Class: :walker_hound.n.01 (:walker_hound.n.01)
+
+SubClassOf(:walker_hound.n.01 :foxhound.n.01)
+
+# Class: :walking_stick.n.02 (:walking_stick.n.02)
+
+SubClassOf(:walking_stick.n.02 :phasmid.n.01)
+
+# Class: :wall_clock.n.01 (:wall_clock.n.01)
+
+SubClassOf(:wall_clock.n.01 :clock.n.01)
+
+# Class: :wall_unit.n.01 (:wall_unit.n.01)
+
+SubClassOf(:wall_unit.n.01 :furniture.n.01)
+
+# Class: :wardrobe.n.01 (:wardrobe.n.01)
+
+SubClassOf(:wardrobe.n.01 :furniture.n.01)
+
+# Class: :warplane.n.01 (:warplane.n.01)
+
+SubClassOf(:warplane.n.01 :heavier-than-air_craft.n.01)
+
+# Class: :warship.n.01 (:warship.n.01)
+
+SubClassOf(:warship.n.01 :military_vehicle.n.01)
+
+# Class: :warthog.n.01 (:warthog.n.01)
+
+SubClassOf(:warthog.n.01 :swine.n.01)
+
+# Class: :washbasin.n.02 (:washbasin.n.02)
+
+SubClassOf(:washbasin.n.02 :basin.n.01)
+
+# Class: :washer.n.03 (:washer.n.03)
+
+SubClassOf(:washer.n.03 :white_goods.n.01)
+
+# Class: :watch.n.01 (:watch.n.01)
+
+SubClassOf(:watch.n.01 :timepiece.n.01)
+
+# Class: :watchdog.n.02 (:watchdog.n.02)
+
+SubClassOf(:watchdog.n.02 :working_dog.n.01)
+
+# Class: :water_bottle.n.01 (:water_bottle.n.01)
+
+SubClassOf(:water_bottle.n.01 :bottle.n.01)
+
+# Class: :water_buffalo.n.01 (:water_buffalo.n.01)
+
+SubClassOf(:water_buffalo.n.01 :old_world_buffalo.n.01)
+
+# Class: :water_jug.n.01 (:water_jug.n.01)
+
+SubClassOf(:water_jug.n.01 :jug.n.01)
+DisjointClasses(:water_jug.n.01 :whiskey_jug.n.01)
+
+# Class: :water_ouzel.n.01 (:water_ouzel.n.01)
+
+SubClassOf(:water_ouzel.n.01 :oscine.n.01)
+
+# Class: :water_snake.n.01 (:water_snake.n.01)
+
+SubClassOf(:water_snake.n.01 :colubrid_snake.n.01)
+
+# Class: :water_spaniel.n.01 (:water_spaniel.n.01)
+
+SubClassOf(:water_spaniel.n.01 :spaniel.n.01)
+
+# Class: :water_tower.n.01 (:water_tower.n.01)
+
+SubClassOf(:water_tower.n.01 :reservoir.n.03)
+
+# Class: :waterfowl.n.01 (:waterfowl.n.01)
+
+SubClassOf(:waterfowl.n.01 :aquatic_bird.n.01)
+
+# Class: :weapon.n.01 (:weapon.n.01)
+
+SubClassOf(:weapon.n.01 :instrument.n.01)
+
+# Class: :web_site.n.01 (:web_site.n.01)
+
+SubClassOf(:web_site.n.01 :computer.n.01)
+
+# Class: :weevil.n.01 (:weevil.n.01)
+
+SubClassOf(:weevil.n.01 :beetle.n.01)
+
+# Class: :weimaraner.n.01 (:weimaraner.n.01)
+
+SubClassOf(:weimaraner.n.01 :hound.n.01)
+
+# Class: :welsh_springer_spaniel.n.01 (:welsh_springer_spaniel.n.01)
+
+SubClassOf(:welsh_springer_spaniel.n.01 :springer_spaniel.n.01)
+
+# Class: :welsh_terrier.n.01 (:welsh_terrier.n.01)
+
+SubClassOf(:welsh_terrier.n.01 :wirehair.n.01)
+
+# Class: :west_highland_white_terrier.n.01 (:west_highland_white_terrier.n.01)
+
+SubClassOf(:west_highland_white_terrier.n.01 :terrier.n.01)
+
+# Class: :wheel.n.01 (:wheel.n.01)
+
+SubClassOf(:wheel.n.01 :machine.n.04)
+
+# Class: :wheeled_vehicle.n.01 (:wheeled_vehicle.n.01)
+
+SubClassOf(:wheeled_vehicle.n.01 :container.n.01)
+
+# Class: :whippet.n.01 (:whippet.n.01)
+
+SubClassOf(:whippet.n.01 :greyhound.n.01)
+
+# Class: :whiptail.n.01 (:whiptail.n.01)
+
+SubClassOf(:whiptail.n.01 :teiid_lizard.n.01)
+
+# Class: :whiskey_jug.n.01 (:whiskey_jug.n.01)
+
+SubClassOf(:whiskey_jug.n.01 :jug.n.01)
+
+# Class: :white_goods.n.01 (:white_goods.n.01)
+
+SubClassOf(:white_goods.n.01 :home_appliance.n.01)
+
+# Class: :white_stork.n.01 (:white_stork.n.01)
+
+SubClassOf(:white_stork.n.01 :stork.n.01)
+
+# Class: :whole.n.02 (:whole.n.02)
+
+SubClassOf(:whole.n.02 :object.n.01)
+
+# Class: :wild_boar.n.01 (:wild_boar.n.01)
+
+SubClassOf(:wild_boar.n.01 :swine.n.01)
+
+# Class: :wild_goat.n.01 (:wild_goat.n.01)
+
+SubClassOf(:wild_goat.n.01 :goat.n.01)
+
+# Class: :wild_sheep.n.01 (:wild_sheep.n.01)
+
+SubClassOf(:wild_sheep.n.01 :bovid.n.01)
+
+# Class: :wildcat.n.03 (:wildcat.n.03)
+
+SubClassOf(:wildcat.n.03 :cat.n.01)
+
+# Class: :wind_instrument.n.01 (:wind_instrument.n.01)
+
+SubClassOf(:wind_instrument.n.01 :musical_instrument.n.01)
+
+# Class: :winder.n.03 (:winder.n.03)
+
+SubClassOf(:winder.n.03 :mechanical_device.n.01)
+
+# Class: :window_blind.n.01 (:window_blind.n.01)
+
+SubClassOf(:window_blind.n.01 :blind.n.03)
+
+# Class: :window_screen.n.01 (:window_screen.n.01)
+
+SubClassOf(:window_screen.n.01 :screen.n.05)
+
+# Class: :window_shade.n.01 (:window_shade.n.01)
+
+SubClassOf(:window_shade.n.01 :window_blind.n.01)
+
+# Class: :windsor_tie.n.01 (:windsor_tie.n.01)
+
+SubClassOf(:windsor_tie.n.01 :necktie.n.01)
+
+# Class: :wine.n.01 (:wine.n.01)
+
+SubClassOf(:wine.n.01 :alcohol.n.01)
+
+# Class: :wine_bottle.n.01 (:wine_bottle.n.01)
+
+SubClassOf(:wine_bottle.n.01 :bottle.n.01)
+
+# Class: :winter_squash.n.02 (:winter_squash.n.02)
+
+SubClassOf(:winter_squash.n.02 :squash.n.02)
+
+# Class: :wire-haired_fox_terrier.n.01 (:wire-haired_fox_terrier.n.01)
+
+SubClassOf(:wire-haired_fox_terrier.n.01 :fox_terrier.n.01)
+
+# Class: :wirehair.n.01 (:wirehair.n.01)
+
+SubClassOf(:wirehair.n.01 :terrier.n.01)
+
+# Class: :wolfhound.n.01 (:wolfhound.n.01)
+
+SubClassOf(:wolfhound.n.01 :hound.n.01)
+
+# Class: :woodwind.n.01 (:woodwind.n.01)
+
+SubClassOf(:woodwind.n.01 :wind_instrument.n.01)
+
+# Class: :working_dog.n.01 (:working_dog.n.01)
+
+SubClassOf(:working_dog.n.01 :dog.n.01)
+
+# Class: :worm_fence.n.01 (:worm_fence.n.01)
+
+SubClassOf(:worm_fence.n.01 :rail_fence.n.01)
+
+# Class: :wreck.n.04 (:wreck.n.04)
+
+SubClassOf(:wreck.n.04 :ship.n.01)
+
+# Class: :yawl.n.01 (:yawl.n.01)
+
+SubClassOf(:yawl.n.01 :small_boat.n.01)
+
+# Class: :yorkshire_terrier.n.01 (:yorkshire_terrier.n.01)
+
+SubClassOf(:yorkshire_terrier.n.01 :terrier.n.01)
+
+# Class: :zebra.n.01 (:zebra.n.01)
+
+SubClassOf(:zebra.n.01 :equine.n.01)
+
+# Class: :zucchini.n.02 (:zucchini.n.02)
+
+SubClassOf(:zucchini.n.02 :summer_squash.n.02)
+
+
+DisjointClasses(:affenpinscher.n.01 :doberman.n.01 :miniature_pinscher.n.01)
+DisjointClasses(:afghan_hound.n.01 :basset.n.01 :beagle.n.01 :bloodhound.n.01 :bluetick.n.01 :coonhound.n.01 :foxhound.n.01 :greyhound.n.01 :ibizan_hound.n.01 :norwegian_elkhound.n.01 :otterhound.n.01 :redbone.n.01 :saluki.n.01 :scottish_deerhound.n.01 :weimaraner.n.01 :wolfhound.n.01)
+DisjointClasses(:agamid.n.01 :anguid_lizard.n.01 :chameleon.n.03 :gecko.n.01 :iguanid.n.01 :lacertid_lizard.n.01 :monitor.n.07 :teiid_lizard.n.01 :venomous_lizard.n.01)
+DisjointClasses(:aircraft.n.01 :spacecraft.n.01 :vessel.n.02)
+DisjointClasses(:airedale.n.01 :australian_terrier.n.01 :bedlington_terrier.n.01 :border_terrier.n.01 :boston_bull.n.01 :bullterrier.n.01 :cairn.n.02 :dandie_dinmont.n.01 :fox_terrier.n.01 :irish_terrier.n.01 :kerry_blue_terrier.n.01 :lhasa.n.02 :norfolk_terrier.n.01 :norwich_terrier.n.01 :schnauzer.n.01 :scotch_terrier.n.01 :silky_terrier.n.01 :soft-coated_wheaten_terrier.n.01 :tibetan_terrier.n.01 :west_highland_white_terrier.n.01 :wirehair.n.01 :yorkshire_terrier.n.01)
+DisjointClasses(:ambulance.n.01 :beach_wagon.n.01 :cab.n.03 :convertible.n.01 :jeep.n.01 :limousine.n.01 :minivan.n.01 :model_t.n.01 :racer.n.02 :sports_car.n.01)
+DisjointClasses(:amphibian.n.01 :car.n.01 :go-kart.n.01 :motorcycle.n.01 :snowplow.n.01 :truck.n.01)
+DisjointClasses(:analog_clock.n.01 :digital_clock.n.01 :wall_clock.n.01)
+DisjointClasses(:analog_computer.n.01 :digital_computer.n.01 :web_site.n.01)
+DisjointClasses(:antelope.n.01 :bison.n.01 :bovine.n.01 :goat.n.01 :old_world_buffalo.n.01 :sheep.n.01 :wild_sheep.n.01)
+DisjointClasses(:ape.n.01 :lemur.n.01 :monkey.n.01)
+DisjointClasses(:appenzeller.n.01 :bernese_mountain_dog.n.01 :entlebucher.n.01 :greater_swiss_mountain_dog.n.01)
+DisjointClasses(:apple.n.01 :banana.n.02 :berry.n.01 :citrus.n.01 :custard_apple.n.02 :fig.n.04 :jackfruit.n.02 :pineapple.n.02 :pomegranate.n.02)
+DisjointClasses(:aquatic_vertebrate.n.01 :bird.n.01 :mammal.n.01 :reptile.n.01)
+DisjointClasses(:armor.n.01 :binder.n.03 :blind.n.03 :cap.n.04 :mask.n.04 :roof.n.01 :screen.n.05 :shade.n.03 :sheath.n.01 :shelter.n.02 :shield.n.01)
+DisjointClasses(:artichoke.n.02 :cardoon.n.02 :cruciferous_vegetable.n.01 :cucumber.n.02 :mushroom.n.05 :solanaceous_vegetable.n.01 :squash.n.02)
+DisjointClasses(:artifact.n.01 :living_thing.n.01 :natural_object.n.01)
+DisjointClasses(:audio_system.n.01 :cassette_player.n.01 :cd_player.n.01 :modem.n.01 :monitor.n.05 :oscilloscope.n.01 :peripheral.n.01 :tape_player.n.01 :telephone.n.01)
+DisjointClasses(:autoloader.n.01 :pistol.n.01 :rifle.n.01)
+DisjointClasses(:ax.n.01 :knife.n.01 :plane.n.05)
+DisjointClasses(:baboon.n.01 :colobus.n.01 :guenon.n.01 :langur.n.01 :macaque.n.01 :patas.n.01 :proboscis_monkey.n.01)
+DisjointClasses(:baby_bed.n.01 :bedroom_furniture.n.01 :bookcase.n.01 :cabinet.n.01 :chest_of_drawers.n.01 :lamp.n.02 :office_furniture.n.01 :seat.n.03 :table.n.02 :table.n.03 :wall_unit.n.01 :wardrobe.n.01)
+DisjointClasses(:bakery.n.01 :barbershop.n.01 :bookshop.n.01 :butcher_shop.n.01 :confectionery.n.02 :shoe_shop.n.01 :tobacco_shop.n.01 :toyshop.n.01)
+DisjointClasses(:banjo.n.01 :bowed_stringed_instrument.n.01 :chordophone.n.01 :guitar.n.01)
+DisjointClasses(:bannister.n.02 :breakwater.n.01 :dam.n.01 :fence.n.01 :grate.n.03 :movable_barrier.n.01)
+DisjointClasses(:barber_chair.n.01 :chair_of_state.n.01 :folding_chair.n.01 :rocking_chair.n.01)
+DisjointClasses(:barometer.n.01 :measuring_stick.n.01 :meter.n.02 :scale.n.07 :timepiece.n.01)
+DisjointClasses(:barrel.n.02 :basin.n.01 :bathtub.n.01 :bottle.n.01 :bucket.n.01 :drinking_vessel.n.01 :jar.n.01 :ladle.n.01 :mortar.n.03 :pitcher.n.02 :tank.n.02 :tub.n.02)
+DisjointClasses(:baseball.n.02 :basketball.n.02 :croquet_ball.n.01 :golf_ball.n.01 :ping-pong_ball.n.01 :punching_bag.n.02 :rugby_ball.n.01 :soccer_ball.n.01 :tennis_ball.n.01 :volleyball.n.02)
+DisjointClasses(:bassinet.n.01 :cradle.n.01 :crib.n.01)
+DisjointClasses(:beer_bottle.n.01 :jug.n.01 :pill_bottle.n.01 :pop_bottle.n.01 :water_bottle.n.01 :wine_bottle.n.01)
+DisjointClasses(:beetle.n.01 :dictyopterous_insect.n.01 :dipterous_insect.n.01 :homopterous_insect.n.01 :hymenopterous_insect.n.01 :lepidopterous_insect.n.01 :neuropteron.n.01 :odonate.n.01 :orthopterous_insect.n.01 :phasmid.n.01)
+DisjointClasses(:belgian_sheepdog.n.01 :border_collie.n.01 :bouvier_des_flandres.n.01 :briard.n.01 :collie.n.01 :german_shepherd.n.01 :kelpie.n.02 :komondor.n.01 :old_english_sheepdog.n.01 :rottweiler.n.01 :shetland_sheepdog.n.01)
+DisjointClasses(:bell_cote.n.01 :birdhouse.n.01 :canopy.n.03)
+DisjointClasses(:bench.n.01 :chair.n.01 :sofa.n.01 :toilet_seat.n.01)
+DisjointClasses(:beverage.n.01 :fare.n.04 :feed.n.01 :foodstuff.n.02 :nutriment.n.01)
+DisjointClasses(:bikini.n.02 :maillot.n.01 :swimming_trunks.n.01)
+DisjointClasses(:binoculars.n.01 :projector.n.02 :spectacles.n.01)
+DisjointClasses(:bittern.n.01 :egret.n.01 :little_blue_heron.n.01)
+DisjointClasses(:blower.n.01 :instrument.n.01 :machine.n.01 :mechanism.n.05 :musical_instrument.n.01 :restraint.n.06)
+DisjointClasses(:boat.n.01 :sailing_vessel.n.01 :ship.n.01)
+DisjointClasses(:bolo_tie.n.01 :bow_tie.n.01 :windsor_tie.n.01)
+DisjointClasses(:bony_fish.n.01 :cartilaginous_fish.n.01 :food_fish.n.01)
+DisjointClasses(:bow.n.04 :gun.n.01 :projectile.n.01)
+DisjointClasses(:boxer.n.04 :bull_mastiff.n.01 :bulldog.n.01 :eskimo_dog.n.01 :great_dane.n.01 :mastiff.n.01 :saint_bernard.n.01 :sennenhunde.n.01 :shepherd_dog.n.01 :sled_dog.n.01 :watchdog.n.02)
+DisjointClasses(:brake.n.01 :fastener.n.02 :muzzle.n.03)
+DisjointClasses(:brambling.n.01 :bunting.n.02 :goldfinch.n.02 :house_finch.n.01 :junco.n.01)
+DisjointClasses(:brass.n.02 :free-reed_instrument.n.01 :ocarina.n.01 :pipe.n.04 :woodwind.n.01)
+DisjointClasses(:brittany_spaniel.n.01 :clumber.n.01 :cocker_spaniel.n.01 :springer_spaniel.n.01 :sussex_spaniel.n.01 :water_spaniel.n.01)
+DisjointClasses(:broccoli.n.02 :cabbage.n.01 :cauliflower.n.02)
+DisjointClasses(:buckle.n.01 :clip.n.03 :knot.n.02 :lock.n.01 :nail.n.02 :pin.n.09 :screw.n.04)
+DisjointClasses(:building.n.01 :establishment.n.04 :obstruction.n.01)
+DisjointClasses(:burrito.n.01 :pizza.n.01 :potpie.n.01 :snack_food.n.01 :soup.n.01 :stew.n.02)
+DisjointClasses(:bustard.n.01 :crane.n.05 :flamingo.n.01 :heron.n.02 :limpkin.n.01 :rail.n.05 :shorebird.n.01 :spoonbill.n.01 :stork.n.01)
+DisjointClasses(:calculator.n.02 :cash_machine.n.01 :computer.n.01 :farm_machine.n.01 :slot_machine.n.01)
+DisjointClasses(:caldron.n.01 :coffeepot.n.01 :teapot.n.01)
+DisjointClasses(:camel.n.01 :hippopotamus.n.01 :llama.n.01 :ruminant.n.01 :swine.n.01)
+DisjointClasses(:capuchin.n.02 :howler_monkey.n.01 :marmoset.n.01 :spider_monkey.n.01 :squirrel_monkey.n.01 :titi.n.03)
+DisjointClasses(:car_wheel.n.01 :paddlewheel.n.01 :pinwheel.n.02 :potter)
+DisjointClasses(:cargo_ship.n.01 :passenger_ship.n.01 :pirate.n.03 :wreck.n.04)
+DisjointClasses(:carnivore.n.01 :primate.n.02 :ungulate.n.01)
+DisjointClasses(:chainlink_fence.n.01 :picket_fence.n.01 :rail_fence.n.01 :stone_wall.n.01)
+DisjointClasses(:cheetah.n.01 :jaguar.n.01 :leopard.n.02 :lion.n.01 :snow_leopard.n.01 :tiger.n.02)
+DisjointClasses(:chesapeake_bay_retriever.n.01 :curly-coated_retriever.n.01 :flat-coated_retriever.n.01 :golden_retriever.n.01 :labrador_retriever.n.01)
+DisjointClasses(:chime.n.01 :drum.n.01 :gong.n.01 :maraca.n.01 :marimba.n.01 :steel_drum.n.01)
+DisjointClasses(:chimpanzee.n.01 :gorilla.n.01 :orangutan.n.01)
+DisjointClasses(:church.n.02 :mosque.n.01 :shrine.n.01)
+DisjointClasses(:cliff.n.01 :natural_depression.n.01 :natural_elevation.n.01 :shore.n.01 :spring.n.03)
+DisjointClasses(:clock.n.01 :sandglass.n.01 :sundial.n.01 :timer.n.01 :watch.n.01)
+DisjointClasses(:coffee_maker.n.01 :microwave.n.02 :oven.n.01 :toaster.n.02 :waffle_iron.n.01)
+DisjointClasses(:colubrid_snake.n.01 :constrictor.n.01 :elapid.n.01 :sea_snake.n.01 :viper.n.01)
+DisjointClasses(:commodity.n.01 :covering.n.02 :excavation.n.03 :instrumentality.n.03 :structure.n.01)
+DisjointClasses(:container.n.01 :conveyance.n.03 :device.n.01 :equipment.n.01 :furnishing.n.02 :implement.n.01 :toiletry.n.01)
+DisjointClasses(:control.n.09 :mechanical_device.n.01 :radiator.n.03 :rotating_mechanism.n.01)
+DisjointClasses(:cornet.n.01 :french_horn.n.01 :trombone.n.01)
+DisjointClasses(:corvine_bird.n.01 :finch.n.01 :thrush.n.03 :titmouse.n.01 :water_ouzel.n.01)
+DisjointClasses(:craft.n.02 :military_vehicle.n.01 :rocket.n.01)
+DisjointClasses(:cutting_implement.n.01 :garden_tool.n.01 :hand_tool.n.01 :plow.n.01)
+DisjointClasses(:danaid.n.01 :lycaenid.n.01 :nymphalid.n.01 :pierid.n.01 :ringlet.n.04 :sulphur_butterfly.n.01)
+DisjointClasses(:dial_telephone.n.01 :pay-phone.n.01 :radiotelephone.n.02)
+DisjointClasses(:diaper.n.01 :neckwear.n.01 :overgarment.n.01 :robe.n.01 :scarf.n.01 :shirt.n.01 :skirt.n.02 :suit.n.01 :sweater.n.01 :swimsuit.n.01 :trouser.n.01 :undergarment.n.01)
+DisjointClasses(:dishwasher.n.01 :refrigerator.n.01 :washer.n.03)
+DisjointClasses(:dome.n.04 :thatch.n.04 :tile_roof.n.01 :vault.n.03)
+DisjointClasses(:egyptian_cat.n.01 :persian_cat.n.01 :siamese_cat.n.01 :tabby.n.01 :tiger_cat.n.02)
+DisjointClasses(:electronic_equipment.n.01 :game_equipment.n.01 :sports_equipment.n.01)
+DisjointClasses(:english_setter.n.01 :gordon_setter.n.01 :irish_setter.n.01)
+DisjointClasses(:farm_building.n.01 :greenhouse.n.01 :house.n.01 :library.n.05 :outbuilding.n.01 :place_of_worship.n.01 :planetarium.n.01 :restaurant.n.01 :theater.n.01)
+DisjointClasses(:fire_engine.n.01 :garbage_truck.n.01 :pickup.n.01 :tow_truck.n.01 :trailer_truck.n.01 :van.n.05)
+DisjointClasses(:fire_screen.n.01 :mosquito_net.n.01 :window_screen.n.01)
+DisjointClasses(:fireboat.n.01 :gondola.n.02 :motorboat.n.01 :sea_boat.n.01 :small_boat.n.01)
+DisjointClasses(:fur_coat.n.01 :lab_coat.n.01 :raincoat.n.01)
+DisjointClasses(:gallinule.n.01 :seabird.n.01 :swan.n.01 :wading_bird.n.01 :waterfowl.n.01)
+DisjointClasses(:ganoid.n.01 :soft-finned_fish.n.01 :spiny-finned_fish.n.01)
+DisjointClasses(:garter_snake.n.01 :green_snake.n.02 :hognose_snake.n.01 :king_snake.n.01 :night_snake.n.01 :ringneck_snake.n.01 :thunder_snake.n.01 :vine_snake.n.01 :water_snake.n.01)
+DisjointClasses(:gazelle.n.01 :hartebeest.n.01 :impala.n.01)
+DisjointClasses(:giant_schnauzer.n.01 :miniature_schnauzer.n.01 :standard_schnauzer.n.01)
+DisjointClasses(:ground_beetle.n.01 :ladybug.n.01 :lamellicorn_beetle.n.01 :leaf_beetle.n.01 :long-horned_beetle.n.01 :tiger_beetle.n.01 :weevil.n.01)
+DisjointClasses(:hammer.n.02 :opener.n.03 :plunger.n.03 :screwdriver.n.01 :shovel.n.01)
+DisjointClasses(:hammerhead.n.03 :mackerel_shark.n.01 :requiem_shark.n.01)
+DisjointClasses(:hand-held_computer.n.01 :laptop.n.01 :notebook.n.02)
+DisjointClasses(:hog.n.03 :warthog.n.01 :wild_boar.n.01)
+DisjointClasses(:hook.n.04 :machine.n.04 :pump.n.01 :ride.n.02 :swing.n.02 :winder.n.03)
+DisjointClasses(:hoopskirt.n.01 :miniskirt.n.01 :overskirt.n.01 :sarong.n.01)
+DisjointClasses(:hound.n.01 :sporting_dog.n.01 :terrier.n.01)
+DisjointClasses(:instrument_of_execution.n.01 :measuring_instrument.n.01 :medical_instrument.n.01 :navigational_instrument.n.01 :optical_instrument.n.01 :scientific_instrument.n.01 :weapon.n.01)
+DisjointClasses(:iron.n.04 :kitchen_appliance.n.01 :vacuum.n.04 :white_goods.n.01)
+DisjointClasses(:keyboard_instrument.n.01 :percussion_instrument.n.01 :stringed_instrument.n.01 :wind_instrument.n.01)
+DisjointClasses(:kuvasz.n.01 :pinscher.n.01 :schipperke.n.01)
+DisjointClasses(:mountain.n.01 :promontory.n.01 :ridge.n.01)
+DisjointClasses(:oystercatcher.n.01 :plover.n.01 :sandpiper.n.01 :snipe.n.01)
+DisjointClasses(:pelagic_bird.n.01 :pelecaniform_seabird.n.01 :sphenisciform_seabird.n.01)
+DisjointClasses(:percoid_fish.n.01 :plectognath.n.01 :scorpaenoid.n.01)
+DisjointClasses(:pointer.n.04 :retriever.n.01 :setter.n.02 :spaniel.n.01)
+)
